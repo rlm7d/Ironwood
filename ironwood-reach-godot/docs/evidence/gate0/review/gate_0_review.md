@@ -1,0 +1,23 @@
+# Independent Gate 0 evidence review
+
+Result: **PASS for the disposable capability fixture**, based on the evidence reviewed on 4 October 2026 UTC. This supports superseding the earlier preliminary BLOCKED assessment. It does not certify the intended Ironwood Reach game.
+
+The playing agent used genuine XTEST mouse and keyboard events on authenticated Xorg display `:97`. I independently read the input traces, probe source, redacted passive WebSocket observations, native/server/browser logs, export metadata, browser process/profile metadata, and frames extracted from the actual desktop recordings. Headless self-checks are supplementary automated assertions; no human played or supplied feedback in this evidence.
+
+| Gate requirement | Status | Observed evidence |
+| --- | --- | --- |
+| 1. Launch native Godot GUI and see the correct running scene | PASS | `native-v1-input.mp4` and its extracted 0.5, 2.5, 5.5 second frames show the v1 probe running with its exact build label. Native log identifies Godot 4.6.3 and Compatibility. The separately named project-manager-ready image shows a splash, so it is not editor-readiness evidence. |
+| 2. Real mouse/keyboard input and animated observation | PASS | XTEST click, D, Space timestamps fall inside the native recording; selection color, x=0.35, actions 0→2→3 and changing cube/sphere orientation follow them. |
+| 3. HTTP web export and real-browser interaction | PASS | Two headed Chromium windows load `/probe-v1/index.html`; actual desktop recording shows click/D/Space effects and animation. HTTP logs show exported HTML/WASM requests. No gameplay function injection or synthetic browser-client substitute is used. |
+| 4. Deliberate change, rebuild, reload, same-input retest | PASS | v1→v2 changes presentation spin rate 1→2. PCK hashes differ while engine WASM is unchanged. Both browsers visibly load `/probe-v2/index.html` with v2/rate2 labels. Recorded inactive-right angle changes 195.08→196.14 in one second for v1 versus 160.23→162.29 for v2, with visibly different orientations. Both v2 windows repeat click/D/Space successfully. |
+| 5. Two independent clients and shared authority | PASS | Independent main Chromium PIDs 8872/9027 use separate persistent profile-1/profile-2. Initial Builder/General welcome IDs are 1/2. Actual recordings show both seats and matching shared actions. Latest snapshots match at all 1,204 common ticks before 02:00 UTC. |
+| 6. Disconnect, declared pause, reconnect, seat and command recovery | PASS | General 2 disconnects and returns as 4 with sequence1. During absence, 60 Builder snapshots at ticks9924–10040 retain phase69.55/actions3/x0; attempted move is rejected as paused. Accepted-command replay leaves actions3; new General and Builder commands advance actions to4 then5. Both visible clients converge after recovery. |
+| 7. Changed-build check across both clients and logs | PASS | V2 restores Builder/General sequences4/2 on connections6/7; real inputs advance shared actions5→8 and retry leaves8. All 135 common latest snapshots in the bounded v2 window match. Recorded cubes keep animating together. Browser and server logs were inspected; warnings below remain disclosed. |
+
+The snapshot comparisons retain the last observed snapshot at each common tick. Commands can broadcast multiple states inside one tick, so comparing an earlier state against a later one would create a false mismatch. Counts are bounded to v1 before 02:00:00 UTC and v2 from 02:00:48 through 02:02:30 UTC.
+
+Recordings are native8s/96frames, v1-browser14s/167frames, reconnect18s/216frames, and v2-browser20s/240frames. Captures use FFmpeg x11grab at12fps,1364×1024. The shared-memory capture path failed and successfully fell back to ordinary X11 capture. Native audio fell back to a dummy driver, VSync was unsupported, and v1 browser logs reported only favicon HTTP404 errors. No gameplay JavaScript errors or WebSocket errors were observed in the reviewed windows.
+
+Chromium reports namespace/seccomp and GPU sandbox enabled. Its software Mesa rendering setup and this fixture establish no intended-game performance target. This is same-machine/loopback proof; public WSS hosting and remote-device connectivity remain untested. Game quality, balance, fun, human feedback, and audio output remain unproven. Runtime restore reliability requires a separate startup/restart test; prior running PIDs and approvals are not durable configuration.
+
+Preserved redacted log snapshots and extracted recording frames are under this `evidence/review/` directory. Machine-readable conditions, raw counts, artifact hashes, and limits are in `gate_0_checks.json`; original-log snapshot hashes are in `source-snapshots.json`.

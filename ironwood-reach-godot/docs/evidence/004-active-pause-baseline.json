@@ -1,0 +1,492 @@
+{
+  "observed_at_utc": "2026-10-04T03:20:54.011953+00:00",
+  "scope": "Passive redacted browser snapshots, supplementary to real XTEST play.",
+  "clients": {
+    "1": {
+      "at": "2026-10-04T03:20:53.950749+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "abilities": {
+          "Builder": [
+            0,
+            0
+          ],
+          "General": [
+            0,
+            0
+          ]
+        },
+        "available_gold": 230,
+        "build_id": "battlefield-004",
+        "buildings": [
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 460,
+            "id": "ally_barracks",
+            "kind": "barracks",
+            "max_hp": 460,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.3,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "ally",
+            "total_build_ticks": 180,
+            "x": -16.0,
+            "z": -7.0
+          },
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 1250,
+            "id": "ally_keep",
+            "kind": "keep",
+            "max_hp": 1250,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.8,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "ally",
+            "total_build_ticks": 0,
+            "x": -19.0,
+            "z": 0.0
+          },
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 1100,
+            "id": "enemy_keep",
+            "kind": "enemy_keep",
+            "max_hp": 1100,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.8,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "enemy",
+            "total_build_ticks": 0,
+            "x": 19.0,
+            "z": 0.0
+          }
+        ],
+        "connected": {
+          "Builder": true,
+          "General": false
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": ""
+        },
+        "deposit": {
+          "remaining": 370,
+          "x": -21.0,
+          "z": 9.0
+        },
+        "elapsed_ticks": 649,
+        "gathered": 80,
+        "gold": 420,
+        "protocol": 1,
+        "readiness": {
+          "Builder": true,
+          "General": true
+        },
+        "reservations": {
+          "Builder": {
+            "cost": 110,
+            "kind": "tower",
+            "socket": 1
+          },
+          "General": {
+            "building": "ally_barracks",
+            "cost": 80,
+            "kind": "footmen"
+          }
+        },
+        "reserved_gold": 190,
+        "result": "",
+        "revision": 656,
+        "room": "REACH-01",
+        "seed": 7,
+        "server_build": "battlefield-004",
+        "sockets": [
+          {
+            "id": 0,
+            "territory": 0,
+            "x": -13.0,
+            "z": 7.0
+          },
+          {
+            "id": 1,
+            "territory": 0,
+            "x": -10.0,
+            "z": 0.0
+          },
+          {
+            "id": 2,
+            "territory": 0,
+            "x": -10.0,
+            "z": -10.0
+          },
+          {
+            "id": 3,
+            "territory": 0,
+            "x": -20.0,
+            "z": -12.0
+          },
+          {
+            "id": 4,
+            "territory": 1,
+            "x": 0.0,
+            "z": 10.0
+          },
+          {
+            "id": 5,
+            "territory": 1,
+            "x": 0.0,
+            "z": -10.0
+          },
+          {
+            "id": 6,
+            "territory": 2,
+            "x": 11.0,
+            "z": 10.0
+          },
+          {
+            "id": 7,
+            "territory": 2,
+            "x": 11.0,
+            "z": -10.0
+          }
+        ],
+        "spent": 0,
+        "status": "paused",
+        "territories": [
+          {
+            "id": 0,
+            "name": "Home grove",
+            "remaining": 370,
+            "secured": true,
+            "x": -18.0,
+            "z": 0.0
+          },
+          {
+            "id": 1,
+            "name": "River crossing",
+            "remaining": 600,
+            "secured": false,
+            "x": 0.0,
+            "z": 0.0
+          },
+          {
+            "id": 2,
+            "name": "Eastern ridge",
+            "remaining": 600,
+            "secured": false,
+            "x": 15.0,
+            "z": 0.0
+          }
+        ],
+        "territory_capture": "pending_owner_research",
+        "tick": 649,
+        "trial_limit_ticks": 6000,
+        "type": "snapshot",
+        "units": [
+          {
+            "attack_cd": 0,
+            "attack_interval": 20,
+            "count": 4,
+            "damage": 22,
+            "goal": [
+              -13.0,
+              3.0
+            ],
+            "hit_ticks": 0,
+            "hp": 180,
+            "id": "unit_001",
+            "kind": "footmen",
+            "march_ticks": 0,
+            "max_hp": 180,
+            "order": "stop",
+            "range": 1.8,
+            "shield_ticks": 0,
+            "speed": 3.0,
+            "state": "idle",
+            "team": "ally",
+            "train_ticks": 0,
+            "x": -13.0,
+            "z": 3.0
+          }
+        ],
+        "workers": [
+          {
+            "body_radius": 0.65,
+            "carry": 0,
+            "gather_cd": 40,
+            "id": "worker_001",
+            "state": "to_deposit",
+            "x": -19.995529174804688,
+            "z": 6.488807678222656
+          },
+          {
+            "body_radius": 0.65,
+            "carry": 0,
+            "gather_cd": 40,
+            "id": "worker_002",
+            "state": "to_deposit",
+            "x": -19.45124626159668,
+            "z": 5.128098487854004
+          }
+        ]
+      }
+    },
+    "2": {
+      "at": "2026-10-04T03:20:29.608315+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "abilities": {
+          "Builder": [
+            0,
+            0
+          ],
+          "General": [
+            0,
+            0
+          ]
+        },
+        "available_gold": 230,
+        "build_id": "battlefield-004",
+        "buildings": [
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 460,
+            "id": "ally_barracks",
+            "kind": "barracks",
+            "max_hp": 460,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.3,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "ally",
+            "total_build_ticks": 180,
+            "x": -16.0,
+            "z": -7.0
+          },
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 1250,
+            "id": "ally_keep",
+            "kind": "keep",
+            "max_hp": 1250,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.8,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "ally",
+            "total_build_ticks": 0,
+            "x": -19.0,
+            "z": 0.0
+          },
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 1100,
+            "id": "enemy_keep",
+            "kind": "enemy_keep",
+            "max_hp": 1100,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.8,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "enemy",
+            "total_build_ticks": 0,
+            "x": 19.0,
+            "z": 0.0
+          }
+        ],
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": "connection-000003"
+        },
+        "deposit": {
+          "remaining": 370,
+          "x": -21.0,
+          "z": 9.0
+        },
+        "elapsed_ticks": 648,
+        "gathered": 80,
+        "gold": 420,
+        "protocol": 1,
+        "readiness": {
+          "Builder": true,
+          "General": true
+        },
+        "reservations": {
+          "Builder": {
+            "cost": 110,
+            "kind": "tower",
+            "socket": 1
+          },
+          "General": {
+            "building": "ally_barracks",
+            "cost": 80,
+            "kind": "footmen"
+          }
+        },
+        "reserved_gold": 190,
+        "result": "",
+        "revision": 654,
+        "room": "REACH-01",
+        "seed": 7,
+        "server_build": "battlefield-004",
+        "sockets": [
+          {
+            "id": 0,
+            "territory": 0,
+            "x": -13.0,
+            "z": 7.0
+          },
+          {
+            "id": 1,
+            "territory": 0,
+            "x": -10.0,
+            "z": 0.0
+          },
+          {
+            "id": 2,
+            "territory": 0,
+            "x": -10.0,
+            "z": -10.0
+          },
+          {
+            "id": 3,
+            "territory": 0,
+            "x": -20.0,
+            "z": -12.0
+          },
+          {
+            "id": 4,
+            "territory": 1,
+            "x": 0.0,
+            "z": 10.0
+          },
+          {
+            "id": 5,
+            "territory": 1,
+            "x": 0.0,
+            "z": -10.0
+          },
+          {
+            "id": 6,
+            "territory": 2,
+            "x": 11.0,
+            "z": 10.0
+          },
+          {
+            "id": 7,
+            "territory": 2,
+            "x": 11.0,
+            "z": -10.0
+          }
+        ],
+        "spent": 0,
+        "status": "playing",
+        "territories": [
+          {
+            "id": 0,
+            "name": "Home grove",
+            "remaining": 370,
+            "secured": true,
+            "x": -18.0,
+            "z": 0.0
+          },
+          {
+            "id": 1,
+            "name": "River crossing",
+            "remaining": 600,
+            "secured": false,
+            "x": 0.0,
+            "z": 0.0
+          },
+          {
+            "id": 2,
+            "name": "Eastern ridge",
+            "remaining": 600,
+            "secured": false,
+            "x": 15.0,
+            "z": 0.0
+          }
+        ],
+        "territory_capture": "pending_owner_research",
+        "tick": 648,
+        "trial_limit_ticks": 6000,
+        "type": "snapshot",
+        "units": [
+          {
+            "attack_cd": 0,
+            "attack_interval": 20,
+            "count": 4,
+            "damage": 22,
+            "goal": [
+              -13.0,
+              3.0
+            ],
+            "hit_ticks": 0,
+            "hp": 180,
+            "id": "unit_001",
+            "kind": "footmen",
+            "march_ticks": 0,
+            "max_hp": 180,
+            "order": "stop",
+            "range": 1.8,
+            "shield_ticks": 0,
+            "speed": 3.0,
+            "state": "idle",
+            "team": "ally",
+            "train_ticks": 0,
+            "x": -13.0,
+            "z": 3.0
+          }
+        ],
+        "workers": [
+          {
+            "body_radius": 0.65,
+            "carry": 0,
+            "gather_cd": 40,
+            "id": "worker_001",
+            "state": "to_deposit",
+            "x": -19.945390701293945,
+            "z": 6.363463401794434
+          },
+          {
+            "body_radius": 0.65,
+            "carry": 0,
+            "gather_cd": 40,
+            "id": "worker_002",
+            "state": "to_deposit",
+            "x": -19.401107788085938,
+            "z": 5.002754211425781
+          }
+        ]
+      }
+    }
+  }
+}

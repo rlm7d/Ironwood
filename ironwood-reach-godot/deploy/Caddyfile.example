@@ -1,0 +1,23 @@
+# REVIEW-ONLY EXAMPLE. Not installed, validated with Caddy, or deployed.
+# Replace this reserved placeholder only with a separate, existing approved
+# candidate hostname. Never use ironwood-reach.rlm7d.chatgpt.site here.
+# Activating automatic HTTPS/certificate provisioning and public ports requires
+# the applicable approval. Preserve any existing Caddy configuration.
+
+candidate.example.invalid {
+	# Public export runtime files only; no source, profiles, tokens or logs.
+	root * /srv/ironwood-reach/web
+	header Cache-Control "no-store"
+
+	# Caddy automatically proxies the WebSocket upgrade over WSS externally.
+	# The native Godot authority remains loopback-only on this same machine.
+	# This route adds no Origin allowlist, account or invite authentication.
+	@session path /session
+	handle @session {
+		reverse_proxy 127.0.0.1:8775
+	}
+
+	handle {
+		file_server
+	}
+}

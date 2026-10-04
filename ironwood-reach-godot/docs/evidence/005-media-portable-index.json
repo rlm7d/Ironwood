@@ -1,0 +1,166 @@
+{
+  "build_id": "battlefield-005",
+  "media": [
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-actual-ability-cycle.mp4",
+      "portable_path": "docs/evidence/battlefield-005-actual-ability-cycle.mp4",
+      "bytes": 1591515,
+      "sha256": "b0dab4a31bf667b69e1c14a178e8a06cebbd2d019db5c92a41bb098977ff84af",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-agent-mended-state.png",
+      "portable_path": "docs/evidence/battlefield-005-agent-mended-state.png",
+      "bytes": 108641,
+      "sha256": "c954aa85d618ab32eeecce05f901f0013485f02ff6cfa1ba951a9fdcff6bd31e",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-agent-mending-shield.mp4",
+      "portable_path": "docs/evidence/battlefield-005-agent-mending-shield.mp4",
+      "bytes": 600904,
+      "sha256": "ec838b39dcb7c15eddfe7af0eae4465970ebb781d653427dcfba8092b22cc298",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-agent-start.png",
+      "portable_path": "docs/evidence/battlefield-005-agent-start.png",
+      "bytes": 121187,
+      "sha256": "1700309baad98daebb5b560ef6eefc452d6d0fbba5a0a6cf6d73cee019ddffe3",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-attack-advance.png",
+      "portable_path": "docs/evidence/battlefield-005-attack-advance.png",
+      "bytes": 130465,
+      "sha256": "26ddb948d61139596fd3be292b757fe4804e450be83496ca25d70c3045f6d3e2",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-fresh-army-setup.mp4",
+      "portable_path": "docs/evidence/battlefield-005-fresh-army-setup.mp4",
+      "bytes": 1299104,
+      "sha256": "bfec8f0baf63d74941f8d1baf7d5d29c24766141fc1462c2ea89d31c62f56118",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-fresh-purchases.png",
+      "portable_path": "docs/evidence/battlefield-005-fresh-purchases.png",
+      "bytes": 112796,
+      "sha256": "4f4eaf52e65b9cf95f4d6f632c14b59103aafd88b1fa08d0eb0c4debe0757fc4",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-group-selected.png",
+      "portable_path": "docs/evidence/battlefield-005-group-selected.png",
+      "bytes": 119730,
+      "sha256": "a91061b46b934e7fe218c690d717a3b12e56c84af87ec074484476510156024f",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-keep-destroyed.png",
+      "portable_path": "docs/evidence/battlefield-005-keep-destroyed.png",
+      "bytes": 107734,
+      "sha256": "8fa73028f601ba904118d082ee244553231bd39f6e618347ed9f4902fcf90d39",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-live-keep-destruction.mp4",
+      "portable_path": "docs/evidence/battlefield-005-live-keep-destruction.mp4",
+      "bytes": 696132,
+      "sha256": "3020c3b842386c059206f55b15398bc376888b7d8fd1adf57b681f64d17f9d51",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-ended-attacks-resumed.png",
+      "portable_path": "docs/evidence/battlefield-005-march-ended-attacks-resumed.png",
+      "bytes": 116616,
+      "sha256": "de088307c3356b82d83db1ad8d91cd6b50cada59ad98fdab1cbe8f82f2b93481",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-live-state.png",
+      "portable_path": "docs/evidence/battlefield-005-march-live-state.png",
+      "bytes": 121575,
+      "sha256": "54dc5c38b4993704b94e4c68a76473f9dedaca0a4f7999eafb4ce6d1fcc72e61",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-no-attacks.png",
+      "portable_path": "docs/evidence/battlefield-005-march-no-attacks.png",
+      "bytes": 120628,
+      "sha256": "1597355a911f7734ff8634ade93b3b2fb04fba271525aab647f52791e9f9e006",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-suspends-keep-attacks.mp4",
+      "portable_path": "docs/evidence/battlefield-005-march-suspends-keep-attacks.mp4",
+      "bytes": 609679,
+      "sha256": "f60247a4cbdf536def2a9cf4ac87a570868569c05863bd550e67bd1204d0dab1",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-tower-effects.png",
+      "portable_path": "docs/evidence/battlefield-005-march-tower-effects.png",
+      "bytes": 123559,
+      "sha256": "5344aac81733add20db48e9306617d50d024ac88b661ec5b292297699454e95a",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-underway.png",
+      "portable_path": "docs/evidence/battlefield-005-march-underway.png",
+      "bytes": 119847,
+      "sha256": "6881ca8ae1d58a783e7da1854f57073efae3bc4a103238202a1bbefbd0c1c30d",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-mending-group-orders.png",
+      "portable_path": "docs/evidence/battlefield-005-mending-group-orders.png",
+      "bytes": 119889,
+      "sha256": "227ffb35bd0ad5d2a0930e30c3b6242649a6822a7d5723368bbc1d7ba8d2f98d",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-separated-and-shielded.png",
+      "portable_path": "docs/evidence/battlefield-005-separated-and-shielded.png",
+      "bytes": 126908,
+      "sha256": "c58de05f64d1ddd908716102bd53767b0e367896912dcb2e08f337f2c1ec8e75",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-separated-group-arrival.mp4",
+      "portable_path": "docs/evidence/battlefield-005-separated-group-arrival.mp4",
+      "bytes": 885765,
+      "sha256": "67f86abc0fbcb873614b2c26cc4f9f4e51f710786692452a0bb47e179e2fbda9",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-shield-moving.png",
+      "portable_path": "docs/evidence/battlefield-005-shield-moving.png",
+      "bytes": 121646,
+      "sha256": "736610da79ba2f93a26b6df8e49723bd437d286cf858a26de21d2698274ee18a",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-shield-on-shutdown-start.png",
+      "portable_path": "docs/evidence/battlefield-005-shield-on-shutdown-start.png",
+      "bytes": 123129,
+      "sha256": "a4f0093ac8caf3a0b73ea56b79b398d38009a1eae47f1cd8e693275e7ad9ad66",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-shield-slow-march-combat.mp4",
+      "portable_path": "docs/evidence/battlefield-005-shield-slow-march-combat.mp4",
+      "bytes": 1776106,
+      "sha256": "ef38a4f91294b360be43dce13357a160ab61c3d026cbe5b98c5b09156cb24873",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-trained-army.png",
+      "portable_path": "docs/evidence/battlefield-005-trained-army.png",
+      "bytes": 114011,
+      "sha256": "92458dd6ba356eefbb3b99e92cf3419e93875d21485143f8718f641e85b4a742",
+      "qualification": "Actual capture; names describe attempted actions. Use005-agent-interactive.json check conclusions."
+    }
+  ]
+}

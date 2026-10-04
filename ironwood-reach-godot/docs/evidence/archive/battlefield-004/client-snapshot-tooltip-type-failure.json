@@ -1,0 +1,416 @@
+{
+  "kind": "automated_production_client_snapshot_boundary",
+  "started_at_utc": "2026-10-04T03:20:33.435355+00:00",
+  "completed_at_utc": "2026-10-04T03:20:34.018009+00:00",
+  "godot_version": "4.6.3.stable.official.7d41c59c4",
+  "build_id": "battlefield-004",
+  "command": [
+    "/opt/godot/4.6.3/Godot_v4.6.3-stable_linux.x86_64",
+    "--headless",
+    "--path",
+    "/workspace/Ironwood/ironwood-reach-godot/game",
+    "--script",
+    "/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd"
+  ],
+  "execution_exit_code": 1,
+  "wall_seconds": 0.5893477039999198,
+  "status": "FAIL",
+  "checks": [
+    {
+      "check": "simulation readies Builder through its normal command",
+      "status": "PASS"
+    },
+    {
+      "check": "simulation readies General through its normal command",
+      "status": "PASS"
+    },
+    {
+      "check": "simulation snapshot survives real JSON serialization and parsing",
+      "status": "PASS"
+    },
+    {
+      "check": "wire-format socket IDs arrive as JSON floats",
+      "status": "PASS"
+    },
+    {
+      "check": "wire-format connection identifiers remain strings",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 0 resolves to its stable sanitized ring name",
+      "status": "FAIL"
+    },
+    {
+      "check": "float socket 1 resolves to its stable sanitized ring name",
+      "status": "FAIL"
+    },
+    {
+      "check": "float socket 2 resolves to its stable sanitized ring name",
+      "status": "FAIL"
+    },
+    {
+      "check": "float socket 3 resolves to its stable sanitized ring name",
+      "status": "FAIL"
+    },
+    {
+      "check": "float socket 4 resolves to its stable sanitized ring name",
+      "status": "FAIL"
+    },
+    {
+      "check": "float socket 5 resolves to its stable sanitized ring name",
+      "status": "FAIL"
+    },
+    {
+      "check": "float socket 6 resolves to its stable sanitized ring name",
+      "status": "FAIL"
+    },
+    {
+      "check": "float socket 7 resolves to its stable sanitized ring name",
+      "status": "FAIL"
+    },
+    {
+      "check": "initial JSON snapshot creates exactly eight socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "initial snapshot creates one production visual per live entity",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 1 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 2 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 3 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 4 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 5 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 6 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 7 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 8 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 9 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "repeated JSON snapshot 10 does not accumulate root nodes or socket rings",
+      "status": "FAIL"
+    },
+    {
+      "check": "all eight socket ring instances survive repeated snapshots",
+      "status": "FAIL"
+    },
+    {
+      "check": "normal building, battalion, and worker visual identities persist",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated snapshots keep the full scene descendant count stable",
+      "status": "PASS"
+    },
+    {
+      "check": "layout inspection uses an actual 640 by 820 viewport",
+      "status": "PASS"
+    },
+    {
+      "check": "HUD panels fit the narrow viewport with twelve-pixel margins",
+      "status": "PASS"
+    },
+    {
+      "check": "top panel shrinks to its settled wrapped-label minimum",
+      "status": "PASS"
+    },
+    {
+      "check": "bottom panel shrinks to its settled wrapped-label minimum",
+      "status": "PASS"
+    },
+    {
+      "check": "settled panels leave the battlefield clear and keep the bottom margin",
+      "status": "PASS"
+    },
+    {
+      "check": "narrow HUD hides the minimap instead of reserving a column",
+      "status": "PASS"
+    },
+    {
+      "check": "string connection IDs render the correct two-seat status",
+      "status": "PASS"
+    },
+    {
+      "check": "wide layout uses the actual 1280 by 820 viewport",
+      "status": "PASS"
+    },
+    {
+      "check": "wide HUD preserves twelve-pixel top and horizontal margins",
+      "status": "PASS"
+    },
+    {
+      "check": "wide top panel settles to its wrapped minimum without covering the battlefield",
+      "status": "PASS"
+    },
+    {
+      "check": "wide bottom panel settles to its wrapped minimum without covering the battlefield",
+      "status": "PASS"
+    },
+    {
+      "check": "wide panels leave at least three hundred central pixels and preserve the bottom margin",
+      "status": "PASS"
+    },
+    {
+      "check": "wide minimap visibility and bounds match the actual viewport",
+      "status": "PASS"
+    },
+    {
+      "check": "wide resize retains every socket ring instance",
+      "status": "PASS"
+    },
+    {
+      "check": "wide resize retains every building, battalion and worker visual instance",
+      "status": "PASS"
+    },
+    {
+      "check": "wide resize retains the original root and descendant node counts",
+      "status": "PASS"
+    },
+    {
+      "check": "restored narrow layout uses the actual 640 by 820 viewport",
+      "status": "PASS"
+    },
+    {
+      "check": "restored narrow HUD preserves twelve-pixel top and horizontal margins",
+      "status": "PASS"
+    },
+    {
+      "check": "restored narrow top panel settles to its wrapped minimum without covering the battlefield",
+      "status": "PASS"
+    },
+    {
+      "check": "restored narrow bottom panel settles to its wrapped minimum without covering the battlefield",
+      "status": "PASS"
+    },
+    {
+      "check": "restored narrow panels leave at least three hundred central pixels and preserve the bottom margin",
+      "status": "PASS"
+    },
+    {
+      "check": "restored narrow minimap visibility and bounds match the actual viewport",
+      "status": "PASS"
+    },
+    {
+      "check": "restoring the narrow viewport restores its original settled panel sizes",
+      "status": "PASS"
+    },
+    {
+      "check": "narrow restore retains every socket ring instance",
+      "status": "PASS"
+    },
+    {
+      "check": "narrow restore retains every building, battalion and worker visual instance",
+      "status": "PASS"
+    },
+    {
+      "check": "narrow restore retains the original root and descendant node counts",
+      "status": "PASS"
+    },
+    {
+      "check": "selected battalion feedback displays received health and maximum health",
+      "status": "PASS"
+    },
+    {
+      "check": "received march ticks show rounded-up active duration and attack sacrifice",
+      "status": "PASS"
+    },
+    {
+      "check": "received shield ticks show rounded-up active duration and movement tradeoff",
+      "status": "PASS"
+    },
+    {
+      "check": "General role tooltips describe march and shield tradeoffs",
+      "status": "FAIL"
+    },
+    {
+      "check": "expired received flags remove active-unit feedback instead of leaving stale durations",
+      "status": "PASS"
+    },
+    {
+      "check": "selected construction feedback displays received building health and progress",
+      "status": "PASS"
+    },
+    {
+      "check": "received overcharge state replaces construction progress with duration and shutdown consequence",
+      "status": "PASS"
+    },
+    {
+      "check": "received shutdown state replaces the completed overcharge feedback",
+      "status": "PASS"
+    },
+    {
+      "check": "Builder role tooltips describe local healing positioning and overcharge shutdown",
+      "status": "FAIL"
+    }
+  ],
+  "check_count": 63,
+  "failure_count": 22,
+  "godot_error_lines": [
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".",
+    "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\"."
+  ],
+  "no_godot_errors_observed": false,
+  "observed_layout_and_nodes": {
+    "entity_visuals": 7,
+    "layout_stages": [
+      {
+        "bottom_height": 209.0,
+        "bottom_y": 599.0,
+        "central_clearance": 433.0,
+        "entity_visuals": 6,
+        "minimap_visible": false,
+        "scene_descendants": 607,
+        "socket_rings": 0,
+        "stage": "initial_narrow",
+        "top_height": 154.0,
+        "viewport": [
+          640.0,
+          820.0
+        ]
+      },
+      {
+        "bottom_height": 209.0,
+        "bottom_y": 599.0,
+        "central_clearance": 433.0,
+        "entity_visuals": 6,
+        "minimap_visible": true,
+        "scene_descendants": 607,
+        "socket_rings": 0,
+        "stage": "wide",
+        "top_height": 154.0,
+        "viewport": [
+          1280.0,
+          820.0
+        ]
+      },
+      {
+        "bottom_height": 209.0,
+        "bottom_y": 599.0,
+        "central_clearance": 433.0,
+        "entity_visuals": 6,
+        "minimap_visible": false,
+        "scene_descendants": 607,
+        "socket_rings": 0,
+        "stage": "restored_narrow",
+        "top_height": 154.0,
+        "viewport": [
+          640.0,
+          820.0
+        ]
+      }
+    ],
+    "scene_descendants": 621,
+    "socket_rings": 0
+  },
+  "presentation_feedback_fixture": {
+    "construction_label": "Tower \u00b7 320 / 370 health \u00b7 Building 50%",
+    "overcharge_label": "Tower \u00b7 320 / 370 health \u00b7 Overcharged 3s; shutdown follows",
+    "scope": "Explicit received-state flags and a synthetic tower test presentation text only; no gameplay or ability outcome is asserted.",
+    "shutdown_label": "Tower \u00b7 320 / 370 health \u00b7 Shut down 2s",
+    "unit_label": "1 battalion(s) \u00b7 Right-click move \u00b7 A + click attack-move\nHealth 75 / 180 \u00b7 March 3s: cannot attack \u00b7 Shield 2s: protected, slower"
+  },
+  "source_sha256": {
+    "game/assets/icon.svg": "186c191db4d766c62f4ab094ae22aa6fd06783d86c336a6668b6c3ac227c20c4",
+    "game/assets/icon.svg.import": "ed7b857289f31b87befd555065fb1a0e828c272358400b2a7e14d1206d496980",
+    "game/data/tuning.json": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be",
+    "game/export_presets.cfg": "30b2b065d031570d39ec973cb4ff77feb5ef90d625fc5fa6d3cb0c393eaf082f",
+    "game/main.gd": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b",
+    "game/main.gd.uid": "a15b88733b1d5684212f5e4f0e4d31bc17f361710d0d2f49e858b3a8fdd1135a",
+    "game/main.tscn": "157538dfd1406a79bf929e8bb6b4a3a0f0f2e3215e4ad0fe56345035ca32f2e6",
+    "game/project.godot": "b60320022850de488b9e44cb7d27cc5ef150c97f1fa04a0ce108dc6ce78e5a32",
+    "game/scripts/client/art.gd": "6a21b421b5605aff289316a8bc1956a65569c444cd640c831ad7e4a2b06bff1c",
+    "game/scripts/client/art.gd.uid": "a6a942a86e1f8d23f4caedc2ab01b1ee086b54ddbdb54a1640d8ecb6b4c70760",
+    "game/scripts/client/battle_hud.gd": "6a3809f24b820a41f469ff1d6984687e81db40d1134ca6d25e68870dd14aa9fb",
+    "game/scripts/client/battle_hud.gd.uid": "b2763954cdcdc3f397d6ce6f7abb490337144b1d5cdf7039ec0b245036cca6c0",
+    "game/scripts/client/battlefield.gd": "570dca33aa8c1d6a75ecaea55b425ae4e1e94718b1ba040ab43fe3953c54c648",
+    "game/scripts/client/battlefield.gd.uid": "1275d88bd76d612d51957344745895a6e49ae5bca4d9851dd94be35e5855a371",
+    "game/scripts/client/minimap.gd": "875606748988242289575c9e2b7d93378f53194082afa4c4574b9a306d045d7d",
+    "game/scripts/client/minimap.gd.uid": "b508f2a6d210a55fa1d307c4f7417f40a8817ea0eb7f1984db8e4da04a7ea4cc",
+    "game/scripts/client/net_client.gd": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5",
+    "game/scripts/client/net_client.gd.uid": "dcd0021278ce784fdab236b4e9071a8fd41e87a5d3c29a715568ed6719b5dad3",
+    "game/scripts/server/session_server.gd": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9",
+    "game/scripts/server/session_server.gd.uid": "ca7d272dba996611eab2afb0daaa6f9be8e4e03f1b01b9c5b7791dad9c0ba729",
+    "game/scripts/shared/rules.gd": "d9233744f7af79b4566d9730caf52bddfe910f422ecde46f21e55aec5a2f84f6",
+    "game/scripts/shared/rules.gd.uid": "354f102f504595ae5d5537983a4b2e2186aab2da5f4b44d601fb8567655c0def",
+    "game/scripts/simulation/battle.gd": "a38e552dfb3336ebb190bce6a2ba1a7d3c15f19a74501aac4e9c46d20d456401",
+    "game/scripts/simulation/battle.gd.uid": "30faf45f2223c274fe656a84d723de4b7d1f3eebf371cc4a72cffc0bd1c6bd79",
+    "tests/client_snapshot.gd": "865d7a3057a45973b629105eaf37386091ea3867704ccc40c7b58d4b981dae1f",
+    "tools/tool_runtime.py": "9fc2f5f8a54d88dcc0df115acd944fdd8f0d7f4af54bf8dad577d76c9a009290"
+  },
+  "source_hashes_unchanged_during_run": true,
+  "build_manifest_sha256": "86f22ca7bc109f5e65b66425da470bb7244ad87822b7c0130fddcc2aca841373",
+  "build_manifest_sources_matched_before_run": true,
+  "json_float_boundary_tested": true,
+  "viewport_sizes_tested": [
+    [
+      640,
+      820
+    ],
+    [
+      1280,
+      820
+    ],
+    [
+      640,
+      820
+    ]
+  ],
+  "headless_layout_tested": true,
+  "explicit_presentation_flags_tested": true,
+  "gameplay_input_tested": false,
+  "fixture_scope": "The production simulation snapshot passes through Godot JSON serialization/parsing; numeric socket IDs and string connection identifiers exercise production presentation. Local role/join flags have no peer or credentials. Actual headless Window sizes change 640x820 -> 1280x820 -> 640x820, with margins, clearance, minimap and visual/socket identity checked. A separate explicitly synthetic received-state fixture assigns health, march/shield timers and a tower with construction/overcharge/shutdown flags to test labels/tooltips. It does not establish gameplay legality, ability effects, browser input or rendering.",
+  "browser_interaction": false,
+  "multiplayer_tested": false,
+  "performance_tested": false,
+  "human_feedback": false,
+  "fun_or_balance_tested": false,
+  "tokens_logged": false,
+  "previous_evidence": "archive/battlefield-004/client-snapshot-before-tactical-feedback.json",
+  "previous_evidence_sha256": "0a7fc16a55fc0f238b7188ea2198c92c88cfa80fd21cb19cb5a5086fe2afeecc",
+  "preserved_003_evidence": "archive/battlefield-003/client-snapshot.json",
+  "preserved_003_evidence_sha256": "8b30da83fad07c54c83d233c49a9bfc03883dbb1b43e10557d385944ad38deb8",
+  "stdout": "Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org\n\n{\"check\":\"simulation readies Builder through its normal command\",\"status\":\"PASS\"}\n{\"check\":\"simulation readies General through its normal command\",\"status\":\"PASS\"}\n{\"check\":\"simulation snapshot survives real JSON serialization and parsing\",\"status\":\"PASS\"}\n{\"check\":\"wire-format socket IDs arrive as JSON floats\",\"status\":\"PASS\"}\n{\"check\":\"wire-format connection identifiers remain strings\",\"status\":\"PASS\"}\n{\"check\":\"float socket 0 resolves to its stable sanitized ring name\",\"status\":\"FAIL\"}\n{\"check\":\"float socket 1 resolves to its stable sanitized ring name\",\"status\":\"FAIL\"}\n{\"check\":\"float socket 2 resolves to its stable sanitized ring name\",\"status\":\"FAIL\"}\n{\"check\":\"float socket 3 resolves to its stable sanitized ring name\",\"status\":\"FAIL\"}\n{\"check\":\"float socket 4 resolves to its stable sanitized ring name\",\"status\":\"FAIL\"}\n{\"check\":\"float socket 5 resolves to its stable sanitized ring name\",\"status\":\"FAIL\"}\n{\"check\":\"float socket 6 resolves to its stable sanitized ring name\",\"status\":\"FAIL\"}\n{\"check\":\"float socket 7 resolves to its stable sanitized ring name\",\"status\":\"FAIL\"}\n{\"check\":\"initial JSON snapshot creates exactly eight socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"initial snapshot creates one production visual per live entity\",\"status\":\"PASS\"}\n{\"check\":\"repeated JSON snapshot 1 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 2 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 3 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 4 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 5 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 6 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 7 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 8 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 9 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"repeated JSON snapshot 10 does not accumulate root nodes or socket rings\",\"status\":\"FAIL\"}\n{\"check\":\"all eight socket ring instances survive repeated snapshots\",\"status\":\"FAIL\"}\n{\"check\":\"normal building, battalion, and worker visual identities persist\",\"status\":\"PASS\"}\n{\"check\":\"repeated snapshots keep the full scene descendant count stable\",\"status\":\"PASS\"}\n{\"check\":\"layout inspection uses an actual 640 by 820 viewport\",\"status\":\"PASS\"}\n{\"check\":\"HUD panels fit the narrow viewport with twelve-pixel margins\",\"status\":\"PASS\"}\n{\"check\":\"top panel shrinks to its settled wrapped-label minimum\",\"status\":\"PASS\"}\n{\"check\":\"bottom panel shrinks to its settled wrapped-label minimum\",\"status\":\"PASS\"}\n{\"check\":\"settled panels leave the battlefield clear and keep the bottom margin\",\"status\":\"PASS\"}\n{\"check\":\"narrow HUD hides the minimap instead of reserving a column\",\"status\":\"PASS\"}\n{\"check\":\"string connection IDs render the correct two-seat status\",\"status\":\"PASS\"}\n{\"check\":\"wide layout uses the actual 1280 by 820 viewport\",\"status\":\"PASS\"}\n{\"check\":\"wide HUD preserves twelve-pixel top and horizontal margins\",\"status\":\"PASS\"}\n{\"check\":\"wide top panel settles to its wrapped minimum without covering the battlefield\",\"status\":\"PASS\"}\n{\"check\":\"wide bottom panel settles to its wrapped minimum without covering the battlefield\",\"status\":\"PASS\"}\n{\"check\":\"wide panels leave at least three hundred central pixels and preserve the bottom margin\",\"status\":\"PASS\"}\n{\"check\":\"wide minimap visibility and bounds match the actual viewport\",\"status\":\"PASS\"}\n{\"check\":\"wide resize retains every socket ring instance\",\"status\":\"PASS\"}\n{\"check\":\"wide resize retains every building, battalion and worker visual instance\",\"status\":\"PASS\"}\n{\"check\":\"wide resize retains the original root and descendant node counts\",\"status\":\"PASS\"}\n{\"check\":\"restored narrow layout uses the actual 640 by 820 viewport\",\"status\":\"PASS\"}\n{\"check\":\"restored narrow HUD preserves twelve-pixel top and horizontal margins\",\"status\":\"PASS\"}\n{\"check\":\"restored narrow top panel settles to its wrapped minimum without covering the battlefield\",\"status\":\"PASS\"}\n{\"check\":\"restored narrow bottom panel settles to its wrapped minimum without covering the battlefield\",\"status\":\"PASS\"}\n{\"check\":\"restored narrow panels leave at least three hundred central pixels and preserve the bottom margin\",\"status\":\"PASS\"}\n{\"check\":\"restored narrow minimap visibility and bounds match the actual viewport\",\"status\":\"PASS\"}\n{\"check\":\"restoring the narrow viewport restores its original settled panel sizes\",\"status\":\"PASS\"}\n{\"check\":\"narrow restore retains every socket ring instance\",\"status\":\"PASS\"}\n{\"check\":\"narrow restore retains every building, battalion and worker visual instance\",\"status\":\"PASS\"}\n{\"check\":\"narrow restore retains the original root and descendant node counts\",\"status\":\"PASS\"}\n{\"check\":\"selected battalion feedback displays received health and maximum health\",\"status\":\"PASS\"}\n{\"check\":\"received march ticks show rounded-up active duration and attack sacrifice\",\"status\":\"PASS\"}\n{\"check\":\"received shield ticks show rounded-up active duration and movement tradeoff\",\"status\":\"PASS\"}\n{\"check\":\"General role tooltips describe march and shield tradeoffs\",\"status\":\"FAIL\"}\n{\"check\":\"expired received flags remove active-unit feedback instead of leaving stale durations\",\"status\":\"PASS\"}\n{\"check\":\"selected construction feedback displays received building health and progress\",\"status\":\"PASS\"}\n{\"check\":\"received overcharge state replaces construction progress with duration and shutdown consequence\",\"status\":\"PASS\"}\n{\"check\":\"received shutdown state replaces the completed overcharge feedback\",\"status\":\"PASS\"}\n{\"check\":\"Builder role tooltips describe local healing positioning and overcharge shutdown\",\"status\":\"FAIL\"}\n{\"presentation_feedback_fixture\":{\"construction_label\":\"Tower \u00b7 320 / 370 health \u00b7 Building 50%\",\"overcharge_label\":\"Tower \u00b7 320 / 370 health \u00b7 Overcharged 3s; shutdown follows\",\"scope\":\"Explicit received-state flags and a synthetic tower test presentation text only; no gameplay or ability outcome is asserted.\",\"shutdown_label\":\"Tower \u00b7 320 / 370 health \u00b7 Shut down 2s\",\"unit_label\":\"1 battalion(s) \u00b7 Right-click move \u00b7 A + click attack-move\\nHealth 75 / 180 \u00b7 March 3s: cannot attack \u00b7 Shield 2s: protected, slower\"}}\n{\"entity_visuals\":7,\"layout_stages\":[{\"bottom_height\":209.0,\"bottom_y\":599.0,\"central_clearance\":433.0,\"entity_visuals\":6,\"minimap_visible\":false,\"scene_descendants\":607,\"socket_rings\":0,\"stage\":\"initial_narrow\",\"top_height\":154.0,\"viewport\":[640.0,820.0]},{\"bottom_height\":209.0,\"bottom_y\":599.0,\"central_clearance\":433.0,\"entity_visuals\":6,\"minimap_visible\":true,\"scene_descendants\":607,\"socket_rings\":0,\"stage\":\"wide\",\"top_height\":154.0,\"viewport\":[1280.0,820.0]},{\"bottom_height\":209.0,\"bottom_y\":599.0,\"central_clearance\":433.0,\"entity_visuals\":6,\"minimap_visible\":false,\"scene_descendants\":607,\"socket_rings\":0,\"stage\":\"restored_narrow\",\"top_height\":154.0,\"viewport\":[640.0,820.0]}],\"scene_descendants\":621,\"socket_rings\":0}\n{\"browser_interaction\":false,\"build_id\":\"battlefield-004\",\"checks\":63,\"explicit_presentation_flags_tested\":true,\"failures\":22,\"gameplay_input_tested\":false,\"headless_layout_tested\":true,\"human_feedback\":false,\"json_float_boundary_tested\":true,\"kind\":\"automated_production_client_snapshot_boundary\",\"multiplayer_tested\":false,\"performance_tested\":false,\"tokens_logged\":false,\"viewport_sizes_tested\":[[640,820],[1280,820],[640,820]]}\n",
+  "stderr": "SCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:46)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:69)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:98)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:106)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _check_tactical_feedback (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:134)\n              [3] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:113)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _check_tactical_feedback (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:145)\n              [3] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:113)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _check_tactical_feedback (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:168)\n              [3] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:113)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _check_tactical_feedback (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:176)\n              [3] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:113)\nSCRIPT ERROR: Trying to assign an array of type \"Array\" to a variable of type \"Array[String]\".\n          at: refresh_ui (res://scripts/client/battlefield.gd:457)\n          GDScript backtrace (most recent call first):\n              [0] refresh_ui (res://scripts/client/battlefield.gd:457)\n              [1] update_snapshot (res://scripts/client/battlefield.gd:251)\n              [2] _check_tactical_feedback (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:182)\n              [3] _run (/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd:113)\n"
+}

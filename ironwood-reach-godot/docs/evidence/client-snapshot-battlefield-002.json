@@ -1,0 +1,199 @@
+{
+  "kind": "automated_production_client_snapshot_boundary",
+  "started_at_utc": "2026-10-04T02:49:20.597772+00:00",
+  "completed_at_utc": "2026-10-04T02:49:21.418998+00:00",
+  "godot_version": "4.6.3.stable.official.7d41c59c4",
+  "build_id": "battlefield-002",
+  "command": [
+    "godot",
+    "--headless",
+    "--path",
+    "/workspace/Ironwood/ironwood-reach-godot/game",
+    "--script",
+    "/workspace/Ironwood/ironwood-reach-godot/tests/client_snapshot.gd"
+  ],
+  "execution_exit_code": 0,
+  "wall_seconds": 0.786,
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "simulation readies Builder through its normal command",
+      "status": "PASS"
+    },
+    {
+      "check": "simulation readies General through its normal command",
+      "status": "PASS"
+    },
+    {
+      "check": "simulation snapshot survives real JSON serialization and parsing",
+      "status": "PASS"
+    },
+    {
+      "check": "wire-format socket IDs arrive as JSON floats",
+      "status": "PASS"
+    },
+    {
+      "check": "wire-format connection identifiers remain strings",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 0 resolves to its stable sanitized ring name",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 1 resolves to its stable sanitized ring name",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 2 resolves to its stable sanitized ring name",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 3 resolves to its stable sanitized ring name",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 4 resolves to its stable sanitized ring name",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 5 resolves to its stable sanitized ring name",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 6 resolves to its stable sanitized ring name",
+      "status": "PASS"
+    },
+    {
+      "check": "float socket 7 resolves to its stable sanitized ring name",
+      "status": "PASS"
+    },
+    {
+      "check": "initial JSON snapshot creates exactly eight socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "initial snapshot creates one production visual per live entity",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 1 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 2 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 3 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 4 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 5 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 6 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 7 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 8 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 9 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated JSON snapshot 10 does not accumulate root nodes or socket rings",
+      "status": "PASS"
+    },
+    {
+      "check": "all eight socket ring instances survive repeated snapshots",
+      "status": "PASS"
+    },
+    {
+      "check": "normal building, battalion, and worker visual identities persist",
+      "status": "PASS"
+    },
+    {
+      "check": "repeated snapshots keep the full scene descendant count stable",
+      "status": "PASS"
+    },
+    {
+      "check": "layout inspection uses an actual 640 by 820 viewport",
+      "status": "PASS"
+    },
+    {
+      "check": "HUD panels fit the narrow viewport with twelve-pixel margins",
+      "status": "PASS"
+    },
+    {
+      "check": "top panel shrinks to its settled wrapped-label minimum",
+      "status": "PASS"
+    },
+    {
+      "check": "bottom panel shrinks to its settled wrapped-label minimum",
+      "status": "PASS"
+    },
+    {
+      "check": "settled panels leave the battlefield clear and keep the bottom margin",
+      "status": "PASS"
+    },
+    {
+      "check": "narrow HUD hides the minimap instead of reserving a column",
+      "status": "PASS"
+    },
+    {
+      "check": "string connection IDs render the correct two-seat status",
+      "status": "PASS"
+    }
+  ],
+  "check_count": 35,
+  "failure_count": 0,
+  "godot_error_lines": [],
+  "no_godot_errors_observed": true,
+  "observed_layout_and_nodes": {
+    "entity_visuals": 6,
+    "layout": {
+      "bottom_height": 209.0,
+      "bottom_y": 599.0,
+      "top_height": 154.0,
+      "viewport": [
+        640,
+        820
+      ]
+    },
+    "scene_descendants": 623,
+    "socket_rings": 8
+  },
+  "source_sha256": {
+    "tests/client_snapshot.gd": "77cd60c250717eca92fb6c68262faca1ad4b12da74de896d3cec72720d225bc8",
+    "game/project.godot": "b60320022850de488b9e44cb7d27cc5ef150c97f1fa04a0ce108dc6ce78e5a32",
+    "game/scripts/client/battlefield.gd": "a920f141bf26422a18a1227196525814f336d70a3fff4f890aaaadfbefc89b1c",
+    "game/scripts/client/art.gd": "6a21b421b5605aff289316a8bc1956a65569c444cd640c831ad7e4a2b06bff1c",
+    "game/scripts/client/net_client.gd": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5",
+    "game/scripts/client/battle_hud.gd": "6a3809f24b820a41f469ff1d6984687e81db40d1134ca6d25e68870dd14aa9fb",
+    "game/scripts/client/minimap.gd": "875606748988242289575c9e2b7d93378f53194082afa4c4574b9a306d045d7d",
+    "game/scripts/simulation/battle.gd": "7103ff4a87c3fe8c6185a13eef2f7ac8f9677b20c3df9f40c5d3e3e45eea828c",
+    "game/scripts/shared/rules.gd": "642dfb3193a64de36d3dafaffcd433763e80cfdc635ddf2e859aff6b96395fcb",
+    "game/data/tuning.json": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be"
+  },
+  "source_hashes_unchanged_during_run": true,
+  "json_float_boundary_tested": true,
+  "fixture_scope": "The production simulation produces its snapshot; real Godot JSON serialization/parsing converts numeric IDs to floats. Only local presentation role/join flags and safe string connection IDs are supplied to exercise the server-adapter UI boundary; no peer, socket, credentials, or test hooks enter the application.",
+  "browser_interaction": false,
+  "multiplayer_tested": false,
+  "performance_tested": false,
+  "human_feedback": false,
+  "fun_or_balance_tested": false,
+  "tokens_logged": false
+}

@@ -1,0 +1,18 @@
+{
+  "disconnect_phase_frozen": true,
+  "no_action_applied_while_paused": true,
+  "client_1_final_actions_5": true,
+  "client_1_final_x_0": true,
+  "client_1_final_connected": true,
+  "client_1_replay_ack_observed": true,
+  "client_2_final_actions_5": true,
+  "client_2_final_x_0": true,
+  "client_2_final_connected": true,
+  "client_2_replay_ack_observed": true,
+  "general_rejoined_new_connection_same_sequence": true,
+  "two_distinct_initial_connections": true,
+  "observed_initial_connection_ids": [
+    1,
+    2
+  ]
+}

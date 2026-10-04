@@ -1,0 +1,1408 @@
+{
+  "kind": "Ironwood Reach isolated Godot battlefield source/export/evidence package",
+  "build_id": "battlefield-006",
+  "packaged_at_utc": "2026-10-04T04:04:20.524140+00:00",
+  "engine": "4.6.3.stable.official.7d41c59c4",
+  "scope": "Partial approval battlefield; territory rules/public hosting/human approval outstanding; campaign deferred",
+  "public_candidate_url": null,
+  "native_engine_and_templates_bundled": false,
+  "profiles_runtime_credentials_bundled": false,
+  "automated_counts": {
+    "simulation": 136,
+    "protocol_families": 9,
+    "native_recovery": 32,
+    "presentation": 80,
+    "paired_ability_effects": 16
+  },
+  "evidence_scope": "See docs/VERIFICATION.md and qualified build-specific JSON; fixtures and real OS browser inputs distinguished; no human/performance/fun/balance claim",
+  "files": {
+    ".gitignore": {
+      "bytes": 90,
+      "sha256": "0ae3eb9db2469c76001f6e05099f692fa9bee5ac6d2842e498f7efe487786886"
+    },
+    "CODEX_REBUILD_INSTRUCTIONS.md": {
+      "bytes": 35324,
+      "sha256": "301684737c89e5f11069f8c93a7f9c447b2b588222e69ff0709b133d38172286"
+    },
+    "DESIGN.md": {
+      "bytes": 13043,
+      "sha256": "335f8824313c4e15e7a117b355d8d695f189fb819af61943cf2bcf5fcbae6e13"
+    },
+    "PLAN.md": {
+      "bytes": 3135,
+      "sha256": "265412f8bbe0ade566acb3b3c8efdf57cd08851f0632cc2cdfca23c77ad895ed"
+    },
+    "README.md": {
+      "bytes": 14111,
+      "sha256": "9dc42c693f7d6522bdaad85b665f3d7f127262a6718962fc0b0b45df60d730d9"
+    },
+    "assets/source/PROVENANCE.md": {
+      "bytes": 1062,
+      "sha256": "9ea785018c8923ebd00f2ed43622aa18a2dfc79d30703ca55fed57468855989a"
+    },
+    "builds/battlefield-006/.ironwood-build.json": {
+      "bytes": 5299,
+      "sha256": "def25cd37e25059de71e9266eece74bbf83920e469fe490b82043544dc15171a"
+    },
+    "builds/battlefield-006/build-manifest.json": {
+      "bytes": 5299,
+      "sha256": "def25cd37e25059de71e9266eece74bbf83920e469fe490b82043544dc15171a"
+    },
+    "builds/battlefield-006/index.apple-touch-icon.png": {
+      "bytes": 10618,
+      "sha256": "b322e5e84b35a63e4123ff4ec709cace24592b82daab8da0bc88e9ddf2ebb6a1"
+    },
+    "builds/battlefield-006/index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "builds/battlefield-006/index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "builds/battlefield-006/index.html": {
+      "bytes": 5710,
+      "sha256": "bf538134809dca0685fa138bc2598aa1c4fdbd668250ec2587cb08bdf904b633"
+    },
+    "builds/battlefield-006/index.icon.png": {
+      "bytes": 4569,
+      "sha256": "ca763509b89a0494e451611f7a4db0408645127d807048478a97ca68be5bdf96"
+    },
+    "builds/battlefield-006/index.js": {
+      "bytes": 315759,
+      "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+    },
+    "builds/battlefield-006/index.pck": {
+      "bytes": 99796,
+      "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192"
+    },
+    "builds/battlefield-006/index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "builds/battlefield-006/index.wasm": {
+      "bytes": 37700666,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+    },
+    "deploy/Caddyfile.example": {
+      "bytes": 869,
+      "sha256": "e9dbe0b92ffa9fb813b0b26b8dadc952fa07e13365022f92ff6e544e83e13600"
+    },
+    "deploy/authority.service.example": {
+      "bytes": 1518,
+      "sha256": "36837760950b3cf1d40334a2a7a3299694b105d546d5789976838493e09490ce"
+    },
+    "docs/DECISIONS.md": {
+      "bytes": 10772,
+      "sha256": "85a57fd484255bc5c5bbd13011530f286dea43801b6200b3374b6fd24ba651ef"
+    },
+    "docs/DEPLOYMENT.md": {
+      "bytes": 7424,
+      "sha256": "db79b812472d6508e1a6ce21c4327774c369c031be9444a83a70ecc95b45fcca"
+    },
+    "docs/GATE_0.md": {
+      "bytes": 2400,
+      "sha256": "c568ea5da83b6171de6500bf4960f7fde8a3cce248ff5875f5bca9db258a6e18"
+    },
+    "docs/OPEN_ISSUES.md": {
+      "bytes": 8597,
+      "sha256": "376f49a176f3bc63c88f9f734943efc8240464c13165b4cd515fb43d6459934c"
+    },
+    "docs/PROTOCOL.md": {
+      "bytes": 8374,
+      "sha256": "58128e3e78c5ca464bd915ac98a392b353f1bbbd7ba1860dea17934a61e81e34"
+    },
+    "docs/REQUIREMENTS.md": {
+      "bytes": 29173,
+      "sha256": "60fd1bbe47d9649a3f97af7d9223e1eceaa633eb9c21709503d33da102a3f628"
+    },
+    "docs/VERIFICATION.md": {
+      "bytes": 13453,
+      "sha256": "4b6742dc8c96316ff3468efdac3c453917c9e832f888451c05aa193ad83d1ec0"
+    },
+    "docs/evidence/004-active-pause-baseline.json": {
+      "bytes": 11671,
+      "sha256": "89d076493fe992270ce78e4ab48be15001b9abbbc3afd92c5033b2abe826907e"
+    },
+    "docs/evidence/005-agent-interactive.json": {
+      "bytes": 30307,
+      "sha256": "a1dca92f3a567a71100c6421450ccd9e91a891883fefe0646f409a2ac74b7bb0"
+    },
+    "docs/evidence/005-agent-observations-client-1.jsonl.gz": {
+      "bytes": 255940,
+      "sha256": "d6e2bfb4a61194c59dce433872a2b1049ad46c9dd14a3b38227ecccc4edfb614"
+    },
+    "docs/evidence/005-agent-observations-client-2.jsonl.gz": {
+      "bytes": 257254,
+      "sha256": "79c851af442760915e3eb9c0fb8e3deaf0252d40dd3cb0a113aefcd815de4fb1"
+    },
+    "docs/evidence/005-agent-x11-events.jsonl": {
+      "bytes": 15121,
+      "sha256": "deba8bb2f65dc14178fccfd6685d3b2505dc4ad2d4f94bb8e9114803d1d37703"
+    },
+    "docs/evidence/005-final-audit.json": {
+      "bytes": 8361,
+      "sha256": "d0fffef83e3b532804a49d577c6c29e91955dd3d2ad75a6476a333441282192e"
+    },
+    "docs/evidence/005-held-pause-baseline.json": {
+      "bytes": 11680,
+      "sha256": "093caa0280d143f253e85e3fdd81a4caea89df1444d15ebec4cc61c298cfd1cb"
+    },
+    "docs/evidence/005-held-pause-end.json": {
+      "bytes": 11662,
+      "sha256": "05a5a357eb222251faa02afe5ef76c1cd8dc376038b1f6558d007e9b594b0bf6"
+    },
+    "docs/evidence/005-held-pause-settled.json": {
+      "bytes": 11662,
+      "sha256": "ba9025fe7cf0e320646a052a546feea6e4d8b690e272cf1844f81fcb221038a2"
+    },
+    "docs/evidence/005-media-portable-index.json": {
+      "bytes": 9820,
+      "sha256": "065007f89cf00d44f4e0741012e30e8a48b69605cb47ec61938b451f6add121d"
+    },
+    "docs/evidence/005-mending-shield-baseline.json": {
+      "bytes": 21566,
+      "sha256": "b48e10926a01774a5ea87f1caa230ee53b86fe19c177698d595e2da0faad228d"
+    },
+    "docs/evidence/005-paid-drop-state.json": {
+      "bytes": 17278,
+      "sha256": "6ee97e3771414cdc296bbf131543274a177edf3372970539e09e020c418afb3d"
+    },
+    "docs/evidence/005-paid-reconnect.json": {
+      "bytes": 17313,
+      "sha256": "3a5f96cbd12c20eee4e3fd1b342849a607572444e595b4e52fc3832be7cc1d9d"
+    },
+    "docs/evidence/005-refreshed-seat.json": {
+      "bytes": 13023,
+      "sha256": "09f6b2fa8a47bda977ab0b960457aee8dbe4315fc25c7d6b4ffc968047f8e23e"
+    },
+    "docs/evidence/005-root-browser-network.json": {
+      "bytes": 28740,
+      "sha256": "d816f8a46c134dbb4b3c5a0691dc8d56eb466bbe9519fc1be8f422c9ca895a36"
+    },
+    "docs/evidence/006-agent-interactive.json": {
+      "bytes": 44989,
+      "sha256": "9054b18668d2026f4ecee23c64560b9fc0c7d5c082de696a59e9ef66c4b24a41"
+    },
+    "docs/evidence/006-agent-observations-client-1.jsonl.gz": {
+      "bytes": 372806,
+      "sha256": "6b0c0e5fe93e0b23ee6091b0eca2d3474f430672850a48a50bc5ad2142bc8760"
+    },
+    "docs/evidence/006-agent-observations-client-2.jsonl.gz": {
+      "bytes": 382302,
+      "sha256": "e5e12baf02b6d66607f0b194b8138f7a815a81e1ca7ecbf3f0c3bc8e575c4c72"
+    },
+    "docs/evidence/006-agent-x11-events.jsonl": {
+      "bytes": 26028,
+      "sha256": "2cf19579eb6f082e094bfadba551a48f709ed58cdc25524485c2a16416565a25"
+    },
+    "docs/evidence/006-final-audit.json": {
+      "bytes": 14786,
+      "sha256": "b281fc2758710bb8a212ba765f320550c0766735a06fa11556e9db4894174764"
+    },
+    "docs/evidence/006-handoff.json": {
+      "bytes": 809,
+      "sha256": "b01166f09151d75f7315315c8e4dbfa98945dc1b9413f789ec15093fd9651b8c"
+    },
+    "docs/evidence/006-media-portable-index.json": {
+      "bytes": 13892,
+      "sha256": "d5a5b0602764842fe400996e3b9cd2ad1f667f58893223aca4a5f1b68eac0534"
+    },
+    "docs/evidence/006-synchronization.json": {
+      "bytes": 9054,
+      "sha256": "2b9cdfc4aca3316a789630b60f314d750e78d9de99de44996e7ad566c77e1e00"
+    },
+    "docs/evidence/ability-effects.json": {
+      "bytes": 26393,
+      "sha256": "3ccd3055de039b9c3463b732ed42e97ba147ff5b2b2539417e419dcb7da459e7"
+    },
+    "docs/evidence/archive/battlefield-003/browser-play.json": {
+      "bytes": 13255,
+      "sha256": "812343a5d2d9691bac91428f6020de33b07b8f09303689959c0d6aa91b9a86cd"
+    },
+    "docs/evidence/archive/battlefield-003/client-recovery.json": {
+      "bytes": 5347,
+      "sha256": "455d49912c4a00454fc8a0597db8ba3a854458b52443e438a0b1f6680d74c7af"
+    },
+    "docs/evidence/archive/battlefield-003/client-snapshot.json": {
+      "bytes": 6731,
+      "sha256": "8b30da83fad07c54c83d233c49a9bfc03883dbb1b43e10557d385944ad38deb8"
+    },
+    "docs/evidence/archive/battlefield-003/protocol-smoke.json": {
+      "bytes": 1877,
+      "sha256": "631d492545828a7cd418a1df17713b3280a3aa43f0eda068d1faeb651f46ed57"
+    },
+    "docs/evidence/archive/battlefield-003/simulation.json": {
+      "bytes": 4712,
+      "sha256": "bc9686c2472aa832f1f14581f4504b1dbe30da467e529d3596407764d1ca147e"
+    },
+    "docs/evidence/archive/battlefield-004/client-recovery.json": {
+      "bytes": 5434,
+      "sha256": "5e4684aaf252e25723fca2cb1d814990ff32a96935d5c8f14e2818dbc569e808"
+    },
+    "docs/evidence/archive/battlefield-004/client-snapshot-before-tactical-feedback.json": {
+      "bytes": 19090,
+      "sha256": "0a7fc16a55fc0f238b7188ea2198c92c88cfa80fd21cb19cb5a5086fe2afeecc"
+    },
+    "docs/evidence/archive/battlefield-004/client-snapshot-tooltip-type-failure.json": {
+      "bytes": 34021,
+      "sha256": "5a1472e23ce4513a58d829e70d47cb4c1d82a510579f5b662636d5cb5a248263"
+    },
+    "docs/evidence/archive/battlefield-004/protocol-smoke.json": {
+      "bytes": 2064,
+      "sha256": "c2c7109e08493aa37c895cb6f8e36efc9c1d58d1d4d1ae06b2b45d9f8f376741"
+    },
+    "docs/evidence/archive/battlefield-005/browser-play.json": {
+      "bytes": 1350,
+      "sha256": "c89b2ceca0861ca5565e5ecba181d0a5dc577ac386b1d698be148a124e0b8f05"
+    },
+    "docs/evidence/archive/battlefield-005/build-manifest.json": {
+      "bytes": 5299,
+      "sha256": "4175f07e96e463fdf5ffedc3f8c6ba9e3db5341f9dc1171a575bd20f6132fcb5"
+    },
+    "docs/evidence/archive/battlefield-005/client-recovery.json": {
+      "bytes": 5434,
+      "sha256": "9a346c3efea583af42eb27365a84984f8b08bec1381db251098cacd1d874b224"
+    },
+    "docs/evidence/archive/battlefield-005/client-selection-prefix-failure.json": {
+      "bytes": 5154,
+      "sha256": "a4e651192984fae6aec05726a1c6634b42a28a812902705006bde64bc5ee829c"
+    },
+    "docs/evidence/archive/battlefield-005/client-snapshot.json": {
+      "bytes": 23337,
+      "sha256": "36c8d5ee9525e07273e5e1a112b3a60308bb92a056a57ca4501b2f4430a78c05"
+    },
+    "docs/evidence/archive/battlefield-005/protocol-smoke.json": {
+      "bytes": 2064,
+      "sha256": "db68a4eedc4c405a3fa228eba50e78ff23de726566eae9e668b367ad02e05cb0"
+    },
+    "docs/evidence/archive/battlefield-005/simulation.json": {
+      "bytes": 4712,
+      "sha256": "76fa644782a33727841da5c3ffafc8352686d83e7cfe170408beb171debfe429"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/assets/icon.svg": {
+      "bytes": 287,
+      "sha256": "186c191db4d766c62f4ab094ae22aa6fd06783d86c336a6668b6c3ac227c20c4"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/assets/icon.svg.import": {
+      "bytes": 1020,
+      "sha256": "ed7b857289f31b87befd555065fb1a0e828c272358400b2a7e14d1206d496980"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/data/tuning.json": {
+      "bytes": 1789,
+      "sha256": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/export_presets.cfg": {
+      "bytes": 888,
+      "sha256": "30b2b065d031570d39ec973cb4ff77feb5ef90d625fc5fa6d3cb0c393eaf082f"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/main.gd": {
+      "bytes": 321,
+      "sha256": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/main.gd.uid": {
+      "bytes": 20,
+      "sha256": "a15b88733b1d5684212f5e4f0e4d31bc17f361710d0d2f49e858b3a8fdd1135a"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/main.tscn": {
+      "bytes": 156,
+      "sha256": "157538dfd1406a79bf929e8bb6b4a3a0f0f2e3215e4ad0fe56345035ca32f2e6"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/project.godot": {
+      "bytes": 668,
+      "sha256": "b60320022850de488b9e44cb7d27cc5ef150c97f1fa04a0ce108dc6ce78e5a32"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/art.gd": {
+      "bytes": 17522,
+      "sha256": "6a21b421b5605aff289316a8bc1956a65569c444cd640c831ad7e4a2b06bff1c"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/art.gd.uid": {
+      "bytes": 20,
+      "sha256": "a6a942a86e1f8d23f4caedc2ab01b1ee086b54ddbdb54a1640d8ecb6b4c70760"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/battle_hud.gd": {
+      "bytes": 1652,
+      "sha256": "6a3809f24b820a41f469ff1d6984687e81db40d1134ca6d25e68870dd14aa9fb"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/battle_hud.gd.uid": {
+      "bytes": 18,
+      "sha256": "b2763954cdcdc3f397d6ce6f7abb490337144b1d5cdf7039ec0b245036cca6c0"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/battlefield.gd": {
+      "bytes": 32432,
+      "sha256": "b9a2cd064850f97407f99ccb8df94981a6790a6ec768219af9c21469ca3c4ff8"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/battlefield.gd.uid": {
+      "bytes": 19,
+      "sha256": "1275d88bd76d612d51957344745895a6e49ae5bca4d9851dd94be35e5855a371"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/minimap.gd": {
+      "bytes": 1462,
+      "sha256": "875606748988242289575c9e2b7d93378f53194082afa4c4574b9a306d045d7d"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/minimap.gd.uid": {
+      "bytes": 19,
+      "sha256": "b508f2a6d210a55fa1d307c4f7417f40a8817ea0eb7f1984db8e4da04a7ea4cc"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/net_client.gd": {
+      "bytes": 7349,
+      "sha256": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/client/net_client.gd.uid": {
+      "bytes": 20,
+      "sha256": "dcd0021278ce784fdab236b4e9071a8fd41e87a5d3c29a715568ed6719b5dad3"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/server/session_server.gd": {
+      "bytes": 17722,
+      "sha256": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/server/session_server.gd.uid": {
+      "bytes": 20,
+      "sha256": "ca7d272dba996611eab2afb0daaa6f9be8e4e03f1b01b9c5b7791dad9c0ba729"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/shared/rules.gd": {
+      "bytes": 1570,
+      "sha256": "5d0d27d549d795c26fd55215e65aa758b2e8c70c48116e15bb6d916902b4d938"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/shared/rules.gd.uid": {
+      "bytes": 20,
+      "sha256": "354f102f504595ae5d5537983a4b2e2186aab2da5f4b44d601fb8567655c0def"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/simulation/battle.gd": {
+      "bytes": 30766,
+      "sha256": "a38e552dfb3336ebb190bce6a2ba1a7d3c15f19a74501aac4e9c46d20d456401"
+    },
+    "docs/evidence/archive/battlefield-005/source-snapshot/scripts/simulation/battle.gd.uid": {
+      "bytes": 20,
+      "sha256": "30faf45f2223c274fe656a84d723de4b7d1f3eebf371cc4a72cffc0bd1c6bd79"
+    },
+    "docs/evidence/archive/battlefield-006/ability-effects.json": {
+      "bytes": 26393,
+      "sha256": "3ccd3055de039b9c3463b732ed42e97ba147ff5b2b2539417e419dcb7da459e7"
+    },
+    "docs/evidence/archive/battlefield-006/client-recovery.json": {
+      "bytes": 11860,
+      "sha256": "74a86bdfb7ec3aed2bf3fbcfe95fa5441c89ffa27890ad67054faeb95656824d"
+    },
+    "docs/evidence/archive/battlefield-006/protocol-smoke.json": {
+      "bytes": 6185,
+      "sha256": "379e357bb8460c38b99b58f9817a33691cfd4097b9ff8b67eaea91307987d923"
+    },
+    "docs/evidence/battlefield-001-joined-pre-fix.png": {
+      "bytes": 77170,
+      "sha256": "6d1bbb2c427baf97897e0b4809d28810483203fb32c3471e8a3687dd95af5c2e"
+    },
+    "docs/evidence/battlefield-001-loaded.png": {
+      "bytes": 63302,
+      "sha256": "821247e042804a97419ba43a1d2211e331fa37de7f3ac58110c6a4e36eedfbad"
+    },
+    "docs/evidence/battlefield-002-army-abilities.png": {
+      "bytes": 167475,
+      "sha256": "1c3b4b70575a68d503ff94feb136fa94db2065a57225d2d7711a6f289a30a51f"
+    },
+    "docs/evidence/battlefield-002-army-input-animation.mp4": {
+      "bytes": 1616951,
+      "sha256": "f8a12a803cafbc8337b23ac9cd5b37fb1dd085b22a481c38e42d12fb2ccce0b0"
+    },
+    "docs/evidence/battlefield-002-both-holds.png": {
+      "bytes": 113842,
+      "sha256": "5e1cbe9dcaa4b1c82745b6f72cff7f1e273200d5aec4cbe1555672b989556cee"
+    },
+    "docs/evidence/battlefield-002-held-paused.png": {
+      "bytes": 124843,
+      "sha256": "e39dbdb2787240bf0067cb0d8799aa5b913c55073b6205f3b6fc6f4e223b6e1d"
+    },
+    "docs/evidence/battlefield-002-hud-retest.png": {
+      "bytes": 41399,
+      "sha256": "22d9508a12127435461ea408b6624d22c2e68457a20ea6fcddea860714005bac"
+    },
+    "docs/evidence/battlefield-002-join-defect.json": {
+      "bytes": 946,
+      "sha256": "7f605f6b7da46c382397eba2a511e52f82df199d61da68f8cb3fcc2c8d69d992"
+    },
+    "docs/evidence/battlefield-002-join-lag.png": {
+      "bytes": 111648,
+      "sha256": "b0d472f7ae19645bf2ad5608da7b6c5bd819729925e6e662741290f29f330c81"
+    },
+    "docs/evidence/battlefield-002-pan-zoom-refresh.png": {
+      "bytes": 149226,
+      "sha256": "8acaf35148ae91c3fe91e3ad55e6004b0a541369e3de70511acf8a0bed0d8645"
+    },
+    "docs/evidence/battlefield-002-panel-fix-retest.png": {
+      "bytes": 90096,
+      "sha256": "5b042764d452d0322347564bbf13cb667b99576f27cd873762535ef770c94e21"
+    },
+    "docs/evidence/battlefield-002-purchases-pause.mp4": {
+      "bytes": 532031,
+      "sha256": "f826b20926958800495f50f05d30db359a3eca9c74421483c67db046e5e4466c"
+    },
+    "docs/evidence/battlefield-002-reconnect-confirm-build.mp4": {
+      "bytes": 793058,
+      "sha256": "18bc77addea872e5ddbdb16ce737e9d0a4eb6107cb8db12d497c3fd0cac43522"
+    },
+    "docs/evidence/battlefield-002-sawmill-training.png": {
+      "bytes": 117048,
+      "sha256": "4d82344098f3d7c79cfbad3a67d6a0ac571a903c1819e0e3e0b4d22173439cc6"
+    },
+    "docs/evidence/battlefield-002-ui-retest.json": {
+      "bytes": 652,
+      "sha256": "b860035f9f225f3119035d0fca29a7e23a386a4d31797c604b0c23a217bd6029"
+    },
+    "docs/evidence/battlefield-003-approach-and-combat.mp4": {
+      "bytes": 1475265,
+      "sha256": "d16b30b25a49eb6276d3968abfe45f6e86b6593f43d0cb9880ee714859228876"
+    },
+    "docs/evidence/battlefield-003-melee-retetest.png": {
+      "bytes": 145757,
+      "sha256": "21372e46820d3c5c603e424fbaff8956fe134471599d35d5836e3aa8e561b783"
+    },
+    "docs/evidence/battlefield-003-offline-final-retest.png": {
+      "bytes": 150406,
+      "sha256": "08957036528f73dd0158c229b734d093104070b7d9e31cbf1b76d7fc788aaae3"
+    },
+    "docs/evidence/battlefield-003-purchases-confirmed.png": {
+      "bytes": 111826,
+      "sha256": "09e0d9fc1e6fa69a9b6c6dde2b7328da87e1a23141c460821917a93a689a6f0d"
+    },
+    "docs/evidence/battlefield-003-start-construction.mp4": {
+      "bytes": 730057,
+      "sha256": "b817c704fca0e0fa142d53c47432143ed65d3033c19c914f059b28a8e20a7758"
+    },
+    "docs/evidence/battlefield-003-victory.mp4": {
+      "bytes": 339915,
+      "sha256": "a3230701434fc00ed0097ba17cab34d3af03ad2dc21f2fda25b51f4bcbd03f39"
+    },
+    "docs/evidence/battlefield-003-victory.png": {
+      "bytes": 144010,
+      "sha256": "19508fd9c0c14603eeae3c19941a33bba5f0e2828454e5ac43b980618dcc2159"
+    },
+    "docs/evidence/battlefield-005-actual-ability-cycle.mp4": {
+      "bytes": 1591515,
+      "sha256": "b0dab4a31bf667b69e1c14a178e8a06cebbd2d019db5c92a41bb098977ff84af"
+    },
+    "docs/evidence/battlefield-005-actual-ability-cycle.mp4.json": {
+      "bytes": 1305,
+      "sha256": "1aeb56176621da1200e4be684695e181ef41b4864f68de9806fd977728b6f15f"
+    },
+    "docs/evidence/battlefield-005-agent-mended-state.png": {
+      "bytes": 108641,
+      "sha256": "c954aa85d618ab32eeecce05f901f0013485f02ff6cfa1ba951a9fdcff6bd31e"
+    },
+    "docs/evidence/battlefield-005-agent-mended-state.png.json": {
+      "bytes": 1123,
+      "sha256": "83e835c43b55a8fb2d59ad0cfa67219d5577243978ad93648799d646f5a75e0d"
+    },
+    "docs/evidence/battlefield-005-agent-mending-shield.mp4": {
+      "bytes": 600904,
+      "sha256": "ec838b39dcb7c15eddfe7af0eae4465970ebb781d653427dcfba8092b22cc298"
+    },
+    "docs/evidence/battlefield-005-agent-mending-shield.mp4.json": {
+      "bytes": 1304,
+      "sha256": "708d9b05a9c45b232c691214ad14b2580e0e63b93a97041db8b1df78fc415978"
+    },
+    "docs/evidence/battlefield-005-agent-start.png": {
+      "bytes": 121187,
+      "sha256": "1700309baad98daebb5b560ef6eefc452d6d0fbba5a0a6cf6d73cee019ddffe3"
+    },
+    "docs/evidence/battlefield-005-agent-start.png.json": {
+      "bytes": 1109,
+      "sha256": "71b8f93a798b23d7cf48968b2321e08b7cb3f3e5ca6f1300af46d7db13745364"
+    },
+    "docs/evidence/battlefield-005-army-abilities.mp4": {
+      "bytes": 1846931,
+      "sha256": "85467b0b04f4e94ab51a689c3db0231c26ff07486878bcde2f07cd36ebf02ee3"
+    },
+    "docs/evidence/battlefield-005-army-abilities.mp4.json": {
+      "bytes": 1295,
+      "sha256": "ea3119bb6f45e0186ba1a8d03e363adb42e483b15009b83cace440e570626e29"
+    },
+    "docs/evidence/battlefield-005-attack-advance.png": {
+      "bytes": 130465,
+      "sha256": "26ddb948d61139596fd3be292b757fe4804e450be83496ca25d70c3045f6d3e2"
+    },
+    "docs/evidence/battlefield-005-attack-advance.png.json": {
+      "bytes": 1115,
+      "sha256": "4b8df37a67167401e9d0f10831382d9081b4e48fcbb697c44bb452b3053531a4"
+    },
+    "docs/evidence/battlefield-005-defense-heal-overcharge.mp4": {
+      "bytes": 1332351,
+      "sha256": "55d839c0cbc8e01a4e8f46740377ee78df9dee88b08a4a70ae111d80e4aeb1ce"
+    },
+    "docs/evidence/battlefield-005-defense-heal-overcharge.mp4.json": {
+      "bytes": 1313,
+      "sha256": "e437a2c30aeabd11323a15347c7cf5de782ac203c852c3e831975325f3a6230b"
+    },
+    "docs/evidence/battlefield-005-fresh-army-setup.mp4": {
+      "bytes": 1299104,
+      "sha256": "bfec8f0baf63d74941f8d1baf7d5d29c24766141fc1462c2ea89d31c62f56118"
+    },
+    "docs/evidence/battlefield-005-fresh-army-setup.mp4.json": {
+      "bytes": 1297,
+      "sha256": "2eea2505f1a328e25a6673ad4ff69a567823a6daec57666823da7221cfa81dc5"
+    },
+    "docs/evidence/battlefield-005-fresh-purchases.png": {
+      "bytes": 112796,
+      "sha256": "4f4eaf52e65b9cf95f4d6f632c14b59103aafd88b1fa08d0eb0c4debe0757fc4"
+    },
+    "docs/evidence/battlefield-005-fresh-purchases.png.json": {
+      "bytes": 1117,
+      "sha256": "456df2ea0aeab0594f7c0862210329acf36845515689c7401f59e6147434567d"
+    },
+    "docs/evidence/battlefield-005-group-selected.png": {
+      "bytes": 119730,
+      "sha256": "a91061b46b934e7fe218c690d717a3b12e56c84af87ec074484476510156024f"
+    },
+    "docs/evidence/battlefield-005-group-selected.png.json": {
+      "bytes": 1115,
+      "sha256": "230333c2944d2a5e58227224755995acfaf90464b38684b0f1db24c6c83d6be2"
+    },
+    "docs/evidence/battlefield-005-help-visible.png": {
+      "bytes": 173029,
+      "sha256": "919f77f5cb73f357f8a0e65d0ebbe72ac7f000d30e4851eab5b5029b31701ed8"
+    },
+    "docs/evidence/battlefield-005-help-visible.png.json": {
+      "bytes": 1111,
+      "sha256": "80370b77e3df0b94b2fe6ded7de7cf943ddf412924a7ac854bb3b11d09ab8349"
+    },
+    "docs/evidence/battlefield-005-holds-pause-refresh.mp4": {
+      "bytes": 1635754,
+      "sha256": "fe9ff10157539d6824c1e52d2a84740d7e909928d6d5304bd5ce100983fbdf3e"
+    },
+    "docs/evidence/battlefield-005-holds-pause-refresh.mp4.json": {
+      "bytes": 1305,
+      "sha256": "9db2b2d952578052070fa6c7dc8cff3e7f826850d26cf77170f87d3a0a922be7"
+    },
+    "docs/evidence/battlefield-005-holds.png": {
+      "bytes": 114620,
+      "sha256": "d3e18e1260bb8536b01869af36f17c1636479654583b4acb494ad4bf25441e15"
+    },
+    "docs/evidence/battlefield-005-holds.png.json": {
+      "bytes": 1097,
+      "sha256": "1d19e78c910bcd7ffbb27f90ca3f58317eb0c45e6f8024b1fd586127d52da762"
+    },
+    "docs/evidence/battlefield-005-keep-destroyed.png": {
+      "bytes": 107734,
+      "sha256": "8fa73028f601ba904118d082ee244553231bd39f6e618347ed9f4902fcf90d39"
+    },
+    "docs/evidence/battlefield-005-keep-destroyed.png.json": {
+      "bytes": 1115,
+      "sha256": "345f1684833a3f3bdf3a3443e0cfd556b00c3a9db602c246f58865b28e3db12e"
+    },
+    "docs/evidence/battlefield-005-live-keep-destruction.mp4": {
+      "bytes": 696132,
+      "sha256": "3020c3b842386c059206f55b15398bc376888b7d8fd1adf57b681f64d17f9d51"
+    },
+    "docs/evidence/battlefield-005-live-keep-destruction.mp4.json": {
+      "bytes": 1306,
+      "sha256": "ea2e662d7259ec964348b6a276045e5644c51330eb40a3b74dac424402dc65bf"
+    },
+    "docs/evidence/battlefield-005-loaded.png": {
+      "bytes": 92101,
+      "sha256": "c8322a0e399cf2c39a415c3a6759a5a48d852519a393c440f0e8f9fc5d671865"
+    },
+    "docs/evidence/battlefield-005-loaded.png.json": {
+      "bytes": 1098,
+      "sha256": "02277c9e24bcbcb32eb67723de6549f2887560f35cfb41b7eb514eb713b175fe"
+    },
+    "docs/evidence/battlefield-005-march-ended-attacks-resumed.png": {
+      "bytes": 116616,
+      "sha256": "de088307c3356b82d83db1ad8d91cd6b50cada59ad98fdab1cbe8f82f2b93481"
+    },
+    "docs/evidence/battlefield-005-march-ended-attacks-resumed.png.json": {
+      "bytes": 1141,
+      "sha256": "1af00b858e57a8a964367099129e3ea3df2456b05ded8e3a3e44b85be2cc54af"
+    },
+    "docs/evidence/battlefield-005-march-live-state.png": {
+      "bytes": 121575,
+      "sha256": "54dc5c38b4993704b94e4c68a76473f9dedaca0a4f7999eafb4ce6d1fcc72e61"
+    },
+    "docs/evidence/battlefield-005-march-live-state.png.json": {
+      "bytes": 1119,
+      "sha256": "a51e5230b9560dca4c0a5fa7cfe5c70e4c8fc084afd58bbe8cfef1b19b9a3283"
+    },
+    "docs/evidence/battlefield-005-march-no-attacks.png": {
+      "bytes": 120628,
+      "sha256": "1597355a911f7734ff8634ade93b3b2fb04fba271525aab647f52791e9f9e006"
+    },
+    "docs/evidence/battlefield-005-march-no-attacks.png.json": {
+      "bytes": 1119,
+      "sha256": "7608730c35d3a4c40ce417b27640ea853e476521006b06f0907b43700f3fff61"
+    },
+    "docs/evidence/battlefield-005-march-suspends-keep-attacks.mp4": {
+      "bytes": 609679,
+      "sha256": "f60247a4cbdf536def2a9cf4ac87a570868569c05863bd550e67bd1204d0dab1"
+    },
+    "docs/evidence/battlefield-005-march-suspends-keep-attacks.mp4.json": {
+      "bytes": 1318,
+      "sha256": "07a10cf555da40451b0f7a7d1a0616076d637bbca821d0eb0527445689f957f5"
+    },
+    "docs/evidence/battlefield-005-march-tower-effects.png": {
+      "bytes": 123559,
+      "sha256": "5344aac81733add20db48e9306617d50d024ac88b661ec5b292297699454e95a"
+    },
+    "docs/evidence/battlefield-005-march-tower-effects.png.json": {
+      "bytes": 1125,
+      "sha256": "608eabf0c8562493dce94356f9066fdd4bbdd0afae19ae4f0365cf2b2325bece"
+    },
+    "docs/evidence/battlefield-005-march-underway.png": {
+      "bytes": 119847,
+      "sha256": "6881ca8ae1d58a783e7da1854f57073efae3bc4a103238202a1bbefbd0c1c30d"
+    },
+    "docs/evidence/battlefield-005-march-underway.png.json": {
+      "bytes": 1115,
+      "sha256": "7e1a85c8c5701e4220fa2fb52907f654f48d0a3c7901828af8bcbe1b943ca8e6"
+    },
+    "docs/evidence/battlefield-005-mending-group-orders.png": {
+      "bytes": 119889,
+      "sha256": "227ffb35bd0ad5d2a0930e30c3b6242649a6822a7d5723368bbc1d7ba8d2f98d"
+    },
+    "docs/evidence/battlefield-005-mending-group-orders.png.json": {
+      "bytes": 1127,
+      "sha256": "76ec845476b9554c966dc95d0ec4e8b0e04ac992857741dd8c3fa582f3300d73"
+    },
+    "docs/evidence/battlefield-005-refresh-confirm.mp4": {
+      "bytes": 1440220,
+      "sha256": "b1b43080a074b0359ee10127a927a43227334ba3151cb45f373b666570798283"
+    },
+    "docs/evidence/battlefield-005-refresh-confirm.mp4.json": {
+      "bytes": 1297,
+      "sha256": "05d990c9282f176c57166f860bbbccce4db77935ffef6ed539e1e3156a538581"
+    },
+    "docs/evidence/battlefield-005-separated-and-shielded.png": {
+      "bytes": 126908,
+      "sha256": "c58de05f64d1ddd908716102bd53767b0e367896912dcb2e08f337f2c1ec8e75"
+    },
+    "docs/evidence/battlefield-005-separated-and-shielded.png.json": {
+      "bytes": 1131,
+      "sha256": "5730c7334e7482091d2eaaf2b4c5f1031bc8b0971e85063243fc26fea2a2ad2d"
+    },
+    "docs/evidence/battlefield-005-separated-group-arrival.mp4": {
+      "bytes": 885765,
+      "sha256": "67f86abc0fbcb873614b2c26cc4f9f4e51f710786692452a0bb47e179e2fbda9"
+    },
+    "docs/evidence/battlefield-005-separated-group-arrival.mp4.json": {
+      "bytes": 1310,
+      "sha256": "2c5d0137050d233b84a0115f1e7b3ddf6cc2cdfa761addf63556f5ac6e971ed4"
+    },
+    "docs/evidence/battlefield-005-shield-moving.png": {
+      "bytes": 121646,
+      "sha256": "736610da79ba2f93a26b6df8e49723bd437d286cf858a26de21d2698274ee18a"
+    },
+    "docs/evidence/battlefield-005-shield-moving.png.json": {
+      "bytes": 1113,
+      "sha256": "dc96fc6bfd0e0410a907bd883bbe9ecd4078bc53cdf8f47469cf7035e16bb7af"
+    },
+    "docs/evidence/battlefield-005-shield-on-shutdown-start.png": {
+      "bytes": 123129,
+      "sha256": "a4f0093ac8caf3a0b73ea56b79b398d38009a1eae47f1cd8e693275e7ad9ad66"
+    },
+    "docs/evidence/battlefield-005-shield-on-shutdown-start.png.json": {
+      "bytes": 1135,
+      "sha256": "beef49abd22b6a7493c7aecb790b08d67785e3d8af6ad80d97023598643316a0"
+    },
+    "docs/evidence/battlefield-005-shield-slow-march-combat.mp4": {
+      "bytes": 1776106,
+      "sha256": "ef38a4f91294b360be43dce13357a160ab61c3d026cbe5b98c5b09156cb24873"
+    },
+    "docs/evidence/battlefield-005-shield-slow-march-combat.mp4.json": {
+      "bytes": 1313,
+      "sha256": "2639fe5125d3c1e1e0a00a163621e1c379e19691cb08a9a6d21f905ce8891b22"
+    },
+    "docs/evidence/battlefield-005-shift-move-stop.png": {
+      "bytes": 122156,
+      "sha256": "305183549f5f01c5a75849438d5efc8554643390addf43231e091453e9cf632f"
+    },
+    "docs/evidence/battlefield-005-shift-move-stop.png.json": {
+      "bytes": 1117,
+      "sha256": "66970baf6ba3e3326841224bdaec59c6b59594fc9719917e2b103d3d5622aeda"
+    },
+    "docs/evidence/battlefield-005-trained-army.png": {
+      "bytes": 114011,
+      "sha256": "92458dd6ba356eefbb3b99e92cf3419e93875d21485143f8718f641e85b4a742"
+    },
+    "docs/evidence/battlefield-005-trained-army.png.json": {
+      "bytes": 1111,
+      "sha256": "d83cdf8e405264d50ae9b0fd8b1fac85406f49001216106e375a9859cbc353b2"
+    },
+    "docs/evidence/battlefield-005-wide-controls.mp4": {
+      "bytes": 802296,
+      "sha256": "9920648595aed757db0889ebf097a7f992c3bd4bb7ba6323443d515b2f6c8320"
+    },
+    "docs/evidence/battlefield-005-wide-controls.mp4.json": {
+      "bytes": 1292,
+      "sha256": "b4d33290a52bfaf2672792d532e2a1c4f56ceb7bed878358dd994cf35e22d68b"
+    },
+    "docs/evidence/battlefield-005-wide-pan-zoom.png": {
+      "bytes": 123919,
+      "sha256": "a1fb628e4fb98d78b69b2389b1d75d2a2d5e2b0906eb2cc323e75140448f678c"
+    },
+    "docs/evidence/battlefield-005-wide-pan-zoom.png.json": {
+      "bytes": 1113,
+      "sha256": "ef600299ed326352fd201c017ee3a3eeae15f1bc3ba04800fb570e6148597283"
+    },
+    "docs/evidence/battlefield-005-wide-settled.png": {
+      "bytes": 135197,
+      "sha256": "2e2d63ca69ef384c928c63479973686a169c4fad3cef8f08704581629b690e20"
+    },
+    "docs/evidence/battlefield-005-wide-settled.png.json": {
+      "bytes": 1111,
+      "sha256": "3101ac142de9672f1bd67e5f3e91afbf5c6bc818e8e1637ebd4e0ca01f00a94f"
+    },
+    "docs/evidence/battlefield-006-death-group-recall.mp4": {
+      "bytes": 2040266,
+      "sha256": "57fe05b88a2ca525772a2cbfd29ee8526b50c29b4032d547fb5beaf202d13b45"
+    },
+    "docs/evidence/battlefield-006-death-group-recall.mp4.json": {
+      "bytes": 1301,
+      "sha256": "801411956b4f9ff77b61332b7ef337832e474ecbb374cef60e1cf321065f66f6"
+    },
+    "docs/evidence/battlefield-006-death-regression-setup.mp4": {
+      "bytes": 1332027,
+      "sha256": "226b5d83450e1760cb9aa12db530ec3862d865d11e72a8b6a6af59a2a12b6192"
+    },
+    "docs/evidence/battlefield-006-death-regression-setup.mp4.json": {
+      "bytes": 1309,
+      "sha256": "0f866eb72b7b587e9dbbee14a025d4b7cc4d060fbe6f0df3d8f8f1357fb22ff0"
+    },
+    "docs/evidence/battlefield-006-exposed-member-march.png": {
+      "bytes": 118253,
+      "sha256": "76f221f226efbba178065677bf9de021d100f664bc365878e49fabb0478dd8fe"
+    },
+    "docs/evidence/battlefield-006-exposed-member-march.png.json": {
+      "bytes": 1127,
+      "sha256": "d72433ea96618622e440e29173c8c70800b6e05a5489a17fb051044a4f9f1dd9"
+    },
+    "docs/evidence/battlefield-006-final-casualty-paused-spare-alive.png": {
+      "bytes": 123357,
+      "sha256": "69e865e7a63f28d5769597819bc90bc4c5c59ce5bf09cbb89e5822574359ed84"
+    },
+    "docs/evidence/battlefield-006-final-casualty-paused-spare-alive.png.json": {
+      "bytes": 1153,
+      "sha256": "1b66a578609c0ef7ecc1b22ab6dd78bcd8ffccdae30d705c8d45975fec4e7977"
+    },
+    "docs/evidence/battlefield-006-final-casualty-recall-order.mp4": {
+      "bytes": 1132264,
+      "sha256": "65b74c074b4f1c06e73c235f9a17f5c3328d0dc32c011b7e31a0e27c261ed5a8"
+    },
+    "docs/evidence/battlefield-006-final-casualty-recall-order.mp4.json": {
+      "bytes": 1319,
+      "sha256": "9f15325c2fa61b4c1d98fd689514aa9563399ef15a6a69c490b4f6bb8f89f5d4"
+    },
+    "docs/evidence/battlefield-006-final-group-recall-one-live.png": {
+      "bytes": 132664,
+      "sha256": "73912b741e478c78fba940c8f0edc4e8a88cdb3114c8263bc93967ef7c002f71"
+    },
+    "docs/evidence/battlefield-006-final-group-recall-one-live.png.json": {
+      "bytes": 1141,
+      "sha256": "58ca0846b9dcc1044ef0f32a0377bcdba0fce26c9e73c756c74c6120dc4c8261"
+    },
+    "docs/evidence/battlefield-006-final-saved-group-death.mp4": {
+      "bytes": 1559844,
+      "sha256": "c3422d60da3edc085e8eb7ef4ac52841037eeb4dacb353d20475d031723837a1"
+    },
+    "docs/evidence/battlefield-006-final-saved-group-death.mp4.json": {
+      "bytes": 1311,
+      "sha256": "b079e6cce495826d08a20084cc7086c67d21569151d9ecc51aec34a138bdb20b"
+    },
+    "docs/evidence/battlefield-006-final-survivor-order-accepted.png": {
+      "bytes": 122231,
+      "sha256": "cec7cddd425b2524de27f9bce817e0769cf6ca49c8877c47a04d905e2434149d"
+    },
+    "docs/evidence/battlefield-006-final-survivor-order-accepted.png.json": {
+      "bytes": 1145,
+      "sha256": "ecc591be00622d0562b71c686261b76ebfe6f3f6712aa769fcddde3b42e6677d"
+    },
+    "docs/evidence/battlefield-006-final-survivor-recall-proof.mp4": {
+      "bytes": 1218456,
+      "sha256": "c433e68fdc59efdf1f9f75dc46abb0de00e45b47c599e6d9f83568039e46c012"
+    },
+    "docs/evidence/battlefield-006-final-survivor-recall-proof.mp4.json": {
+      "bytes": 1319,
+      "sha256": "db151317661cab7cf2f69355903dca7f8c4ff820e3a778d97e740be361b13f7a"
+    },
+    "docs/evidence/battlefield-006-final-two-member-group-saved.png": {
+      "bytes": 120106,
+      "sha256": "846d79d99b9d6dc619e9fe05cb86f7021845e606128752271ab50c0deaab701b"
+    },
+    "docs/evidence/battlefield-006-final-two-member-group-saved.png.json": {
+      "bytes": 1143,
+      "sha256": "3169f13746aa77daa73f1df3a38d2e04f22168d488d539bec46c670a7731edb4"
+    },
+    "docs/evidence/battlefield-006-first-raid-member-death.mp4": {
+      "bytes": 1157988,
+      "sha256": "68a612f42a3db7e565a0843d12cb289137e41a93a1ce40f6dd3024b8542cea64"
+    },
+    "docs/evidence/battlefield-006-first-raid-member-death.mp4.json": {
+      "bytes": 1311,
+      "sha256": "42833499fe37d1bb38e3c1a2462249898c22e1860da8be4e8c43830946be255b"
+    },
+    "docs/evidence/battlefield-006-group-casualty-before-recall.png": {
+      "bytes": 112906,
+      "sha256": "06b52911a248a4cfb8ac9cefed77712e3d274b6a78dd85601671c6f74bf003f4"
+    },
+    "docs/evidence/battlefield-006-group-casualty-before-recall.png.json": {
+      "bytes": 1143,
+      "sha256": "efe2a9479d639d35d89acae86e308f330c64c890acb2073bfb6eb210aa53980c"
+    },
+    "docs/evidence/battlefield-006-group-member-death-and-recall.mp4": {
+      "bytes": 1361283,
+      "sha256": "2d770bca13f6d95a86cf3dab7284913a6afb61fea2bd6d5316a5fb4f20728b49"
+    },
+    "docs/evidence/battlefield-006-group-member-death-and-recall.mp4.json": {
+      "bytes": 1323,
+      "sha256": "9a3b0aba7ff0141c498e6705286d8b0baa9b6c222aa576f12fbd01f99c71e079"
+    },
+    "docs/evidence/battlefield-006-holds-pause-rejoin.mp4": {
+      "bytes": 1104775,
+      "sha256": "71438622360656d5f233f989f12aea84f713f4063a6c98629ad5bc284866fbeb"
+    },
+    "docs/evidence/battlefield-006-holds-pause-rejoin.mp4.json": {
+      "bytes": 1301,
+      "sha256": "d2cf164a0478d45349e5d3fc849d7c1ba51785872eead080eaa641718e4842bd"
+    },
+    "docs/evidence/battlefield-006-holds-paused.png": {
+      "bytes": 126202,
+      "sha256": "dada835426cc8498d12e869a847ec5c67e6eae4d51f46d93fa966b684f8e97a2"
+    },
+    "docs/evidence/battlefield-006-holds-paused.png.json": {
+      "bytes": 1111,
+      "sha256": "25fee1b9bff98790118b07068070619af00a6ddc0327f3499871979db2c63c28"
+    },
+    "docs/evidence/battlefield-006-initial-selections.png": {
+      "bytes": 108404,
+      "sha256": "e3673403c8a72d0fbdb6f6dc7af567e81abf6f729bb08065f67202fdf1c63bcb"
+    },
+    "docs/evidence/battlefield-006-initial-selections.png.json": {
+      "bytes": 1123,
+      "sha256": "ebbfed1b3b6c9361b39fb51c280cf9f235b44ca7f93d775692c3402a052296bc"
+    },
+    "docs/evidence/battlefield-006-isolated-member-at-raid-path.png": {
+      "bytes": 118151,
+      "sha256": "36317b8da9233ef7e94a85c15ae2336a1672e3c63cbc77f6c67ccc1729b71d98"
+    },
+    "docs/evidence/battlefield-006-isolated-member-at-raid-path.png.json": {
+      "bytes": 1143,
+      "sha256": "2c4b24561bf561b889b74ca349c11c612540d0a9f92775f4f4d9c738851e3742"
+    },
+    "docs/evidence/battlefield-006-known-training-click.png": {
+      "bytes": 121587,
+      "sha256": "2dede6d78f2a11ceb5c620621b596e3126750a2a0d9ba237f90aa7dd01ca8449"
+    },
+    "docs/evidence/battlefield-006-known-training-click.png.json": {
+      "bytes": 1127,
+      "sha256": "0e287fc20e51172b28d8cbbbf75718136814e5869c9cf2b238075b8ca0aab00c"
+    },
+    "docs/evidence/battlefield-006-known-training-drag.png": {
+      "bytes": 112292,
+      "sha256": "7c8ecdfc868a527416ac56082927f5cdea31f64cb53d4a102d8f46b2ff5b7447"
+    },
+    "docs/evidence/battlefield-006-known-training-drag.png.json": {
+      "bytes": 1125,
+      "sha256": "7f34082a58cdca9e7d9e4dc9222091a510b9cae6eb8ebef5eeddfd35d2e1bf33"
+    },
+    "docs/evidence/battlefield-006-loaded.png": {
+      "bytes": 48954,
+      "sha256": "e31b66d15bd58746c21e36771c339f642156c2e1797fd787916262deb7cf3911"
+    },
+    "docs/evidence/battlefield-006-loaded.png.json": {
+      "bytes": 1098,
+      "sha256": "efaf534f75d490bbd0e0abc5ec86a6b86aff32ec45fdcb0fb895201bf072ea46"
+    },
+    "docs/evidence/battlefield-006-one-group-member-exposed.png": {
+      "bytes": 120949,
+      "sha256": "5ddc85553402fb2e37b97a03355ff6963ff2dddc276079e51603428844f3145c"
+    },
+    "docs/evidence/battlefield-006-one-group-member-exposed.png.json": {
+      "bytes": 1135,
+      "sha256": "f57642438eb63eb531d19458ed23a68094b30f0eaaf7d5b7d820662a9f58b78a"
+    },
+    "docs/evidence/battlefield-006-ready-to-join.png": {
+      "bytes": 90090,
+      "sha256": "4d54298c58a8667c4f0d691355f3a863a8737e40c4a03f2f17ebed15a6ad53a6"
+    },
+    "docs/evidence/battlefield-006-ready-to-join.png.json": {
+      "bytes": 1112,
+      "sha256": "6e6260d1f3d3c5d7230415fc40efdc2f5d76320354b0cf42f8421aaaab8fc530"
+    },
+    "docs/evidence/battlefield-006-recalled-survivors.png": {
+      "bytes": 121775,
+      "sha256": "919747c7c592055963a6fa2a492a4fcf96d179707dc2d654d4c1d037cc9b3fdb"
+    },
+    "docs/evidence/battlefield-006-recalled-survivors.png.json": {
+      "bytes": 1123,
+      "sha256": "94523b35ebd876d1bfccbfa02ee07df78e7c5a20c45ef3426095543b212dc738"
+    },
+    "docs/evidence/battlefield-006-rejoined-holds.png": {
+      "bytes": 130754,
+      "sha256": "1679aba6c0b0b81de18caa5fb1b0ef9b5f6b68f353c9d3f9e09cd14afd0a8446"
+    },
+    "docs/evidence/battlefield-006-rejoined-holds.png.json": {
+      "bytes": 1115,
+      "sha256": "c16bb2d6cfcf283b2fd767f40b6435c26a88201d10abfd96c52a46007c4f1e00"
+    },
+    "docs/evidence/battlefield-006-saved-group-after-casualty.mp4": {
+      "bytes": 1357441,
+      "sha256": "aeabb686b4d8918ea34476544570f58b2a39a6d018b0b1862e62d45ea405edd9"
+    },
+    "docs/evidence/battlefield-006-saved-group-after-casualty.mp4.json": {
+      "bytes": 1317,
+      "sha256": "0152c13ff4984122dc57cc2e0f122043123c6ccf9cdaa5c3a2d85a8b0961bdde"
+    },
+    "docs/evidence/battlefield-006-saved-group-recalled-one-survivor.png": {
+      "bytes": 108134,
+      "sha256": "a25b7f6e416767f019e1e529e7090c51b5cfea431907f61e58dd25e3d2875246"
+    },
+    "docs/evidence/battlefield-006-saved-group-recalled-one-survivor.png.json": {
+      "bytes": 1153,
+      "sha256": "0e1d758969e786266dcf682b51b00d5c93a73df6ec7c47b863e0fb6a0055ee11"
+    },
+    "docs/evidence/battlefield-006-spare-isolated-in-corner.png": {
+      "bytes": 118008,
+      "sha256": "b5a0bd1178af1e8404c1c2fbb84271d41996e502808d5e8422bf45f9c983db3f"
+    },
+    "docs/evidence/battlefield-006-spare-isolated-in-corner.png.json": {
+      "bytes": 1135,
+      "sha256": "99e4c5f614770e84468c2d84acf48cca2428d477f00055fe5ddb99b60ea236c7"
+    },
+    "docs/evidence/battlefield-006-survivor-order-ability-accepted.png": {
+      "bytes": 108965,
+      "sha256": "3a8140a494a392b1efa209bd6fd13c53406b23d75ea4cf3f0c68554e8a84270c"
+    },
+    "docs/evidence/battlefield-006-survivor-order-ability-accepted.png.json": {
+      "bytes": 1149,
+      "sha256": "4f4bdfc931ce6f673089dba8474a6757bf28f917a249aef864bfda9a322bff55"
+    },
+    "docs/evidence/battlefield-006-trained-group-saved.png": {
+      "bytes": 120788,
+      "sha256": "d147e6c9c8149ae26a16947618eba1d7af9a88bf95f625cddfb6cf91e6ed0d81"
+    },
+    "docs/evidence/battlefield-006-trained-group-saved.png.json": {
+      "bytes": 1125,
+      "sha256": "19fa73983e9cdcd1c15dd598b934468bdcfa5cb28f6bb25a6a457be8ae82c715"
+    },
+    "docs/evidence/battlefield-006-training-click.png": {
+      "bytes": 116540,
+      "sha256": "29fc05d2c79766dc01317d4c19d8ec59e8f40bae94e428e25534cb4c9285338b"
+    },
+    "docs/evidence/battlefield-006-training-click.png.json": {
+      "bytes": 1115,
+      "sha256": "8ce4165f44f82ce3fb6ca86feb2f6ff1e8c49943c3acd1ac5b585376d3f6d047"
+    },
+    "docs/evidence/battlefield-006-training-drag-filter.png": {
+      "bytes": 118302,
+      "sha256": "cc39ecc1ddea3d9222670c2e1a2810b27a1dec807534156eae23514cc51ec417"
+    },
+    "docs/evidence/battlefield-006-training-drag-filter.png.json": {
+      "bytes": 1127,
+      "sha256": "50a93c8c32d366be9bf57e0456e4637dd2f1a237441aee2023716b5756b218c8"
+    },
+    "docs/evidence/battlefield-006-training-fast-cycle.mp4": {
+      "bytes": 555099,
+      "sha256": "98f04efb15b55d995c8dba44958246826bf351ef2838664892dfa3d6dbc0eefb"
+    },
+    "docs/evidence/battlefield-006-training-fast-cycle.mp4.json": {
+      "bytes": 1302,
+      "sha256": "fc8e2ef4b95e0c9e96dcde4483ae5e2f951a12b7da7f40d0b4a5f8e37eb2a984"
+    },
+    "docs/evidence/battlefield-006-training-selection-regression.mp4": {
+      "bytes": 751359,
+      "sha256": "73c8125c1407382b188b9eae92e0c1fa8ba4d2d2849847bdd03ba7d468151e55"
+    },
+    "docs/evidence/battlefield-006-training-selection-regression.mp4.json": {
+      "bytes": 1322,
+      "sha256": "109f8ad0aa966dc38295c1582154937b48d962ef7fc0baa8d6a3f1f109a6d468"
+    },
+    "docs/evidence/battlefield-006-two-ready-members-saved.png": {
+      "bytes": 120012,
+      "sha256": "51667fc5cbfe7b3455e305f7dda45a073b073a5e8ef63ab5df8942addde971fa"
+    },
+    "docs/evidence/battlefield-006-two-ready-members-saved.png.json": {
+      "bytes": 1133,
+      "sha256": "b314ea3cc80453ba94b0c6cd77653ee039a61db94b67e6335c64ce2a056e2afc"
+    },
+    "docs/evidence/browser-005-root-client-1.jsonl.gz": {
+      "bytes": 260653,
+      "sha256": "b5d585a68f371bfc6c9a24d0597903c1320461717f44fc9aa6240deadc4d5b9d"
+    },
+    "docs/evidence/browser-005-root-client-2.jsonl.gz": {
+      "bytes": 250221,
+      "sha256": "eeb67fd824276ab8676dab1bd798d55a31496bc0d3e19d81ffd33d2201d0105d"
+    },
+    "docs/evidence/browser-final-client-1.jsonl": {
+      "bytes": 11827728,
+      "sha256": "6821af088e5be8f6f6b02330923ab1df890a9236bf91e7d2f31bc503e8d9cab0"
+    },
+    "docs/evidence/browser-final-client-2.jsonl": {
+      "bytes": 7994779,
+      "sha256": "aabfb6dec16ccbc60cea6e1c2a3dd9d1fd7141dd2fa1a02f0cc684a289a186d5"
+    },
+    "docs/evidence/browser-input-trace-005-first-room.json": {
+      "bytes": 591,
+      "sha256": "675489979cfad338774431ae7a04c0b1d092252df62685b3f9cf562431e6e72f"
+    },
+    "docs/evidence/browser-input-trace-005-first-room.jsonl": {
+      "bytes": 17064,
+      "sha256": "3181ee131669e213471c24a3dbb1aace36066783fc5d14b93c9af5159cc27e96"
+    },
+    "docs/evidence/browser-input-trace.jsonl": {
+      "bytes": 25143,
+      "sha256": "e5449fe04731e62e5391407d22f2a2ebd72e20cded75683a070a8c0b7603be4c"
+    },
+    "docs/evidence/browser-play.json": {
+      "bytes": 10271,
+      "sha256": "60db49535b24d9d30f85da6d79b772ddf6a6db232d79d707483119a717928b18"
+    },
+    "docs/evidence/browser-refresh-recovery.json": {
+      "bytes": 5136,
+      "sha256": "7905c69f6e54c3789638145e3974b7561808476970ad4661c6220de95eead2d9"
+    },
+    "docs/evidence/browser-victory-baseline.json": {
+      "bytes": 6433,
+      "sha256": "013f57c85b44548e348b70567c4c51a639d51c027d985b807132fd9cdf44496c"
+    },
+    "docs/evidence/client-recovery.json": {
+      "bytes": 11860,
+      "sha256": "74a86bdfb7ec3aed2bf3fbcfe95fa5441c89ffa27890ad67054faeb95656824d"
+    },
+    "docs/evidence/client-snapshot-battlefield-002.json": {
+      "bytes": 6668,
+      "sha256": "4c5ce5eff9058f6f7996df479dd9e148786dc6c9d53cd5151c3ab765c961c77c"
+    },
+    "docs/evidence/client-snapshot.json": {
+      "bytes": 29719,
+      "sha256": "494ad1ad02dac66f85454c22db12a0408f63a5542b535ff910536c58c6471cb0"
+    },
+    "docs/evidence/combat-approach-failure.json": {
+      "bytes": 99393,
+      "sha256": "143b3ccc8b524e83c6b7a89db429d4b4a60e08db12f44123397d6b94b7a1658a"
+    },
+    "docs/evidence/gate0/archive-manifest.json": {
+      "bytes": 7627,
+      "sha256": "70575e59c55f386994612369f98cf82a10be5eae183aade352e076ff6873ea5a"
+    },
+    "docs/evidence/gate0/browser-v1-interactive.mp4": {
+      "bytes": 1078098,
+      "sha256": "8540cefb933330505a5966a3fd88514272f818f4e9e67ca4d227ab415dd53b39"
+    },
+    "docs/evidence/gate0/browser-v1-interactive.mp4.json": {
+      "bytes": 1279,
+      "sha256": "4d53d5e29eda3bc5ededb3258332b445404c74c2c68a7b040b9229863113dd53"
+    },
+    "docs/evidence/gate0/browser-v1-reconnect-checks.json": {
+      "bytes": 522,
+      "sha256": "7df21925b93d5e32c6f098808d084c54bb340d48622340d0901a498e96bbb178"
+    },
+    "docs/evidence/gate0/browser-v1-reconnect.mp4": {
+      "bytes": 961553,
+      "sha256": "9fa8096b3cdb614db6ca777df0f363ebd52cc892e9e20172e81e7f0533619a4e"
+    },
+    "docs/evidence/gate0/browser-v1-reconnect.mp4.json": {
+      "bytes": 1274,
+      "sha256": "32743c0e3e72d253e1f0975038c65aab42cfad088a5794c6d968438869882aff"
+    },
+    "docs/evidence/gate0/browser-v2-interactive.mp4": {
+      "bytes": 1584542,
+      "sha256": "e7863740ea0f5af852de9b2f953cbdbaff91ac7f438ce211cdba9f6317b2a1eb"
+    },
+    "docs/evidence/gate0/browser-v2-interactive.mp4.json": {
+      "bytes": 1279,
+      "sha256": "3d2fee97a3d66ab2c86faa31103b2e2db6eade863b44d6b00ac123c83fc8f3ce"
+    },
+    "docs/evidence/gate0/browser-v2-reconnect-checks.json": {
+      "bytes": 1554,
+      "sha256": "6d507fabb735231b7a0b4e2accf5eec9116ceb156acb6048bd2bc6652e61e9c4"
+    },
+    "docs/evidence/gate0/editor-v2-scene-inspected.png": {
+      "bytes": 187915,
+      "sha256": "79233336834b0f257928222632db714c37f7f10bd9f457ed932702ac991fb1b9"
+    },
+    "docs/evidence/gate0/editor-v2-scene-inspected.png.json": {
+      "bytes": 1105,
+      "sha256": "a3fb4d98fe5edbb8d31644f5373deeeb3338f4b2e85601e4e87dd7ce755d1dca"
+    },
+    "docs/evidence/gate0/fresh-restoration-baseline.json": {
+      "bytes": 3476,
+      "sha256": "193888a588f42cbd2e139c561126641a49873ad6f80e4a41eb33d179a348df33"
+    },
+    "docs/evidence/gate0/gate_0.md": {
+      "bytes": 11792,
+      "sha256": "1196c12a66dfd9626e05b25ac37a7eea3d6554bcbb1f6bd0792b8080c69f46ea"
+    },
+    "docs/evidence/gate0/native-v1-input.mp4": {
+      "bytes": 384848,
+      "sha256": "3bf95a390b9abd33282d487532d74b91d1b5aa219916e5a8e484b275053de902"
+    },
+    "docs/evidence/gate0/native-v1-input.mp4.json": {
+      "bytes": 1261,
+      "sha256": "34393669e1bebdd88864fa1f9206674b62f4c0a5081fa908f4d3c5d452fb709d"
+    },
+    "docs/evidence/gate0/probe-v1-sha256.txt": {
+      "bytes": 705,
+      "sha256": "256c4834d58c903e29baf40ba265f4af48445ddff003564061879731b252a7c9"
+    },
+    "docs/evidence/gate0/probe-v2-sha256.txt": {
+      "bytes": 705,
+      "sha256": "20ac75ee6f244b74b69e7aaf1f34575ae204661debf765d2eb630bb52e5c42e7"
+    },
+    "docs/evidence/gate0/restored-probe-disconnected.png": {
+      "bytes": 77157,
+      "sha256": "022572f4d24b5c8eb2e3116b422837ca727890f4e635e3098ed2bad5ddc748f7"
+    },
+    "docs/evidence/gate0/restored-probe-disconnected.png.json": {
+      "bytes": 1108,
+      "sha256": "9fffe5cc1e3dcbbd743e003d364cc1e550683484446c9ce7c9be6c1d7b144350"
+    },
+    "docs/evidence/gate0/restored-probe-input.mp4": {
+      "bytes": 718720,
+      "sha256": "59a82bf5ec9908805b9c341afd53a6fc6ab79577842c8302e7c42a9fe7cb2629"
+    },
+    "docs/evidence/gate0/restored-probe-input.mp4.json": {
+      "bytes": 1272,
+      "sha256": "5e06a318755e25ce16a0896d6180c718c45f4b37eaaa31bd37e575b13e9a3168"
+    },
+    "docs/evidence/gate0/restored-probe-reconnected.png": {
+      "bytes": 72843,
+      "sha256": "0901f7a79285679e615253aec0d30804d547cfa7e2c87ae1727191f7d214f0ce"
+    },
+    "docs/evidence/gate0/restored-probe-reconnected.png.json": {
+      "bytes": 1106,
+      "sha256": "b838fd4e65c6a6be3160e4843af3e7e388f1b9784bce157041d6482c3e618280"
+    },
+    "docs/evidence/gate0/review/browser-client-1.jsonl.snapshot": {
+      "bytes": 1376374,
+      "sha256": "9d70c4d0e73be23414db858e0d2d242aed2bec9c419923d698d87e876aa0c1f1"
+    },
+    "docs/evidence/gate0/review/browser-client-2.jsonl.snapshot": {
+      "bytes": 1323064,
+      "sha256": "1a0e26d23c6d5e48308e734a1a6e162ce243e13e2421dc91c4d6cf742cccb5d5"
+    },
+    "docs/evidence/gate0/review/desktop-events.jsonl.snapshot": {
+      "bytes": 17421,
+      "sha256": "c04b37fa1e436413bea2331c4320d97c37b066046d03eb67284c86a0ce934867"
+    },
+    "docs/evidence/gate0/review/gate_0_checks.json": {
+      "bytes": 3236,
+      "sha256": "645cdb56bfd91c6d38666139fc054414bfde2f615c17e4332440568bfb2ddab9"
+    },
+    "docs/evidence/gate0/review/gate_0_review.md": {
+      "bytes": 4718,
+      "sha256": "0e4da63caac8ad8c9771042f8e5d4ec89151a1579dc34f1ff6073a7bbf7c382b"
+    },
+    "docs/evidence/gate0/review/probe-authority.log.snapshot": {
+      "bytes": 2299,
+      "sha256": "7f0425c4f6834a4fc3d821f5c1296336bab5e4c363de0b8e41add1e37f35c0be"
+    },
+    "docs/evidence/gate0/review/source-snapshots.json": {
+      "bytes": 1290,
+      "sha256": "20e3b8ede5d63a91da9c5aa52f3c5253b6805e5f07db61f98b6f993ad51774dd"
+    },
+    "docs/evidence/gate0/template-cache-verification.json": {
+      "bytes": 763,
+      "sha256": "5fcbe71dc89cbaf0652b143e0b7e2f216fe8f9314c06edecf176e5a750423414"
+    },
+    "docs/evidence/gate0/web-templates-receipt.json": {
+      "bytes": 1618,
+      "sha256": "b835b888b08d9d87440a32afd61bc3a2a7d25285c6e28b9cc7aba54174544ccd"
+    },
+    "docs/evidence/initial-browser-cycle.json": {
+      "bytes": 6577,
+      "sha256": "05ca4b20f8e14dfeeea7cf2253a775578ba0fda0d8d94ce439dadd2aada83525"
+    },
+    "docs/evidence/interactive-pause.json": {
+      "bytes": 522,
+      "sha256": "eb0daa6c67e351f2065de754f989353d601bbf4c429da73719ab29c67525e25e"
+    },
+    "docs/evidence/pause-baseline.json": {
+      "bytes": 4153,
+      "sha256": "5a1206ddeddcd3c277639ca70044a204ac69e46c3a25fb528c0bb36b8d1844d8"
+    },
+    "docs/evidence/protocol-smoke.json": {
+      "bytes": 6185,
+      "sha256": "379e357bb8460c38b99b58f9817a33691cfd4097b9ff8b67eaea91307987d923"
+    },
+    "docs/evidence/purchase-commits-baseline.json": {
+      "bytes": 6730,
+      "sha256": "7b6cb453c46376b939a17878dd581ecb88fbb93414ff7bc5db39d8833d49154b"
+    },
+    "docs/evidence/simulation.json": {
+      "bytes": 4712,
+      "sha256": "a6b163466fd899b79f3920ffa46e53f99dff11c4fdc0fd1edfdbd2bd3f86b19f"
+    },
+    "docs/evidence/terminal-browser-reconnect.json": {
+      "bytes": 7644,
+      "sha256": "ff193a54f31e68d837982bbbaf922e8808b9f642ab2597e8d32ea809cdf26437"
+    },
+    "docs/third-party/Godot-AUTHORS.md": {
+      "bytes": 10696,
+      "sha256": "2eb271244aea70a5818c6c004892a74eecc129aed84e97656d5563be3769f560"
+    },
+    "docs/third-party/Godot-COPYRIGHT.txt": {
+      "bytes": 99790,
+      "sha256": "b3330849267d56ddd3d62a513817506606c2195034411fe05859f0140bff9d8a"
+    },
+    "docs/third-party/Godot-LICENSE.txt": {
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    "docs/third-party/provenance.json": {
+      "bytes": 1034,
+      "sha256": "627aab2fec7ab5e7551a80a61219a815dedbcb169bb138125fd7019b72e295f1"
+    },
+    "game/assets/icon.svg": {
+      "bytes": 287,
+      "sha256": "186c191db4d766c62f4ab094ae22aa6fd06783d86c336a6668b6c3ac227c20c4"
+    },
+    "game/assets/icon.svg.import": {
+      "bytes": 1020,
+      "sha256": "ed7b857289f31b87befd555065fb1a0e828c272358400b2a7e14d1206d496980"
+    },
+    "game/data/tuning.json": {
+      "bytes": 1789,
+      "sha256": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be"
+    },
+    "game/export_presets.cfg": {
+      "bytes": 888,
+      "sha256": "30b2b065d031570d39ec973cb4ff77feb5ef90d625fc5fa6d3cb0c393eaf082f"
+    },
+    "game/main.gd": {
+      "bytes": 321,
+      "sha256": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b"
+    },
+    "game/main.gd.uid": {
+      "bytes": 20,
+      "sha256": "a15b88733b1d5684212f5e4f0e4d31bc17f361710d0d2f49e858b3a8fdd1135a"
+    },
+    "game/main.tscn": {
+      "bytes": 156,
+      "sha256": "157538dfd1406a79bf929e8bb6b4a3a0f0f2e3215e4ad0fe56345035ca32f2e6"
+    },
+    "game/project.godot": {
+      "bytes": 668,
+      "sha256": "b60320022850de488b9e44cb7d27cc5ef150c97f1fa04a0ce108dc6ce78e5a32"
+    },
+    "game/scripts/client/art.gd": {
+      "bytes": 17522,
+      "sha256": "6a21b421b5605aff289316a8bc1956a65569c444cd640c831ad7e4a2b06bff1c"
+    },
+    "game/scripts/client/art.gd.uid": {
+      "bytes": 20,
+      "sha256": "a6a942a86e1f8d23f4caedc2ab01b1ee086b54ddbdb54a1640d8ecb6b4c70760"
+    },
+    "game/scripts/client/battle_hud.gd": {
+      "bytes": 1652,
+      "sha256": "6a3809f24b820a41f469ff1d6984687e81db40d1134ca6d25e68870dd14aa9fb"
+    },
+    "game/scripts/client/battle_hud.gd.uid": {
+      "bytes": 18,
+      "sha256": "b2763954cdcdc3f397d6ce6f7abb490337144b1d5cdf7039ec0b245036cca6c0"
+    },
+    "game/scripts/client/battlefield.gd": {
+      "bytes": 33351,
+      "sha256": "53a8f1d40835628ca0c6dd8399d92fe5b908978e9a70163089d4cb351fe5c5a2"
+    },
+    "game/scripts/client/battlefield.gd.uid": {
+      "bytes": 19,
+      "sha256": "1275d88bd76d612d51957344745895a6e49ae5bca4d9851dd94be35e5855a371"
+    },
+    "game/scripts/client/minimap.gd": {
+      "bytes": 1462,
+      "sha256": "875606748988242289575c9e2b7d93378f53194082afa4c4574b9a306d045d7d"
+    },
+    "game/scripts/client/minimap.gd.uid": {
+      "bytes": 19,
+      "sha256": "b508f2a6d210a55fa1d307c4f7417f40a8817ea0eb7f1984db8e4da04a7ea4cc"
+    },
+    "game/scripts/client/net_client.gd": {
+      "bytes": 7349,
+      "sha256": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5"
+    },
+    "game/scripts/client/net_client.gd.uid": {
+      "bytes": 20,
+      "sha256": "dcd0021278ce784fdab236b4e9071a8fd41e87a5d3c29a715568ed6719b5dad3"
+    },
+    "game/scripts/server/session_server.gd": {
+      "bytes": 17722,
+      "sha256": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9"
+    },
+    "game/scripts/server/session_server.gd.uid": {
+      "bytes": 20,
+      "sha256": "ca7d272dba996611eab2afb0daaa6f9be8e4e03f1b01b9c5b7791dad9c0ba729"
+    },
+    "game/scripts/shared/rules.gd": {
+      "bytes": 1570,
+      "sha256": "0212ef5fc48c9401990a8a454cd19b04a05ee4a8d6726392f50e9b5d8474c8b1"
+    },
+    "game/scripts/shared/rules.gd.uid": {
+      "bytes": 20,
+      "sha256": "354f102f504595ae5d5537983a4b2e2186aab2da5f4b44d601fb8567655c0def"
+    },
+    "game/scripts/simulation/battle.gd": {
+      "bytes": 30766,
+      "sha256": "a38e552dfb3336ebb190bce6a2ba1a7d3c15f19a74501aac4e9c46d20d456401"
+    },
+    "game/scripts/simulation/battle.gd.uid": {
+      "bytes": 20,
+      "sha256": "30faf45f2223c274fe656a84d723de4b7d1f3eebf371cc4a72cffc0bd1c6bd79"
+    },
+    "tests/ability_effects.gd": {
+      "bytes": 11646,
+      "sha256": "445be4c90586a093fef5b93ed2db2298bd958aa33d67152eb437c52c84b6024e"
+    },
+    "tests/client_recovery.gd": {
+      "bytes": 11182,
+      "sha256": "043cc3795e12f121fd9d7d471176f868fc5abdf6c225c5f68c4666dd8beb3be6"
+    },
+    "tests/client_snapshot.gd": {
+      "bytes": 22193,
+      "sha256": "727e529db790d8eaad1bfb39d17b20854eb270682049a445b98e169d1b7de9c8"
+    },
+    "tests/protocol_smoke.py": {
+      "bytes": 15554,
+      "sha256": "4987c6a26cbfeb90ce8077428e6a2ad37c73c99b38dbd9571734b250e0813544"
+    },
+    "tests/simulation_tests.gd": {
+      "bytes": 32028,
+      "sha256": "c3bd69f188c2e7e83a5d600451f7cdbe7f2c4b728efc35b675e6889d1ab6253a"
+    },
+    "tools/README.md": {
+      "bytes": 7259,
+      "sha256": "0703220115e6423bacb70c80574ba6659821b8e7efa9d21178311fffee9a7d1b"
+    },
+    "tools/browser_clients.py": {
+      "bytes": 19650,
+      "sha256": "3461e2be56a98d5a2d9bdff6b960d32dc2bcc280dce374cdcb60bf23bb50fa86"
+    },
+    "tools/browser_runtime_guard.py": {
+      "bytes": 16056,
+      "sha256": "a8df931c3dc27e0aa7f13d80cb3693e52c0aa6ae7f0934c2284dda216b795329"
+    },
+    "tools/build.py": {
+      "bytes": 7894,
+      "sha256": "5d659e2d656e677af0d715e8a928b01ed835d1c5c90f6190531467e2e3f880c1"
+    },
+    "tools/check.py": {
+      "bytes": 4333,
+      "sha256": "a92483d7e8c25992703adce078777321623bc948e3667b7e637a9596fb37320a"
+    },
+    "tools/desktop_gesture.py": {
+      "bytes": 4143,
+      "sha256": "a78ff1e3c3b871fd498ddeed825f9dcac0ecf161351b17df1d2b055b395674f0"
+    },
+    "tools/observe_clients.py": {
+      "bytes": 2433,
+      "sha256": "4b7bee976f7ae0403bd4896a73fce8569ad8f0a23c1a4aa4f7cbcb0129e45a78"
+    },
+    "tools/run_server.py": {
+      "bytes": 2067,
+      "sha256": "c621261f34d601f3a7ae9cf522692d1ad71d5ce66b744cc3da8980bfa89c28ad"
+    },
+    "tools/serve.py": {
+      "bytes": 5083,
+      "sha256": "a870e199c77316e31005a89d172d24d5a4d897773250edfacaa7bd60fefbe430"
+    },
+    "tools/tool_runtime.py": {
+      "bytes": 16696,
+      "sha256": "9fc2f5f8a54d88dcc0df115acd944fdd8f0d7f4af54bf8dad577d76c9a009290"
+    }
+  }
+}

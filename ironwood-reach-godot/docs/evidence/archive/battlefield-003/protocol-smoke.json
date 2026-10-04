@@ -1,0 +1,62 @@
+{
+  "kind": "automated_protocol_integration",
+  "build_id": "battlefield-003",
+  "protocol": 1,
+  "checks": [
+    {
+      "check": "join_version_and_room_rejections",
+      "status": "PASS"
+    },
+    {
+      "check": "independent_roles_and_takeover_rejection",
+      "status": "PASS"
+    },
+    {
+      "check": "server_bound_role_permissions",
+      "status": "PASS"
+    },
+    {
+      "check": "shared_treasury_reservations",
+      "status": "PASS",
+      "reservation_count": 2
+    },
+    {
+      "check": "lost_ack_idempotent_purchase_and_reconnect",
+      "status": "PASS",
+      "spent_once": 190,
+      "tick_frozen_while_missing": 0
+    },
+    {
+      "check": "command_identity_revision_schema_and_bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "binary_malformed_depth_size_and_array_limits",
+      "status": "PASS"
+    },
+    {
+      "check": "bounded_rate_limit",
+      "status": "PASS"
+    },
+    {
+      "check": "role_scoped_token_and_state_recovery",
+      "status": "PASS",
+      "snapshot_revision": 17,
+      "snapshot_sha256": "ca69585979a6f402b29d51814d66799c04dfc1b9b64c9b4dd556e6a1b9790799"
+    }
+  ],
+  "tokens_logged": false,
+  "browser_interaction": false,
+  "human_feedback": false,
+  "ledger_capacity_tested": false,
+  "completed_at_utc": "2026-10-04T02:56:01.181396+00:00",
+  "godot_version": "4.6.3.stable.official.7d41c59c4",
+  "websockets_version": "16.0",
+  "authority_pid": 16354,
+  "source_sha256": {
+    "game/scripts/server/session_server.gd": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9",
+    "game/scripts/simulation/battle.gd": "803584c24a8bafb52766e6a72fa846e560882f4c29ac9bde045b70961cc50767",
+    "game/scripts/shared/rules.gd": "628a499f8fa17d9bc2fe4675a3a57b9fa2ec3e8d590fb6b093abfc860b56a659",
+    "game/data/tuning.json": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be"
+  }
+}

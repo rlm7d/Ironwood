@@ -1,0 +1,162 @@
+{
+  "kind": "agent_driven_real_browser_input_and_visual_inspection",
+  "build_id": "battlefield-001",
+  "session_started_at_utc": "2026-10-04T02:37:54.445672+00:00",
+  "browser": "Chromium 151.0.7922.173",
+  "display": ":97",
+  "input": "XTEST guarded mouse clicks",
+  "visual_capture": "ffmpeg x11grab",
+  "automation_scope": "Browser helper navigation and passive protocol/error observation only; no game-state hooks.",
+  "observations": [
+    "Two independent headed profiles loaded genuine3D Compatibility Web battlefield.",
+    "Builder and General were joined through real mouse clicks at 02:38:23 UTC.",
+    "Both received identical shared snapshots at revision2, tick0, gold340, waiting for readiness.",
+    "Visible HUD text was too small because canvas_items stretched a 1280x820 base into a640-wide letterbox.",
+    "Terrain palette appeared washed out in the running browser.",
+    "No gameplay completion or performance acceptance established by these observations."
+  ],
+  "fixes_for_next_cycle": [
+    "Disable base viewport stretch; responsive natural-pixel HUD with wrapping and flow rows.",
+    "Reduce scene lighting and use Linear tonemapping.",
+    "Show each role held choice, cost and target.",
+    "Use actual mesh bounds for battalion/building clearance and separate worker radius.",
+    "Include original SVG icon to eliminate /favicon.ico404."
+  ],
+  "artifacts": [
+    "/workspace/ironwood-cloud-harness/evidence/battlefield-001-loaded.png",
+    "/workspace/ironwood-cloud-harness/evidence/battlefield-001-joined-pre-fix.png"
+  ],
+  "manifest": {
+    "owner": "ironwood-reach-godot-tools",
+    "build_id": "battlefield-001",
+    "built_at": "2026-10-04T02:37:42.093917+00:00",
+    "godot": "4.6.3.stable.official.7d41c59c4",
+    "rendering": "Compatibility",
+    "threads": false,
+    "sources": {
+      "data/tuning.json": {
+        "bytes": 1788,
+        "sha256": "28d01e3b206f2e8a0ea82baaff93aa2021f7db8f091f82437e09509973b03d25"
+      },
+      "export_presets.cfg": {
+        "bytes": 889,
+        "sha256": "3639b45ecab2e2189a5179327e2a8f25b92dc16c23d41738c61c5130eb403e2c"
+      },
+      "main.gd": {
+        "bytes": 321,
+        "sha256": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b"
+      },
+      "main.gd.uid": {
+        "bytes": 20,
+        "sha256": "a15b88733b1d5684212f5e4f0e4d31bc17f361710d0d2f49e858b3a8fdd1135a"
+      },
+      "main.tscn": {
+        "bytes": 156,
+        "sha256": "157538dfd1406a79bf929e8bb6b4a3a0f0f2e3215e4ad0fe56345035ca32f2e6"
+      },
+      "project.godot": {
+        "bytes": 636,
+        "sha256": "8de401f41c9494aecca2e822867b8c0d1e4c4b6121bb9d22f3e192c06643afb4"
+      },
+      "scripts/client/art.gd": {
+        "bytes": 17522,
+        "sha256": "6a21b421b5605aff289316a8bc1956a65569c444cd640c831ad7e4a2b06bff1c"
+      },
+      "scripts/client/art.gd.uid": {
+        "bytes": 20,
+        "sha256": "a6a942a86e1f8d23f4caedc2ab01b1ee086b54ddbdb54a1640d8ecb6b4c70760"
+      },
+      "scripts/client/battle_hud.gd": {
+        "bytes": 1652,
+        "sha256": "6a3809f24b820a41f469ff1d6984687e81db40d1134ca6d25e68870dd14aa9fb"
+      },
+      "scripts/client/battle_hud.gd.uid": {
+        "bytes": 18,
+        "sha256": "b2763954cdcdc3f397d6ce6f7abb490337144b1d5cdf7039ec0b245036cca6c0"
+      },
+      "scripts/client/battlefield.gd": {
+        "bytes": 28813,
+        "sha256": "c534d0ccf1278ee10e78ac072b4f8485150a1caf2339aacab477669c3ac15699"
+      },
+      "scripts/client/battlefield.gd.uid": {
+        "bytes": 19,
+        "sha256": "1275d88bd76d612d51957344745895a6e49ae5bca4d9851dd94be35e5855a371"
+      },
+      "scripts/client/minimap.gd": {
+        "bytes": 1462,
+        "sha256": "875606748988242289575c9e2b7d93378f53194082afa4c4574b9a306d045d7d"
+      },
+      "scripts/client/minimap.gd.uid": {
+        "bytes": 19,
+        "sha256": "b508f2a6d210a55fa1d307c4f7417f40a8817ea0eb7f1984db8e4da04a7ea4cc"
+      },
+      "scripts/client/net_client.gd": {
+        "bytes": 7349,
+        "sha256": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5"
+      },
+      "scripts/client/net_client.gd.uid": {
+        "bytes": 20,
+        "sha256": "dcd0021278ce784fdab236b4e9071a8fd41e87a5d3c29a715568ed6719b5dad3"
+      },
+      "scripts/server/session_server.gd": {
+        "bytes": 17722,
+        "sha256": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9"
+      },
+      "scripts/server/session_server.gd.uid": {
+        "bytes": 20,
+        "sha256": "ca7d272dba996611eab2afb0daaa6f9be8e4e03f1b01b9c5b7791dad9c0ba729"
+      },
+      "scripts/shared/rules.gd": {
+        "bytes": 1570,
+        "sha256": "f086a5a8fe304a365faf10b1c99c55021ae2c6825c65da4f36d65a1c3d6ad795"
+      },
+      "scripts/shared/rules.gd.uid": {
+        "bytes": 20,
+        "sha256": "354f102f504595ae5d5537983a4b2e2186aab2da5f4b44d601fb8567655c0def"
+      },
+      "scripts/simulation/battle.gd": {
+        "bytes": 26909,
+        "sha256": "66b787f58bae0186b2e7f92d704711cabde8e47f7e703e1efc39ce67043aae1a"
+      },
+      "scripts/simulation/battle.gd.uid": {
+        "bytes": 20,
+        "sha256": "30faf45f2223c274fe656a84d723de4b7d1f3eebf371cc4a72cffc0bd1c6bd79"
+      }
+    },
+    "artifacts": {
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.html": {
+        "bytes": 5565,
+        "sha256": "e29943046f46d585692c74288cc5d35b56870608a13697e8464418151dd4d6c6"
+      },
+      "index.js": {
+        "bytes": 315759,
+        "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+      },
+      "index.pck": {
+        "bytes": 90852,
+        "sha256": "e0812b48f0eb25f5c02ed1a9615a2d5900001202450f1dfca24882c1a18567d5"
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.wasm": {
+        "bytes": 37700666,
+        "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+      }
+    },
+    "template": {
+      "template": "/workspace/Ironwood/ironwood-reach-godot/.runtime/godot-data/godot/export_templates/4.6.3.stable/web_nothreads_release.zip",
+      "verification": "pinned official archive receipt + template SHA256"
+    },
+    "validation": "Godot import/export and artifact integrity only; interactive play evidence is separate"
+  }
+}

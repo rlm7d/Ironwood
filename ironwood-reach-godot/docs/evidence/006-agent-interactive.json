@@ -1,0 +1,1288 @@
+{
+  "kind": "Focused actual AI-operated XTEST browser regression with passive authority observations",
+  "build_id": "battlefield-006",
+  "recorded_at": "2026-10-04T03:54:16.485789+00:00",
+  "scope": "Retest client filtering changed in006; unchanged005 game mechanics are supported by separate005interactive evidence.",
+  "environment": {
+    "display": ":97",
+    "screen": [
+      1364,
+      1024
+    ],
+    "browser_viewports": [
+      [
+        640,
+        820
+      ],
+      [
+        640,
+        820
+      ]
+    ],
+    "clients": "Two independent headed Chromium processes/profiles; sandbox retained",
+    "input": "Guarded OS-level XTEST mouse, keyboard and drag; no game hooks, localStorage injection, or injected gameplay WebSocket commands",
+    "pause_watcher": "The final focused setup used passive already-logged snapshots to trigger an actual XTEST click on the visible Builder Disconnect button after a casualty with the corner spare alive. This is scripted AI input, not human play."
+  },
+  "manifest": {
+    "path": "builds/battlefield-006/build-manifest.json",
+    "sha256": "def25cd37e25059de71e9266eece74bbf83920e469fe490b82043544dc15171a",
+    "artifact_hashes": {
+      "index.apple-touch-icon.png": {
+        "bytes": 10618,
+        "sha256": "b322e5e84b35a63e4123ff4ec709cace24592b82daab8da0bc88e9ddf2ebb6a1"
+      },
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.html": {
+        "bytes": 5710,
+        "sha256": "bf538134809dca0685fa138bc2598aa1c4fdbd668250ec2587cb08bdf904b633"
+      },
+      "index.icon.png": {
+        "bytes": 4569,
+        "sha256": "ca763509b89a0494e451611f7a4db0408645127d807048478a97ca68be5bdf96"
+      },
+      "index.js": {
+        "bytes": 315759,
+        "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+      },
+      "index.pck": {
+        "bytes": 99796,
+        "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192"
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.wasm": {
+        "bytes": 37700666,
+        "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+      }
+    },
+    "source_hashes": {
+      "assets/icon.svg": {
+        "bytes": 287,
+        "sha256": "186c191db4d766c62f4ab094ae22aa6fd06783d86c336a6668b6c3ac227c20c4"
+      },
+      "assets/icon.svg.import": {
+        "bytes": 1020,
+        "sha256": "ed7b857289f31b87befd555065fb1a0e828c272358400b2a7e14d1206d496980"
+      },
+      "data/tuning.json": {
+        "bytes": 1789,
+        "sha256": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be"
+      },
+      "export_presets.cfg": {
+        "bytes": 888,
+        "sha256": "30b2b065d031570d39ec973cb4ff77feb5ef90d625fc5fa6d3cb0c393eaf082f"
+      },
+      "main.gd": {
+        "bytes": 321,
+        "sha256": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b"
+      },
+      "main.gd.uid": {
+        "bytes": 20,
+        "sha256": "a15b88733b1d5684212f5e4f0e4d31bc17f361710d0d2f49e858b3a8fdd1135a"
+      },
+      "main.tscn": {
+        "bytes": 156,
+        "sha256": "157538dfd1406a79bf929e8bb6b4a3a0f0f2e3215e4ad0fe56345035ca32f2e6"
+      },
+      "project.godot": {
+        "bytes": 668,
+        "sha256": "b60320022850de488b9e44cb7d27cc5ef150c97f1fa04a0ce108dc6ce78e5a32"
+      },
+      "scripts/client/art.gd": {
+        "bytes": 17522,
+        "sha256": "6a21b421b5605aff289316a8bc1956a65569c444cd640c831ad7e4a2b06bff1c"
+      },
+      "scripts/client/art.gd.uid": {
+        "bytes": 20,
+        "sha256": "a6a942a86e1f8d23f4caedc2ab01b1ee086b54ddbdb54a1640d8ecb6b4c70760"
+      },
+      "scripts/client/battle_hud.gd": {
+        "bytes": 1652,
+        "sha256": "6a3809f24b820a41f469ff1d6984687e81db40d1134ca6d25e68870dd14aa9fb"
+      },
+      "scripts/client/battle_hud.gd.uid": {
+        "bytes": 18,
+        "sha256": "b2763954cdcdc3f397d6ce6f7abb490337144b1d5cdf7039ec0b245036cca6c0"
+      },
+      "scripts/client/battlefield.gd": {
+        "bytes": 33351,
+        "sha256": "53a8f1d40835628ca0c6dd8399d92fe5b908978e9a70163089d4cb351fe5c5a2"
+      },
+      "scripts/client/battlefield.gd.uid": {
+        "bytes": 19,
+        "sha256": "1275d88bd76d612d51957344745895a6e49ae5bca4d9851dd94be35e5855a371"
+      },
+      "scripts/client/minimap.gd": {
+        "bytes": 1462,
+        "sha256": "875606748988242289575c9e2b7d93378f53194082afa4c4574b9a306d045d7d"
+      },
+      "scripts/client/minimap.gd.uid": {
+        "bytes": 19,
+        "sha256": "b508f2a6d210a55fa1d307c4f7417f40a8817ea0eb7f1984db8e4da04a7ea4cc"
+      },
+      "scripts/client/net_client.gd": {
+        "bytes": 7349,
+        "sha256": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5"
+      },
+      "scripts/client/net_client.gd.uid": {
+        "bytes": 20,
+        "sha256": "dcd0021278ce784fdab236b4e9071a8fd41e87a5d3c29a715568ed6719b5dad3"
+      },
+      "scripts/server/session_server.gd": {
+        "bytes": 17722,
+        "sha256": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9"
+      },
+      "scripts/server/session_server.gd.uid": {
+        "bytes": 20,
+        "sha256": "ca7d272dba996611eab2afb0daaa6f9be8e4e03f1b01b9c5b7791dad9c0ba729"
+      },
+      "scripts/shared/rules.gd": {
+        "bytes": 1570,
+        "sha256": "0212ef5fc48c9401990a8a454cd19b04a05ee4a8d6726392f50e9b5d8474c8b1"
+      },
+      "scripts/shared/rules.gd.uid": {
+        "bytes": 20,
+        "sha256": "354f102f504595ae5d5537983a4b2e2186aab2da5f4b44d601fb8567655c0def"
+      },
+      "scripts/simulation/battle.gd": {
+        "bytes": 30766,
+        "sha256": "a38e552dfb3336ebb190bce6a2ba1a7d3c15f19a74501aac4e9c46d20d456401"
+      },
+      "scripts/simulation/battle.gd.uid": {
+        "bytes": 20,
+        "sha256": "30faf45f2223c274fe656a84d723de4b7d1f3eebf371cc4a72cffc0bd1c6bd79"
+      }
+    },
+    "current_source_matches_manifest": {
+      "assets/icon.svg": true,
+      "assets/icon.svg.import": true,
+      "data/tuning.json": true,
+      "export_presets.cfg": true,
+      "main.gd": true,
+      "main.gd.uid": true,
+      "main.tscn": true,
+      "project.godot": true,
+      "scripts/client/art.gd": true,
+      "scripts/client/art.gd.uid": true,
+      "scripts/client/battle_hud.gd": true,
+      "scripts/client/battle_hud.gd.uid": true,
+      "scripts/client/battlefield.gd": true,
+      "scripts/client/battlefield.gd.uid": true,
+      "scripts/client/minimap.gd": true,
+      "scripts/client/minimap.gd.uid": true,
+      "scripts/client/net_client.gd": true,
+      "scripts/client/net_client.gd.uid": true,
+      "scripts/server/session_server.gd": true,
+      "scripts/server/session_server.gd.uid": true,
+      "scripts/shared/rules.gd": true,
+      "scripts/shared/rules.gd.uid": true,
+      "scripts/simulation/battle.gd": true,
+      "scripts/simulation/battle.gd.uid": true
+    }
+  },
+  "checks": [
+    {
+      "check": "Two role joins and ready start",
+      "result": "observed actual input and visible2/2Playing",
+      "first_room": {
+        "at": "2026-10-04T03:42:58.062158+00:00",
+        "client": 2,
+        "tick": 96,
+        "revision": 100,
+        "status": "playing",
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": "connection-000003"
+        },
+        "gold": 340,
+        "reserved_gold": 0,
+        "spent": 0,
+        "reservations": {},
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 180,
+            "team": "ally",
+            "x": -13.0,
+            "z": 3.0,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -13.0,
+              3.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "trial_generation": 1
+    },
+    {
+      "check": "Holds survive disconnect pause and reconnect",
+      "result": "observed",
+      "paused_first": {
+        "at": "2026-10-04T03:43:09.888706+00:00",
+        "client": 1,
+        "tick": 333,
+        "revision": 340,
+        "status": "paused",
+        "connected": {
+          "Builder": true,
+          "General": false
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": ""
+        },
+        "gold": 380,
+        "reserved_gold": 190,
+        "spent": 0,
+        "reservations": {
+          "Builder": {
+            "cost": 110,
+            "kind": "tower",
+            "socket": 1
+          },
+          "General": {
+            "building": "ally_barracks",
+            "cost": 80,
+            "kind": "footmen"
+          }
+        },
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 180,
+            "team": "ally",
+            "x": -13.0,
+            "z": 3.0,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -13.0,
+              3.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "paused_later": {
+        "at": "2026-10-04T03:43:15.129046+00:00",
+        "client": 1,
+        "tick": 333,
+        "revision": 340,
+        "status": "paused",
+        "connected": {
+          "Builder": true,
+          "General": false
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": ""
+        },
+        "gold": 380,
+        "reserved_gold": 190,
+        "spent": 0,
+        "reservations": {
+          "Builder": {
+            "cost": 110,
+            "kind": "tower",
+            "socket": 1
+          },
+          "General": {
+            "building": "ally_barracks",
+            "cost": 80,
+            "kind": "footmen"
+          }
+        },
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 180,
+            "team": "ally",
+            "x": -13.0,
+            "z": 3.0,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -13.0,
+              3.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "after_rejoin": {
+        "at": "2026-10-04T03:43:27.076779+00:00",
+        "client": 2,
+        "tick": 560,
+        "revision": 568,
+        "status": "playing",
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": "connection-000004"
+        },
+        "gold": 400,
+        "reserved_gold": 190,
+        "spent": 0,
+        "reservations": {
+          "Builder": {
+            "cost": 110,
+            "kind": "tower",
+            "socket": 1
+          },
+          "General": {
+            "building": "ally_barracks",
+            "cost": 80,
+            "kind": "footmen"
+          }
+        },
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 180,
+            "team": "ally",
+            "x": -13.0,
+            "z": 3.0,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -13.0,
+              3.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "conclusion": "BuilderTower110+GeneralFootmen80 holds remained; tick333 frozen for at least5.2s. General same seat rejoined. General confirmed80 once; Builder separately canceled110 to preserve the isolated casualty scenario.",
+      "trial_generation": 1
+    },
+    {
+      "check": "Actual click and drag across known training unit",
+      "result": "observed eligibility filtering through real input and accepted payload",
+      "input_window": [
+        "2026-10-04T03:44:01.939982+00:00",
+        "2026-10-04T03:44:03.828564+00:00"
+      ],
+      "training_observed": {
+        "at": "2026-10-04T03:44:02.438762+00:00",
+        "client": 2,
+        "tick": 1271,
+        "revision": 1284,
+        "status": "playing",
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": "connection-000004"
+        },
+        "gold": 330,
+        "reserved_gold": 0,
+        "spent": 160,
+        "reservations": {},
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 100,
+            "team": "ally",
+            "x": -14.876848220825195,
+            "z": 2.4709081649780273,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -14.976561546325684,
+              2.442798614501953
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_002",
+            "hp": 180,
+            "team": "ally",
+            "x": -12.972121238708496,
+            "z": 2.399866819381714,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -12.976561546325684,
+              2.442798614501953
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_003",
+            "hp": 0,
+            "team": "enemy",
+            "x": -14.882036209106445,
+            "z": 4.054947853088379,
+            "state": "dead",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_004",
+            "hp": 180,
+            "team": "ally",
+            "x": -12.0,
+            "z": -7.0,
+            "state": "training",
+            "train_ticks": 74,
+            "goal": [
+              -12.0,
+              -7.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "command": {
+        "at": "2026-10-04T03:44:04.819787+00:00",
+        "client": 2,
+        "kind": "websocket_sent",
+        "data": {
+          "expected_revision": 1284,
+          "seq": 7,
+          "type": "command",
+          "payload": {
+            "action": "order",
+            "mode": "move",
+            "units": [
+              "unit_001",
+              "unit_002"
+            ],
+            "x": -12.9765615463257,
+            "z": 2.44279861450195
+          }
+        }
+      },
+      "result_message": {
+        "at": "2026-10-04T03:44:09.421626+00:00",
+        "client": 2,
+        "kind": "websocket_received",
+        "data": {
+          "ok": true,
+          "replayed": false,
+          "result": {
+            "ok": true,
+            "result": "order_accepted",
+            "revision": 1333
+          },
+          "revision": 1333,
+          "seq": 7,
+          "type": "result"
+        }
+      },
+      "conclusion": "Trainingunit004 was visible at ordinary recruitment spawn with train_ticks>0. Clicking it cleared eligible selection; subsequent drag covering it and2readyunits sentonlyunit001+unit002, accepted. Recorded screen updates were delayed under capture/software rendering; screenshots capture intermediate states and are interpreted with actual input and transport times.",
+      "trial_generation": 1
+    },
+    {
+      "check": "Real eligible General ability after training/death changes",
+      "result": "observed accepted",
+      "command": {
+        "at": "2026-10-04T03:44:43.953821+00:00",
+        "client": 2,
+        "kind": "websocket_sent",
+        "data": {
+          "expected_revision": 2104,
+          "seq": 8,
+          "type": "command",
+          "payload": {
+            "action": "ability",
+            "slot": 0,
+            "units": [
+              "unit_001",
+              "unit_002"
+            ]
+          }
+        }
+      },
+      "result_message": {
+        "at": "2026-10-04T03:44:44.268439+00:00",
+        "client": 2,
+        "kind": "websocket_received",
+        "data": {
+          "ok": true,
+          "replayed": false,
+          "result": {
+            "ok": true,
+            "result": "ability_activated",
+            "revision": 2113
+          },
+          "revision": 2113,
+          "seq": 8,
+          "type": "result"
+        }
+      },
+      "conclusion": "Actual Q was accepted for the2ready surviving selected units; no invalid_units result occurred anywhere in these006 trials.",
+      "trial_generation": 1
+    },
+    {
+      "check": "Saved group recalls only surviving ready member after actual death",
+      "result": "observed actual group save, live casualty, recall frame and valid authority order",
+      "group_saved_input": "2026-10-04T03:50:51.632026+00:00",
+      "group_saved_frame": "battlefield-006-final-two-member-group-saved.png",
+      "before_casualty": {
+        "at": "2026-10-04T03:52:10.379776+00:00",
+        "client": 2,
+        "tick": 1794,
+        "revision": 1804,
+        "status": "playing",
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": "connection-000003"
+        },
+        "gold": 480,
+        "reserved_gold": 0,
+        "spent": 80,
+        "reservations": {},
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 4,
+            "team": "ally",
+            "x": 12.031246185302734,
+            "z": -10.767962455749512,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              12.031248092651367,
+              -10.770538330078125
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_002",
+            "hp": 180,
+            "team": "ally",
+            "x": -23.280099868774414,
+            "z": -15.789670944213867,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -23.203123092651367,
+              -15.767181396484375
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_003",
+            "hp": 0,
+            "team": "enemy",
+            "x": 13.574867248535156,
+            "z": 11.206415176391602,
+            "state": "dead",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "after_casualty": {
+        "at": "2026-10-04T03:52:11.317058+00:00",
+        "client": 2,
+        "tick": 1817,
+        "revision": 1827,
+        "status": "playing",
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000002",
+          "General": "connection-000003"
+        },
+        "gold": 480,
+        "reserved_gold": 0,
+        "spent": 80,
+        "reservations": {},
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 0,
+            "team": "ally",
+            "x": 12.031246185302734,
+            "z": -10.767962455749512,
+            "state": "dead",
+            "train_ticks": 0,
+            "goal": [
+              12.031248092651367,
+              -10.770538330078125
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_002",
+            "hp": 180,
+            "team": "ally",
+            "x": -23.280099868774414,
+            "z": -15.789670944213867,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -23.203123092651367,
+              -15.767181396484375
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_003",
+            "hp": 0,
+            "team": "enemy",
+            "x": 13.574867248535156,
+            "z": 11.206415176391602,
+            "state": "dead",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_004",
+            "hp": 103,
+            "team": "enemy",
+            "x": 12.447461128234863,
+            "z": -10.233675956726074,
+            "state": "walk",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_005",
+            "hp": 125,
+            "team": "enemy",
+            "x": 12.590179443359375,
+            "z": -8.249618530273438,
+            "state": "walk",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "paused_at_recall": {
+        "at": "2026-10-04T03:52:23.851256+00:00",
+        "client": 2,
+        "tick": 1823,
+        "revision": 1834,
+        "status": "paused",
+        "connected": {
+          "Builder": false,
+          "General": true
+        },
+        "connections": {
+          "Builder": "",
+          "General": "connection-000003"
+        },
+        "gold": 480,
+        "reserved_gold": 0,
+        "spent": 80,
+        "reservations": {},
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 0,
+            "team": "ally",
+            "x": 12.031246185302734,
+            "z": -10.767962455749512,
+            "state": "dead",
+            "train_ticks": 0,
+            "goal": [
+              12.031248092651367,
+              -10.770538330078125
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_002",
+            "hp": 180,
+            "team": "ally",
+            "x": -23.280099868774414,
+            "z": -15.789670944213867,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -23.203123092651367,
+              -15.767181396484375
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_003",
+            "hp": 0,
+            "team": "enemy",
+            "x": 13.574867248535156,
+            "z": 11.206415176391602,
+            "state": "dead",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_004",
+            "hp": 103,
+            "team": "enemy",
+            "x": 11.680000305175781,
+            "z": -10.0,
+            "state": "walk",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_005",
+            "hp": 125,
+            "team": "enemy",
+            "x": 11.680733680725098,
+            "z": -8.000260353088379,
+            "state": "walk",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "recall_input": "2026-10-04T03:52:22.841947+00:00",
+      "recall_frame": "battlefield-006-final-group-recall-one-live.png",
+      "command": {
+        "at": "2026-10-04T03:52:39.672203+00:00",
+        "client": 2,
+        "kind": "websocket_sent",
+        "data": {
+          "expected_revision": 1850,
+          "seq": 8,
+          "type": "command",
+          "payload": {
+            "action": "order",
+            "mode": "move",
+            "units": [
+              "unit_002"
+            ],
+            "x": -18.5625,
+            "z": -16.3223628997803
+          }
+        }
+      },
+      "result_message": {
+        "at": "2026-10-04T03:52:39.931134+00:00",
+        "client": 2,
+        "kind": "websocket_received",
+        "data": {
+          "ok": true,
+          "replayed": false,
+          "result": {
+            "ok": true,
+            "result": "order_accepted",
+            "revision": 1866
+          },
+          "revision": 1866,
+          "seq": 8,
+          "type": "result"
+        }
+      },
+      "after_order": {
+        "at": "2026-10-04T03:52:41.903016+00:00",
+        "client": 2,
+        "tick": 1894,
+        "revision": 1907,
+        "status": "playing",
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000004",
+          "General": "connection-000003"
+        },
+        "gold": 490,
+        "reserved_gold": 0,
+        "spent": 80,
+        "reservations": {},
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 0,
+            "team": "ally",
+            "x": 12.031246185302734,
+            "z": -10.767962455749512,
+            "state": "dead",
+            "train_ticks": 0,
+            "goal": [
+              12.031248092651367,
+              -10.770538330078125
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_002",
+            "hp": 180,
+            "team": "ally",
+            "x": -18.659439086914062,
+            "z": -16.311416625976562,
+            "state": "idle",
+            "train_ticks": 0,
+            "goal": [
+              -18.5625,
+              -16.322362899780273
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_003",
+            "hp": 0,
+            "team": "enemy",
+            "x": 13.574867248535156,
+            "z": 11.206415176391602,
+            "state": "dead",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_004",
+            "hp": 103,
+            "team": "enemy",
+            "x": 0.7200002670288086,
+            "z": -10.0,
+            "state": "walk",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          },
+          {
+            "id": "unit_005",
+            "hp": 125,
+            "team": "enemy",
+            "x": 0.7200002670288086,
+            "z": -8.0,
+            "state": "walk",
+            "train_ticks": 0,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "march_ticks": 0,
+            "shield_ticks": 0
+          }
+        ]
+      },
+      "accepted_order_frame": "battlefield-006-final-survivor-order-accepted.png",
+      "conclusion": "Ctrl1 savedunit001+unit002 while bothready/alive. Unit001 died in normal second-raid combat; unit002 remained180HP in top-left corner. Builderdisconnect froze trial. Actual1recall selectedone180/180battalion; Builderrejoined and actualmove sentonlyunit002 and wasaccepted. Surviving battalion visibly moved and arrived. Recall after entity removal is live-proven; retained death-animation click/drag remains automated-fixture evidence.",
+      "trial_generation": 3
+    }
+  ],
+  "counts": {
+    "passive_records": 11220,
+    "x11_events": 67,
+    "invalid_units_results": 0,
+    "page_error_console_error_request_failed_events": 0
+  },
+  "failed_attempts_and_limits": [
+    {
+      "case": "First initial training click occurred after5s training had completed",
+      "claim": "Not counted; an additional ordinary purchase produced the tightly captured known-training case."
+    },
+    {
+      "case": "First006death scenario saved group after recruitdeath, then allykeep died before stored member",
+      "claim": "Not a postdeathgroup pass; defeat was real and preserved."
+    },
+    {
+      "case": "Second006death scenario left spare atbarracks; it died before actualgrouprecall",
+      "claim": "Recall correctly selectednone and ability correctly rejected. No survivor pass claimed for that attempt."
+    },
+    {
+      "case": "Final006isolated room firstMarch suppression narrowly left initial4HP after firstraid",
+      "claim": "No casualty atthat moment. Same battalion moved to opposite secondraid and actually died; corner spare remainedalive."
+    },
+    {
+      "case": "Finalsetup script parse typo beforeanyOSinput",
+      "claim": "Fixed disposable input helper syntax; no game/source change."
+    },
+    {
+      "case": "Rendering/capture latency",
+      "claim": "No performance target claim; actualframe/cmdtimes distinguish intermediate/staleHUD from final verified state."
+    },
+    {
+      "case": "Human feedback, public hosting and WAN browser readiness",
+      "claim": "Not established by this AI-controlled local cloud loopback trial."
+    },
+    {
+      "case": "Autonomous trial after finished proof",
+      "claim": "After the successful03:52:41 frame/order, no further OSplay was performed. Room3laterreacheddefeat passively while evidence was prepared; that later end state is not an additional interactive outcome claim."
+    }
+  ],
+  "owned_trials": [
+    {
+      "authority_pid": 32281,
+      "helper_pid": 32314,
+      "scope": "Initial006co-op and known-training regression; laterfailedpostdeathsetup preserved."
+    },
+    {
+      "authority_pid": 34186,
+      "helper_pid": 34213,
+      "scope": "Second006saved-group setup; spare not isolated and died before recall; profiles archived intact."
+    },
+    {
+      "authority_pid": 35686,
+      "helper_pid": 35718,
+      "scope": "Final006 isolatedspare saved-group successful actualrecall/order; currentservicesremain running."
+    }
+  ],
+  "profile_archives": [
+    ".runtime/browser-clients/profile-history/profiles-cmhrbpgr",
+    ".runtime/browser-clients/profile-history/profiles-36j3yfsq",
+    ".runtime/browser-clients/profile-history/profiles-solrbzqp"
+  ],
+  "passive_logs": [
+    {
+      "path": "docs/evidence/006-agent-observations-client-1.jsonl.gz",
+      "records": 5491,
+      "sha256": "6b0c0e5fe93e0b23ee6091b0eca2d3474f430672850a48a50bc5ad2142bc8760",
+      "scope": "Passive browser WebSocket observations. Join/welcome/reconnect tokens and arbitrary console strings omitted."
+    },
+    {
+      "path": "docs/evidence/006-agent-observations-client-2.jsonl.gz",
+      "records": 5729,
+      "sha256": "e5e12baf02b6d66607f0b194b8138f7a815a81e1ca7ecbf3f0c3bc8e575c4c72",
+      "scope": "Passive browser WebSocket observations. Join/welcome/reconnect tokens and arbitrary console strings omitted."
+    }
+  ],
+  "input_trace": {
+    "path": "docs/evidence/006-agent-x11-events.jsonl",
+    "events": 67,
+    "sha256": "2cf19579eb6f082e094bfadba551a48f709ed58cdc25524485c2a16416565a25"
+  },
+  "media": [
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-death-group-recall.mp4",
+      "bytes": 2040266,
+      "sha256": "57fe05b88a2ca525772a2cbfd29ee8526b50c29b4032d547fb5beaf202d13b45",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-death-regression-setup.mp4",
+      "bytes": 1332027,
+      "sha256": "226b5d83450e1760cb9aa12db530ec3862d865d11e72a8b6a6af59a2a12b6192",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-exposed-member-march.png",
+      "bytes": 118253,
+      "sha256": "76f221f226efbba178065677bf9de021d100f664bc365878e49fabb0478dd8fe",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-casualty-paused-spare-alive.png",
+      "bytes": 123357,
+      "sha256": "69e865e7a63f28d5769597819bc90bc4c5c59ce5bf09cbb89e5822574359ed84",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-casualty-recall-order.mp4",
+      "bytes": 1132264,
+      "sha256": "65b74c074b4f1c06e73c235f9a17f5c3328d0dc32c011b7e31a0e27c261ed5a8",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-group-recall-one-live.png",
+      "bytes": 132664,
+      "sha256": "73912b741e478c78fba940c8f0edc4e8a88cdb3114c8263bc93967ef7c002f71",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-saved-group-death.mp4",
+      "bytes": 1559844,
+      "sha256": "c3422d60da3edc085e8eb7ef4ac52841037eeb4dacb353d20475d031723837a1",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-survivor-order-accepted.png",
+      "bytes": 122231,
+      "sha256": "cec7cddd425b2524de27f9bce817e0769cf6ca49c8877c47a04d905e2434149d",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-survivor-recall-proof.mp4",
+      "bytes": 1218456,
+      "sha256": "c433e68fdc59efdf1f9f75dc46abb0de00e45b47c599e6d9f83568039e46c012",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-two-member-group-saved.png",
+      "bytes": 120106,
+      "sha256": "846d79d99b9d6dc619e9fe05cb86f7021845e606128752271ab50c0deaab701b",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-first-raid-member-death.mp4",
+      "bytes": 1157988,
+      "sha256": "68a612f42a3db7e565a0843d12cb289137e41a93a1ce40f6dd3024b8542cea64",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-group-casualty-before-recall.png",
+      "bytes": 112906,
+      "sha256": "06b52911a248a4cfb8ac9cefed77712e3d274b6a78dd85601671c6f74bf003f4",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-group-member-death-and-recall.mp4",
+      "bytes": 1361283,
+      "sha256": "2d770bca13f6d95a86cf3dab7284913a6afb61fea2bd6d5316a5fb4f20728b49",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-holds-pause-rejoin.mp4",
+      "bytes": 1104775,
+      "sha256": "71438622360656d5f233f989f12aea84f713f4063a6c98629ad5bc284866fbeb",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-holds-paused.png",
+      "bytes": 126202,
+      "sha256": "dada835426cc8498d12e869a847ec5c67e6eae4d51f46d93fa966b684f8e97a2",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-initial-selections.png",
+      "bytes": 108404,
+      "sha256": "e3673403c8a72d0fbdb6f6dc7af567e81abf6f729bb08065f67202fdf1c63bcb",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-isolated-member-at-raid-path.png",
+      "bytes": 118151,
+      "sha256": "36317b8da9233ef7e94a85c15ae2336a1672e3c63cbc77f6c67ccc1729b71d98",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-known-training-click.png",
+      "bytes": 121587,
+      "sha256": "2dede6d78f2a11ceb5c620621b596e3126750a2a0d9ba237f90aa7dd01ca8449",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-known-training-drag.png",
+      "bytes": 112292,
+      "sha256": "7c8ecdfc868a527416ac56082927f5cdea31f64cb53d4a102d8f46b2ff5b7447",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-loaded.png",
+      "bytes": 48954,
+      "sha256": "e31b66d15bd58746c21e36771c339f642156c2e1797fd787916262deb7cf3911",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-one-group-member-exposed.png",
+      "bytes": 120949,
+      "sha256": "5ddc85553402fb2e37b97a03355ff6963ff2dddc276079e51603428844f3145c",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-ready-to-join.png",
+      "bytes": 90090,
+      "sha256": "4d54298c58a8667c4f0d691355f3a863a8737e40c4a03f2f17ebed15a6ad53a6",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-recalled-survivors.png",
+      "bytes": 121775,
+      "sha256": "919747c7c592055963a6fa2a492a4fcf96d179707dc2d654d4c1d037cc9b3fdb",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-rejoined-holds.png",
+      "bytes": 130754,
+      "sha256": "1679aba6c0b0b81de18caa5fb1b0ef9b5f6b68f353c9d3f9e09cd14afd0a8446",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-saved-group-after-casualty.mp4",
+      "bytes": 1357441,
+      "sha256": "aeabb686b4d8918ea34476544570f58b2a39a6d018b0b1862e62d45ea405edd9",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-saved-group-recalled-one-survivor.png",
+      "bytes": 108134,
+      "sha256": "a25b7f6e416767f019e1e529e7090c51b5cfea431907f61e58dd25e3d2875246",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-spare-isolated-in-corner.png",
+      "bytes": 118008,
+      "sha256": "b5a0bd1178af1e8404c1c2fbb84271d41996e502808d5e8422bf45f9c983db3f",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-survivor-order-ability-accepted.png",
+      "bytes": 108965,
+      "sha256": "3a8140a494a392b1efa209bd6fd13c53406b23d75ea4cf3f0c68554e8a84270c",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-trained-group-saved.png",
+      "bytes": 120788,
+      "sha256": "d147e6c9c8149ae26a16947618eba1d7af9a88bf95f625cddfb6cf91e6ed0d81",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-training-click.png",
+      "bytes": 116540,
+      "sha256": "29fc05d2c79766dc01317d4c19d8ec59e8f40bae94e428e25534cb4c9285338b",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-training-drag-filter.png",
+      "bytes": 118302,
+      "sha256": "cc39ecc1ddea3d9222670c2e1a2810b27a1dec807534156eae23514cc51ec417",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-training-fast-cycle.mp4",
+      "bytes": 555099,
+      "sha256": "98f04efb15b55d995c8dba44958246826bf351ef2838664892dfa3d6dbc0eefb",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-training-selection-regression.mp4",
+      "bytes": 751359,
+      "sha256": "73c8125c1407382b188b9eae92e0c1fa8ba4d2d2849847bdd03ba7d468151e55",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-two-ready-members-saved.png",
+      "bytes": 120012,
+      "sha256": "51667fc5cbfe7b3455e305f7dda45a073b073a5e8ef63ab5df8942addde971fa",
+      "scope": "Actual authenticated X11 screen capture; attempted-action filenames alone do not establish success."
+    }
+  ],
+  "next": "Root starts a fresh owned006 authority without claimed seats for user handoff; no full campaign approval claimed.",
+  "room_generation_windows": [
+    {
+      "trial_generation": 1,
+      "first_observed_at": "2026-10-04T03:42:47.367575+00:00",
+      "last_observed_at": "2026-10-04T03:46:16.543440+00:00",
+      "first_tick": 0,
+      "last_tick": 3398,
+      "first_status": "waiting",
+      "last_status": "defeat",
+      "scope": "Separate owned authority lifetime. Room name REACH-01 and revisions reset; do not compare or merge snapshot identities across these windows."
+    },
+    {
+      "trial_generation": 2,
+      "first_observed_at": "2026-10-04T03:47:01.018814+00:00",
+      "last_observed_at": "2026-10-04T03:49:44.787671+00:00",
+      "first_tick": 0,
+      "last_tick": 3235,
+      "first_status": "waiting",
+      "last_status": "playing",
+      "scope": "Separate owned authority lifetime. Room name REACH-01 and revisions reset; do not compare or merge snapshot identities across these windows."
+    },
+    {
+      "trial_generation": 3,
+      "first_observed_at": "2026-10-04T03:50:38.878910+00:00",
+      "last_observed_at": "2026-10-04T03:54:16.339651+00:00",
+      "first_tick": 0,
+      "last_tick": 3070,
+      "first_status": "waiting",
+      "last_status": "defeat",
+      "scope": "Separate owned authority lifetime. Room name REACH-01 and revisions reset; do not compare or merge snapshot identities across these windows."
+    }
+  ],
+  "shared_snapshot_comparison": "No cross-room equality assertion made. Time-bounded states and command/results are qualified per owned authority lifetime; role-snapshot convergence evidence is separate.",
+  "evidence_frozen_at": "2026-10-04T03:55:31.825680+00:00",
+  "teardown": {
+    "at": "2026-10-04T03:55:31.825662+00:00",
+    "method": "Guarded --stop-owned tools verified exact owned helper and authority lifetimes before SIGTERM",
+    "helper_pid": 35718,
+    "authority_pid": 35686,
+    "profiles_preserved": true,
+    "prior_evidence_preserved": true,
+    "ports_after_stop": {
+      "8775": false,
+      "9088": true,
+      "8765": true
+    },
+    "scope": "8775 released for root fresh006handoff; HTTP9088 and Gate0probe8765 retained."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "Historical005 real browser evidence index",
+  "build_id": "battlefield-005",
+  "engine": "4.6.3.stable.official.7d41c59c4",
+  "automated_counts": {
+    "simulation": 136,
+    "protocol_families": 9,
+    "native_recovery": 32,
+    "presentation": 63
+  },
+  "source_archive": "docs/evidence/archive/battlefield-005/source-snapshot",
+  "build_manifest": "docs/evidence/archive/battlefield-005/build-manifest.json",
+  "root_network_report": "docs/evidence/005-root-browser-network.json",
+  "root_input_trace": "docs/evidence/browser-input-trace-005-first-room.jsonl",
+  "focused_play_report": "docs/evidence/005-agent-interactive.json",
+  "portable_media_index": "docs/evidence/005-media-portable-index.json",
+  "privacy_and_integrity": "docs/evidence/005-final-audit.json",
+  "automated_fixture_qualification": "63 presentation assertions excluded laterselectioncases;006fixadds17cases. Server/presentation/headless checks distinctfromactualinput.",
+  "known_selection_bug": "Training/dead selection and stalegrouprecall can reject valid group orders; six failures preserved in client-selection-prefix-failure.json; fixed in006.",
+  "limits": [
+    "No human feedback/approval",
+    "No public candidate",
+    "Territory rules unresolved",
+    "Shield live damage protection and isolated Overcharge boost not proved in these samples"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "description": "Historical disposable Gate 0 proof; no battlefield approval implied. Original files copied unchanged.",
+  "files": {
+    "gate_0.md": {
+      "bytes": 11792,
+      "sha256": "1196c12a66dfd9626e05b25ac37a7eea3d6554bcbb1f6bd0792b8080c69f46ea",
+      "source": "/workspace/ironwood-cloud-harness/evidence/gate_0.md"
+    },
+    "review/gate_0_review.md": {
+      "bytes": 4718,
+      "sha256": "0e4da63caac8ad8c9771042f8e5d4ec89151a1579dc34f1ff6073a7bbf7c382b",
+      "source": "/workspace/ironwood-cloud-harness/evidence/review/gate_0_review.md"
+    },
+    "review/gate_0_checks.json": {
+      "bytes": 3236,
+      "sha256": "645cdb56bfd91c6d38666139fc054414bfde2f615c17e4332440568bfb2ddab9",
+      "source": "/workspace/ironwood-cloud-harness/evidence/review/gate_0_checks.json"
+    },
+    "review/source-snapshots.json": {
+      "bytes": 1290,
+      "sha256": "20e3b8ede5d63a91da9c5aa52f3c5253b6805e5f07db61f98b6f993ad51774dd",
+      "source": "/workspace/ironwood-cloud-harness/evidence/review/source-snapshots.json"
+    },
+    "review/probe-authority.log.snapshot": {
+      "bytes": 2299,
+      "sha256": "7f0425c4f6834a4fc3d821f5c1296336bab5e4c363de0b8e41add1e37f35c0be",
+      "source": "/workspace/ironwood-cloud-harness/evidence/review/probe-authority.log.snapshot"
+    },
+    "review/desktop-events.jsonl.snapshot": {
+      "bytes": 17421,
+      "sha256": "c04b37fa1e436413bea2331c4320d97c37b066046d03eb67284c86a0ce934867",
+      "source": "/workspace/ironwood-cloud-harness/evidence/review/desktop-events.jsonl.snapshot"
+    },
+    "review/browser-client-1.jsonl.snapshot": {
+      "bytes": 1376374,
+      "sha256": "9d70c4d0e73be23414db858e0d2d242aed2bec9c419923d698d87e876aa0c1f1",
+      "source": "/workspace/ironwood-cloud-harness/evidence/review/browser-client-1.jsonl.snapshot"
+    },
+    "review/browser-client-2.jsonl.snapshot": {
+      "bytes": 1323064,
+      "sha256": "1a0e26d23c6d5e48308e734a1a6e162ce243e13e2421dc91c4d6cf742cccb5d5",
+      "source": "/workspace/ironwood-cloud-harness/evidence/review/browser-client-2.jsonl.snapshot"
+    },
+    "editor-v2-scene-inspected.png": {
+      "bytes": 187915,
+      "sha256": "79233336834b0f257928222632db714c37f7f10bd9f457ed932702ac991fb1b9",
+      "source": "/workspace/ironwood-cloud-harness/evidence/editor-v2-scene-inspected.png"
+    },
+    "editor-v2-scene-inspected.png.json": {
+      "bytes": 1105,
+      "sha256": "a3fb4d98fe5edbb8d31644f5373deeeb3338f4b2e85601e4e87dd7ce755d1dca",
+      "source": "/workspace/ironwood-cloud-harness/evidence/editor-v2-scene-inspected.png.json"
+    },
+    "native-v1-input.mp4": {
+      "bytes": 384848,
+      "sha256": "3bf95a390b9abd33282d487532d74b91d1b5aa219916e5a8e484b275053de902",
+      "source": "/workspace/ironwood-cloud-harness/evidence/native-v1-input.mp4"
+    },
+    "native-v1-input.mp4.json": {
+      "bytes": 1261,
+      "sha256": "34393669e1bebdd88864fa1f9206674b62f4c0a5081fa908f4d3c5d452fb709d",
+      "source": "/workspace/ironwood-cloud-harness/evidence/native-v1-input.mp4.json"
+    },
+    "browser-v1-interactive.mp4": {
+      "bytes": 1078098,
+      "sha256": "8540cefb933330505a5966a3fd88514272f818f4e9e67ca4d227ab415dd53b39",
+      "source": "/workspace/ironwood-cloud-harness/evidence/browser-v1-interactive.mp4"
+    },
+    "browser-v1-interactive.mp4.json": {
+      "bytes": 1279,
+      "sha256": "4d53d5e29eda3bc5ededb3258332b445404c74c2c68a7b040b9229863113dd53",
+      "source": "/workspace/ironwood-cloud-harness/evidence/browser-v1-interactive.mp4.json"
+    },
+    "browser-v1-reconnect.mp4": {
+      "bytes": 961553,
+      "sha256": "9fa8096b3cdb614db6ca777df0f363ebd52cc892e9e20172e81e7f0533619a4e",
+      "source": "/workspace/ironwood-cloud-harness/evidence/browser-v1-reconnect.mp4"
+    },
+    "browser-v1-reconnect.mp4.json": {
+      "bytes": 1274,
+      "sha256": "32743c0e3e72d253e1f0975038c65aab42cfad088a5794c6d968438869882aff",
+      "source": "/workspace/ironwood-cloud-harness/evidence/browser-v1-reconnect.mp4.json"
+    },
+    "browser-v2-interactive.mp4": {
+      "bytes": 1584542,
+      "sha256": "e7863740ea0f5af852de9b2f953cbdbaff91ac7f438ce211cdba9f6317b2a1eb",
+      "source": "/workspace/ironwood-cloud-harness/evidence/browser-v2-interactive.mp4"
+    },
+    "browser-v2-interactive.mp4.json": {
+      "bytes": 1279,
+      "sha256": "3d2fee97a3d66ab2c86faa31103b2e2db6eade863b44d6b00ac123c83fc8f3ce",
+      "source": "/workspace/ironwood-cloud-harness/evidence/browser-v2-interactive.mp4.json"
+    },
+    "browser-v1-reconnect-checks.json": {
+      "bytes": 522,
+      "sha256": "7df21925b93d5e32c6f098808d084c54bb340d48622340d0901a498e96bbb178",
+      "source": "/workspace/ironwood-cloud-harness/evidence/browser-v1-reconnect-checks.json"
+    },
+    "browser-v2-reconnect-checks.json": {
+      "bytes": 1554,
+      "sha256": "6d507fabb735231b7a0b4e2accf5eec9116ceb156acb6048bd2bc6652e61e9c4",
+      "source": "/workspace/ironwood-cloud-harness/evidence/browser-v2-reconnect-checks.json"
+    },
+    "probe-v1-sha256.txt": {
+      "bytes": 705,
+      "sha256": "256c4834d58c903e29baf40ba265f4af48445ddff003564061879731b252a7c9",
+      "source": "/workspace/ironwood-cloud-harness/evidence/probe-v1-sha256.txt"
+    },
+    "probe-v2-sha256.txt": {
+      "bytes": 705,
+      "sha256": "20ac75ee6f244b74b69e7aaf1f34575ae204661debf765d2eb630bb52e5c42e7",
+      "source": "/workspace/ironwood-cloud-harness/evidence/probe-v2-sha256.txt"
+    },
+    "template-cache-verification.json": {
+      "bytes": 763,
+      "sha256": "5fcbe71dc89cbaf0652b143e0b7e2f216fe8f9314c06edecf176e5a750423414",
+      "source": "/workspace/ironwood-cloud-harness/evidence/template-cache-verification.json"
+    },
+    "fresh-restoration-baseline.json": {
+      "bytes": 3476,
+      "sha256": "193888a588f42cbd2e139c561126641a49873ad6f80e4a41eb33d179a348df33",
+      "source": "/workspace/ironwood-cloud-harness/evidence/fresh-restoration-baseline.json"
+    },
+    "restored-probe-input.mp4": {
+      "bytes": 718720,
+      "sha256": "59a82bf5ec9908805b9c341afd53a6fc6ab79577842c8302e7c42a9fe7cb2629",
+      "source": "/workspace/ironwood-cloud-harness/evidence/restored-probe-input.mp4"
+    },
+    "restored-probe-input.mp4.json": {
+      "bytes": 1272,
+      "sha256": "5e06a318755e25ce16a0896d6180c718c45f4b37eaaa31bd37e575b13e9a3168",
+      "source": "/workspace/ironwood-cloud-harness/evidence/restored-probe-input.mp4.json"
+    },
+    "restored-probe-disconnected.png": {
+      "bytes": 77157,
+      "sha256": "022572f4d24b5c8eb2e3116b422837ca727890f4e635e3098ed2bad5ddc748f7",
+      "source": "/workspace/ironwood-cloud-harness/evidence/restored-probe-disconnected.png"
+    },
+    "restored-probe-disconnected.png.json": {
+      "bytes": 1108,
+      "sha256": "9fffe5cc1e3dcbbd743e003d364cc1e550683484446c9ce7c9be6c1d7b144350",
+      "source": "/workspace/ironwood-cloud-harness/evidence/restored-probe-disconnected.png.json"
+    },
+    "restored-probe-reconnected.png": {
+      "bytes": 72843,
+      "sha256": "0901f7a79285679e615253aec0d30804d547cfa7e2c87ae1727191f7d214f0ce",
+      "source": "/workspace/ironwood-cloud-harness/evidence/restored-probe-reconnected.png"
+    },
+    "restored-probe-reconnected.png.json": {
+      "bytes": 1106,
+      "sha256": "b838fd4e65c6a6be3160e4843af3e7e388f1b9784bce157041d6482c3e618280",
+      "source": "/workspace/ironwood-cloud-harness/evidence/restored-probe-reconnected.png.json"
+    },
+    "web-templates-receipt.json": {
+      "bytes": 1618,
+      "sha256": "b835b888b08d9d87440a32afd61bc3a2a7d25285c6e28b9cc7aba54174544ccd",
+      "source": "/workspace/ironwood-cloud-harness/runtime/web-templates-receipt.json"
+    }
+  }
+}

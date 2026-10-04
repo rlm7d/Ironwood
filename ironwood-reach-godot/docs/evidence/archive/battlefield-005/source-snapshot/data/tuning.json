@@ -1,0 +1,31 @@
+{
+  "status": "Provisional battlefield trial values, not final balance",
+  "starting_gold": 340,
+  "trial_limit_ticks": 6000,
+  "first_raid_tick": 800,
+  "raid_interval_ticks": 1000,
+  "deposit_remaining": 450,
+  "worker_speed": 2.7,
+  "worker_capacity": 10,
+  "worker_gather_ticks": 40,
+  "worker_gather_amount": 5,
+  "buildings": {
+    "keep": {"cost": 0, "hp": 1250, "radius": 2.8, "build_ticks": 0},
+    "enemy_keep": {"cost": 0, "hp": 1100, "radius": 2.8, "build_ticks": 0},
+    "barracks": {"cost": 140, "hp": 460, "radius": 2.3, "build_ticks": 180},
+    "tower": {"cost": 110, "hp": 370, "radius": 1.4, "build_ticks": 140, "range": 10.0, "damage": 26, "attack_interval": 22},
+    "sawmill": {"cost": 100, "hp": 340, "radius": 2.75, "build_ticks": 160, "deposit_range": 15.0, "gather_bonus": 2, "gather_interval_multiplier": 0.75},
+    "outpost": {"cost": 130, "hp": 390, "radius": 1.7, "build_ticks": 170}
+  },
+  "units": {
+    "footmen": {"cost": 80, "hp": 180, "speed": 3.0, "range": 1.8, "damage": 22, "attack_interval": 20, "train_ticks": 100},
+    "archers": {"cost": 95, "hp": 125, "speed": 2.8, "range": 8.0, "damage": 18, "attack_interval": 22, "train_ticks": 120},
+    "raider": {"cost": 0, "hp": 125, "speed": 3.2, "range": 1.7, "damage": 16, "attack_interval": 22, "train_ticks": 0}
+  },
+  "abilities": {
+    "forced_march": {"duration_ticks": 160, "cooldown_ticks": 500, "speed_multiplier": 1.75},
+    "shield_wall": {"duration_ticks": 160, "cooldown_ticks": 600, "speed_multiplier": 0.4, "damage_multiplier": 0.45},
+    "mending": {"cooldown_ticks": 500, "heal": 100, "building_radius": 14.0, "unit_radius": 6.0},
+    "tower_overcharge": {"duration_ticks": 120, "shutdown_ticks": 100, "cooldown_ticks": 650, "damage_multiplier": 1.7, "interval_multiplier": 0.55}
+  }
+}

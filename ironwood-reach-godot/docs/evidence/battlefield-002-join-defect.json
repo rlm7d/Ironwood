@@ -1,0 +1,15 @@
+{
+  "kind": "agent_driven_real_browser_input_and_visual_inspection",
+  "build_id": "battlefield-002",
+  "at_utc": "2026-10-04T02:46:23Z",
+  "result": "FAIL: Socket node path mismatch and repeated nodes",
+  "observation": "Godot JSON parse converted socket IDs to floats. Node-name periods were sanitized; retrieving unsanitized Socket_0.0 failed after joining. Console errors retained in passive browser logs.",
+  "fix": "Canonical socket node names format int(socket.id) as Socket_%d.",
+  "state": "Two rolesjoinedwaiting, no purchase or battle executed in this failedcycle.",
+  "artifacts": [
+    "/workspace/ironwood-cloud-harness/evidence/battlefield-002-panel-fix-retest.png",
+    "/workspace/ironwood-cloud-harness/evidence/battlefield-002-join-lag.png",
+    "/workspace/ironwood-cloud-harness/evidence/battlefield-002-join-start.mp4"
+  ],
+  "next": "Re-exportandretest002jointhenactualinputbattle; JSONboundaryregressionaddedseparately"
+}

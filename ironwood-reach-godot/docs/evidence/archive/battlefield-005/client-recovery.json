@@ -1,0 +1,168 @@
+{
+  "kind": "automated_native_production_client_recovery",
+  "recorded_at_utc": "2026-10-04T03:22:08.137431+00:00",
+  "godot_version": "4.6.3.stable.official.7d41c59c4",
+  "build_id": "battlefield-005",
+  "protocol": 1,
+  "endpoint": "ws://127.0.0.1:8775",
+  "command": [
+    "/opt/godot/4.6.3/Godot_v4.6.3-stable_linux.x86_64",
+    "--headless",
+    "--path",
+    "/workspace/Ironwood/ironwood-reach-godot/game",
+    "--script",
+    "/workspace/Ironwood/ironwood-reach-godot/tests/client_recovery.gd"
+  ],
+  "execution_exit_code": 0,
+  "observed_wall_seconds": 0.5529205560001174,
+  "authority_pid": 25841,
+  "checks": [
+    {
+      "check": "production clients join fresh authority",
+      "status": "PASS"
+    },
+    {
+      "check": "fresh room has no commands or purchases",
+      "status": "PASS"
+    },
+    {
+      "check": "production clients use independent transports and bound roles",
+      "status": "PASS"
+    },
+    {
+      "check": "seats have distinct in-memory reconnect credentials; values are never logged",
+      "status": "PASS"
+    },
+    {
+      "check": "normal production ready commands start authoritative play",
+      "status": "PASS"
+    },
+    {
+      "check": "both ready commands receive successful production result signals",
+      "status": "PASS"
+    },
+    {
+      "check": "ready acknowledgments leave independent client sequences at one",
+      "status": "PASS"
+    },
+    {
+      "check": "disconnect before server accepts the pending purchase",
+      "status": "PASS"
+    },
+    {
+      "check": "real missing Builder transport pauses the authority while General stays joined",
+      "status": "PASS"
+    },
+    {
+      "check": "General observes a further snapshot while Builder is absent",
+      "status": "PASS"
+    },
+    {
+      "check": "authoritative ticks remain frozen across disconnected snapshots",
+      "status": "PASS"
+    },
+    {
+      "check": "welcome resends saved unaccepted command and clears its pending state",
+      "status": "PASS"
+    },
+    {
+      "check": "resend receives a newly applied purchase reservation",
+      "status": "PASS"
+    },
+    {
+      "check": "received resend acknowledgment advances local sequence beyond welcome's earlier server sequence",
+      "status": "PASS"
+    },
+    {
+      "check": "resend holds exactly one 110-gold reservation without spending",
+      "status": "PASS"
+    },
+    {
+      "check": "reconnection retains roles and original in-memory seat credentials",
+      "status": "PASS"
+    },
+    {
+      "check": "Builder readiness survives transport replacement",
+      "status": "PASS"
+    },
+    {
+      "check": "distinct confirmation after resend is accepted at the next command sequence",
+      "status": "PASS"
+    },
+    {
+      "check": "distinct confirmation succeeds instead of a command identity conflict",
+      "status": "PASS"
+    },
+    {
+      "check": "confirmation spends 110 once and creates one socket-zero tower site",
+      "status": "PASS"
+    },
+    {
+      "check": "disconnect after server accepted confirmation",
+      "status": "PASS"
+    },
+    {
+      "check": "real missing Builder transport pauses the authority while General stays joined",
+      "status": "PASS"
+    },
+    {
+      "check": "General observes a further snapshot while Builder is absent",
+      "status": "PASS"
+    },
+    {
+      "check": "authoritative ticks remain frozen across disconnected snapshots",
+      "status": "PASS"
+    },
+    {
+      "check": "welcome queries the status of an already accepted pending command",
+      "status": "PASS"
+    },
+    {
+      "check": "accepted pending restoration receives cached successful result",
+      "status": "PASS"
+    },
+    {
+      "check": "status recovery preserves the original authoritative outcome",
+      "status": "PASS"
+    },
+    {
+      "check": "accepted status recovery neither spends again nor creates another tower",
+      "status": "PASS"
+    },
+    {
+      "check": "cached result recovery preserves local sequence and seat identity",
+      "status": "PASS"
+    },
+    {
+      "check": "a distinct command after cached recovery uses the next sequence normally",
+      "status": "PASS"
+    },
+    {
+      "check": "post-recovery command identity continues without conflict",
+      "status": "PASS"
+    },
+    {
+      "check": "Builder recovery does not alter the independent General client",
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "browser_interaction": false,
+    "browser_local_storage_tested": false,
+    "checks": 32,
+    "failures": 0,
+    "human_feedback": false,
+    "kind": "automated_native_production_client_recovery",
+    "pending_fixture_injection": true,
+    "tokens_logged": false
+  },
+  "source_sha256": {
+    "game/main.gd": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b",
+    "game/scripts/client/net_client.gd": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5",
+    "tests/client_recovery.gd": "043cc3795e12f121fd9d7d471176f868fc5abdf6c225c5f68c4666dd8beb3be6",
+    "game/scripts/server/session_server.gd": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9",
+    "game/scripts/simulation/battle.gd": "a38e552dfb3336ebb190bce6a2ba1a7d3c15f19a74501aac4e9c46d20d456401",
+    "game/scripts/shared/rules.gd": "5d0d27d549d795c26fd55215e65aa758b2e8c70c48116e15bb6d916902b4d938",
+    "game/data/tuning.json": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be"
+  }
+}

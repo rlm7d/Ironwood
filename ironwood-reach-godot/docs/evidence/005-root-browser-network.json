@@ -1,0 +1,1073 @@
+{
+  "kind": "passive_browser_network_observations",
+  "build_id": "battlefield-005",
+  "protocol": 1,
+  "recorded_at_utc": "2026-10-04T03:32:55.514471+00:00",
+  "scope": {
+    "start_at_utc": "2026-10-04T03:23:33+00:00",
+    "end_at_utc": "2026-10-04T03:31:13.694019+00:00",
+    "room": "REACH-01",
+    "authority_pid_reported_by_root": 26176,
+    "authority_identity_basis": "Root reported start PID; only one fresh welcome per role, subsequent resumes and monotonically increasing revisions bound the original room. This observer did not restart or interact with services.",
+    "browser_input_source": "Root performed actual OS XTEST input separately; this report only analyzes passive existing event logs.",
+    "older004_records_excluded": true
+  },
+  "sources": [
+    {
+      "path": ".runtime/logs/browser-client-1.jsonl",
+      "captured_bytes": 78993788,
+      "captured_sha256": "9359d1d7373572716fa2ba1562f1aedf6b014df8bb78ce3b8cad7565be5e1966",
+      "total_lines": 26160,
+      "invalid_lines": 0,
+      "excluded_before_scope": 21844,
+      "excluded_after_scope": 288,
+      "scoped_records": 4028,
+      "first_scoped_at": "2026-10-04T03:23:35.281907+00:00",
+      "last_scoped_at": "2026-10-04T03:31:13.688987+00:00"
+    },
+    {
+      "path": ".runtime/logs/browser-client-2.jsonl",
+      "captured_bytes": 80075305,
+      "captured_sha256": "a6d54b65d323c41ce3cb7bdb4b8169759738a77499749ba3d9ac9f1a9c148469",
+      "total_lines": 24893,
+      "invalid_lines": 0,
+      "excluded_before_scope": 21223,
+      "excluded_after_scope": 301,
+      "scoped_records": 3369,
+      "first_scoped_at": "2026-10-04T03:23:37.352907+00:00",
+      "last_scoped_at": "2026-10-04T03:31:13.694019+00:00"
+    }
+  ],
+  "raw_counts": [
+    {
+      "client": 1,
+      "role": "Builder",
+      "record_kinds": {
+        "sandbox": 1,
+        "console": 3,
+        "websocket_open": 2,
+        "websocket_sent": 10,
+        "websocket_received": 4011,
+        "websocket_closed": 1
+      },
+      "console_types": {
+        "log": 3
+      },
+      "console_error_indicator_count": 0,
+      "console_error_text_sha256_counts": {},
+      "websocket_received_types": {
+        "welcome": 2,
+        "snapshot": 4001,
+        "result": 8
+      },
+      "websocket_sent_types": {
+        "join": 2,
+        "command": 7,
+        "command_status": 1
+      }
+    },
+    {
+      "client": 2,
+      "role": "General",
+      "record_kinds": {
+        "sandbox": 1,
+        "console": 6,
+        "websocket_open": 2,
+        "websocket_sent": 11,
+        "websocket_received": 3348,
+        "websocket_closed": 1
+      },
+      "console_types": {
+        "log": 6
+      },
+      "console_error_indicator_count": 0,
+      "console_error_text_sha256_counts": {},
+      "websocket_received_types": {
+        "welcome": 2,
+        "snapshot": 3337,
+        "result": 9
+      },
+      "websocket_sent_types": {
+        "join": 2,
+        "command": 9
+      }
+    }
+  ],
+  "synchronization": {
+    "common_snapshot_revisions": 2819,
+    "first_common_revision": 2,
+    "last_common_revision": 5837,
+    "full_snapshot_mismatches_at_common_revision": 0,
+    "mismatch_revision_samples": [],
+    "receive_observation_skew_ms": {
+      "count": 2819,
+      "min": 0.299,
+      "median": 51.116,
+      "p95_nearest_rank": 260.229,
+      "max": 1014.073
+    },
+    "skew_method": "Absolute host callback timestamp difference at each common revision, using last observed occurrence. Includes callback scheduling and logging delay; not RTT or a browser performance target."
+  },
+  "shared_reservations": {
+    "both_role_hold_snapshot_count": 1694,
+    "builder_cost": 110,
+    "general_cost": 80,
+    "combined_reserved": 190,
+    "one_reservation_per_role": true,
+    "first_observed_at": "2026-10-04T03:24:11.712168+00:00",
+    "last_observed_at": "2026-10-04T03:26:26.393775+00:00"
+  },
+  "general_disconnect_reconnect": {
+    "closed_at": "2026-10-04T03:24:35.406975+00:00",
+    "paused_snapshot_count": 908,
+    "first_pause_observed_at": "2026-10-04T03:24:35.633284+00:00",
+    "last_pause_observed_at": "2026-10-04T03:26:09.196379+00:00",
+    "unique_full_paused_snapshots": 1,
+    "full_paused_snapshot_sha256": "323b01844dea169e3eba6270d89c4e8562a8b296411264f25421e65008e28558",
+    "tick": 769,
+    "revision": 776,
+    "frozen_observed_span_seconds": 93.563095,
+    "frozen_state_scope": "All serialized snapshot fields, including workers, units, structures, cooldowns, economy and reservations, equal across these observations. No snapshots were received by the disconnected General during the gap.",
+    "resume_welcome": {
+      "connection_id": "connection-000004",
+      "resumed": true,
+      "sequence": 2,
+      "role": "General"
+    },
+    "resume_welcome_at": "2026-10-04T03:26:09.294493+00:00",
+    "first_general_snapshot_after_resume_at": "2026-10-04T03:26:09.453952+00:00",
+    "first_general_resumed_tick": 769,
+    "simulation_state_equal_at_resume": true,
+    "changed_lifecycle_fields_at_resume": [
+      "connected",
+      "connections",
+      "revision",
+      "status"
+    ]
+  },
+  "builder_paid_command_recovery": {
+    "confirm_request_at": "2026-10-04T03:27:01.824044+00:00",
+    "confirm_seq": 5,
+    "original_result_at": "2026-10-04T03:27:02.299773+00:00",
+    "original_result_revision": 1835,
+    "closed_at": "2026-10-04T03:27:02.448627+00:00",
+    "original_result_frame_observed_before_close": true,
+    "original_result_to_close_ms": 148.85399999999998,
+    "resume_welcome": {
+      "connection_id": "connection-000005",
+      "resumed": true,
+      "sequence": 5,
+      "role": "Builder"
+    },
+    "resume_welcome_at": "2026-10-04T03:27:27.605022+00:00",
+    "status_query_at": "2026-10-04T03:27:27.747455+00:00",
+    "status_query_seq": 5,
+    "replayed_result_at": "2026-10-04T03:27:27.894339+00:00",
+    "replayed_result_revision": 1835,
+    "replayed_outcome_matches_original": true,
+    "paid_command_resend_observed": false,
+    "next_distinct_command": {
+      "at": "2026-10-04T03:28:26.640199+00:00",
+      "seq": 6,
+      "action": "ability"
+    },
+    "interpretation": "The actual browser resumed with a pending identity, queried cached status and continued with the next sequence. The original ack frame reached the browser observer before close, so this is not proof that the frame was lost in transport or proof of when Godot processed that ack."
+  },
+  "paid_purchase_accounting": {
+    "confirm_requests": [
+      {
+        "client": 2,
+        "at": "2026-10-04T03:26:26.449723+00:00",
+        "seq": 3
+      },
+      {
+        "client": 1,
+        "at": "2026-10-04T03:27:01.824044+00:00",
+        "seq": 5
+      }
+    ],
+    "purchase_confirmed_results": [
+      {
+        "client": 2,
+        "at": "2026-10-04T03:26:26.607554+00:00",
+        "seq": 3,
+        "replayed": false,
+        "revision": 1125
+      },
+      {
+        "client": 1,
+        "at": "2026-10-04T03:27:02.299773+00:00",
+        "seq": 5,
+        "replayed": false,
+        "revision": 1835
+      },
+      {
+        "client": 1,
+        "at": "2026-10-04T03:27:27.894339+00:00",
+        "seq": 5,
+        "replayed": true,
+        "revision": 1835
+      }
+    ],
+    "observed_spent_values": [
+      0,
+      80,
+      190
+    ],
+    "max_spent": 190,
+    "max_ally_tower_count": 1,
+    "extra_confirm_requests_observed": false,
+    "extra_spending_observed": false,
+    "qualification": "Cumulative spent counter corroborates one80-gold battalion and one110-gold tower purchase in this bounded original room. Gold can rise through gathering, so cumulative spent, entity identity and command identities were checked."
+  },
+  "round_trip_observations": {
+    "requests": [
+      {
+        "client": 1,
+        "request_type": "command",
+        "seq": 1,
+        "request_at": "2026-10-04T03:23:56.544159+00:00",
+        "result_at": "2026-10-04T03:23:56.792893+00:00",
+        "observed_round_trip_ms": 248.734,
+        "replayed": false
+      },
+      {
+        "client": 1,
+        "request_type": "command",
+        "seq": 2,
+        "request_at": "2026-10-04T03:24:11.656076+00:00",
+        "result_at": "2026-10-04T03:24:11.711888+00:00",
+        "observed_round_trip_ms": 55.812,
+        "replayed": false
+      },
+      {
+        "client": 1,
+        "request_type": "command",
+        "seq": 3,
+        "request_at": "2026-10-04T03:26:26.089484+00:00",
+        "result_at": "2026-10-04T03:26:26.401199+00:00",
+        "observed_round_trip_ms": 311.71500000000003,
+        "replayed": false
+      },
+      {
+        "client": 1,
+        "request_type": "command",
+        "seq": 4,
+        "request_at": "2026-10-04T03:26:26.710129+00:00",
+        "result_at": "2026-10-04T03:26:27.016000+00:00",
+        "observed_round_trip_ms": 305.871,
+        "replayed": false
+      },
+      {
+        "client": 1,
+        "request_type": "command",
+        "seq": 5,
+        "request_at": "2026-10-04T03:27:01.824044+00:00",
+        "result_at": "2026-10-04T03:27:02.299773+00:00",
+        "observed_round_trip_ms": 475.729,
+        "replayed": false
+      },
+      {
+        "client": 1,
+        "request_type": "command",
+        "seq": 6,
+        "request_at": "2026-10-04T03:28:26.640199+00:00",
+        "result_at": "2026-10-04T03:28:26.650310+00:00",
+        "observed_round_trip_ms": 10.111,
+        "replayed": false
+      },
+      {
+        "client": 1,
+        "request_type": "command",
+        "seq": 7,
+        "request_at": "2026-10-04T03:29:08.978633+00:00",
+        "result_at": "2026-10-04T03:29:09.145600+00:00",
+        "observed_round_trip_ms": 166.967,
+        "replayed": false
+      },
+      {
+        "client": 1,
+        "request_type": "command_status",
+        "seq": 5,
+        "request_at": "2026-10-04T03:27:27.747455+00:00",
+        "result_at": "2026-10-04T03:27:27.894339+00:00",
+        "observed_round_trip_ms": 146.884,
+        "replayed": true
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 1,
+        "request_at": "2026-10-04T03:23:56.689336+00:00",
+        "result_at": "2026-10-04T03:23:56.971240+00:00",
+        "observed_round_trip_ms": 281.904,
+        "replayed": false
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 2,
+        "request_at": "2026-10-04T03:24:10.904123+00:00",
+        "result_at": "2026-10-04T03:24:11.293281+00:00",
+        "observed_round_trip_ms": 389.158,
+        "replayed": false
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 3,
+        "request_at": "2026-10-04T03:26:26.449723+00:00",
+        "result_at": "2026-10-04T03:26:26.607554+00:00",
+        "observed_round_trip_ms": 157.831,
+        "replayed": false
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 4,
+        "request_at": "2026-10-04T03:27:02.553160+00:00",
+        "result_at": "2026-10-04T03:27:02.705551+00:00",
+        "observed_round_trip_ms": 152.391,
+        "replayed": false
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 5,
+        "request_at": "2026-10-04T03:27:27.621671+00:00",
+        "result_at": "2026-10-04T03:27:27.765905+00:00",
+        "observed_round_trip_ms": 144.234,
+        "replayed": false
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 6,
+        "request_at": "2026-10-04T03:27:52.738732+00:00",
+        "result_at": "2026-10-04T03:27:53.069957+00:00",
+        "observed_round_trip_ms": 331.22499999999997,
+        "replayed": false
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 7,
+        "request_at": "2026-10-04T03:27:54.288840+00:00",
+        "result_at": "2026-10-04T03:27:54.572397+00:00",
+        "observed_round_trip_ms": 283.557,
+        "replayed": false
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 8,
+        "request_at": "2026-10-04T03:28:26.883048+00:00",
+        "result_at": "2026-10-04T03:28:27.487896+00:00",
+        "observed_round_trip_ms": 604.8480000000001,
+        "replayed": false
+      },
+      {
+        "client": 2,
+        "request_type": "command",
+        "seq": 9,
+        "request_at": "2026-10-04T03:29:09.287753+00:00",
+        "result_at": "2026-10-04T03:29:09.858648+00:00",
+        "observed_round_trip_ms": 570.8950000000001,
+        "replayed": false
+      }
+    ],
+    "observed_ms": {
+      "count": 17,
+      "min": 10.111,
+      "median": 281.904,
+      "p95_nearest_rank": 604.8480000000001,
+      "max": 604.8480000000001
+    },
+    "qualification": "Host callback timestamps, includes engine/browser polling and logging delays; not an internet benchmark."
+  },
+  "transport_events": [
+    {
+      "at": "2026-10-04T03:23:55.728134+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "build_id": "battlefield-005",
+        "protocol": 1,
+        "role": "Builder",
+        "room": "REACH-01",
+        "type": "join"
+      }
+    },
+    {
+      "at": "2026-10-04T03:23:55.728494+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "build_id": "battlefield-005",
+        "connection_id": "connection-000002",
+        "protocol": 1,
+        "resumed": false,
+        "role": "Builder",
+        "room": "REACH-01",
+        "sequence": 0,
+        "type": "welcome"
+      }
+    },
+    {
+      "at": "2026-10-04T03:23:55.943307+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "build_id": "battlefield-005",
+        "protocol": 1,
+        "role": "General",
+        "room": "REACH-01",
+        "type": "join"
+      }
+    },
+    {
+      "at": "2026-10-04T03:23:55.943595+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "build_id": "battlefield-005",
+        "connection_id": "connection-000003",
+        "protocol": 1,
+        "resumed": false,
+        "role": "General",
+        "room": "REACH-01",
+        "sequence": 0,
+        "type": "welcome"
+      }
+    },
+    {
+      "at": "2026-10-04T03:23:56.544159+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 1,
+        "payload": {
+          "action": "ready",
+          "value": true
+        },
+        "seq": 1,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:23:56.689336+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 2,
+        "payload": {
+          "action": "ready",
+          "value": true
+        },
+        "seq": 1,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:23:56.792893+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "readiness_updated",
+          "revision": 3
+        },
+        "revision": 3,
+        "seq": 1,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:23:56.971240+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "readiness_updated",
+          "revision": 4
+        },
+        "revision": 4,
+        "seq": 1,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:24:10.904123+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 283,
+        "payload": {
+          "action": "reserve",
+          "building": "ally_barracks",
+          "kind": "footmen"
+        },
+        "seq": 2,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:24:11.293281+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "purchase_reserved",
+          "revision": 289
+        },
+        "revision": 289,
+        "seq": 2,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:24:11.656076+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 272,
+        "payload": {
+          "action": "reserve",
+          "kind": "tower",
+          "socket": 1
+        },
+        "seq": 2,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:24:11.711888+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "purchase_reserved",
+          "revision": 305
+        },
+        "revision": 305,
+        "seq": 2,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:24:35.406975+00:00",
+      "client": 2,
+      "kind": "websocket_closed",
+      "data": {}
+    },
+    {
+      "at": "2026-10-04T03:26:09.293563+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "build_id": "battlefield-005",
+        "protocol": 1,
+        "role": "General",
+        "room": "REACH-01",
+        "type": "join"
+      }
+    },
+    {
+      "at": "2026-10-04T03:26:09.294493+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "build_id": "battlefield-005",
+        "connection_id": "connection-000004",
+        "protocol": 1,
+        "resumed": true,
+        "role": "General",
+        "room": "REACH-01",
+        "sequence": 2,
+        "type": "welcome"
+      }
+    },
+    {
+      "at": "2026-10-04T03:26:26.089484+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 1112,
+        "payload": {
+          "action": "cancel"
+        },
+        "seq": 3,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:26:26.401199+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "reservation_cancelled",
+          "revision": 1117
+        },
+        "revision": 1117,
+        "seq": 3,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:26:26.449723+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 1117,
+        "payload": {
+          "action": "confirm"
+        },
+        "seq": 3,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:26:26.607554+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "purchase_confirmed",
+          "revision": 1125
+        },
+        "revision": 1125,
+        "seq": 3,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:26:26.710129+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 1122,
+        "payload": {
+          "action": "reserve",
+          "kind": "tower",
+          "socket": 1
+        },
+        "seq": 4,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:26:27.016000+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "purchase_reserved",
+          "revision": 1131
+        },
+        "revision": 1131,
+        "seq": 4,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:01.824044+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 1827,
+        "payload": {
+          "action": "confirm"
+        },
+        "seq": 5,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:02.299773+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "purchase_confirmed",
+          "revision": 1835
+        },
+        "revision": 1835,
+        "seq": 5,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:02.448627+00:00",
+      "client": 1,
+      "kind": "websocket_closed",
+      "data": {}
+    },
+    {
+      "at": "2026-10-04T03:27:02.553160+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 1838,
+        "payload": {
+          "action": "ability",
+          "slot": 1,
+          "units": [
+            "unit_001"
+          ]
+        },
+        "seq": 4,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:02.705551+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": false,
+        "replayed": false,
+        "result": {
+          "ok": false,
+          "result": "battle_not_playing",
+          "revision": 1842
+        },
+        "revision": 1842,
+        "seq": 4,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:27.604357+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "build_id": "battlefield-005",
+        "protocol": 1,
+        "role": "Builder",
+        "room": "REACH-01",
+        "type": "join"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:27.605022+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "build_id": "battlefield-005",
+        "connection_id": "connection-000005",
+        "protocol": 1,
+        "resumed": true,
+        "role": "Builder",
+        "room": "REACH-01",
+        "sequence": 5,
+        "type": "welcome"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:27.621671+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 1842,
+        "payload": {
+          "action": "ability",
+          "slot": 1,
+          "units": [
+            "unit_001"
+          ]
+        },
+        "seq": 5,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:27.747455+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "seq": 5,
+        "type": "command_status"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:27.765905+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "ability_activated",
+          "revision": 1844
+        },
+        "revision": 1844,
+        "seq": 5,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:27.894339+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": true,
+        "result": {
+          "ok": true,
+          "result": "purchase_confirmed",
+          "revision": 1835
+        },
+        "revision": 1835,
+        "seq": 5,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:52.738732+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 2340,
+        "payload": {
+          "action": "order",
+          "mode": "move",
+          "units": [
+            "unit_001",
+            "unit_003"
+          ],
+          "x": 0.0,
+          "z": 4.99664306640625
+        },
+        "seq": 6,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:53.069957+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "order_accepted",
+          "revision": 2350
+        },
+        "revision": 2350,
+        "seq": 6,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:54.288840+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 2372,
+        "payload": {
+          "action": "order",
+          "mode": "stop",
+          "units": [
+            "unit_001",
+            "unit_003"
+          ],
+          "x": 0.0,
+          "z": 0.0
+        },
+        "seq": 7,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:27:54.572397+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "order_accepted",
+          "revision": 2379
+        },
+        "revision": 2379,
+        "seq": 7,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:28:26.640199+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 3015,
+        "payload": {
+          "action": "ability",
+          "building": "building_001",
+          "slot": 0
+        },
+        "seq": 6,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:28:26.650310+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "ability_activated",
+          "revision": 3026
+        },
+        "revision": 3026,
+        "seq": 6,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:28:26.883048+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 3019,
+        "payload": {
+          "action": "ability",
+          "slot": 1,
+          "units": [
+            "unit_001",
+            "unit_003"
+          ]
+        },
+        "seq": 8,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:28:27.487896+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": false,
+        "replayed": false,
+        "result": {
+          "ok": false,
+          "result": "invalid_units",
+          "revision": 3031
+        },
+        "revision": 3031,
+        "seq": 8,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:29:08.978633+00:00",
+      "client": 1,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 3866,
+        "payload": {
+          "action": "ability",
+          "building": "building_001",
+          "slot": 1
+        },
+        "seq": 7,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:29:09.145600+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "ability_activated",
+          "revision": 3875
+        },
+        "revision": 3875,
+        "seq": 7,
+        "type": "result"
+      }
+    },
+    {
+      "at": "2026-10-04T03:29:09.287753+00:00",
+      "client": 2,
+      "kind": "websocket_sent",
+      "data": {
+        "expected_revision": 3872,
+        "payload": {
+          "action": "ability",
+          "slot": 1,
+          "units": [
+            "unit_003"
+          ]
+        },
+        "seq": 9,
+        "type": "command"
+      }
+    },
+    {
+      "at": "2026-10-04T03:29:09.858648+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "ok": true,
+        "replayed": false,
+        "result": {
+          "ok": true,
+          "result": "ability_activated",
+          "revision": 3882
+        },
+        "revision": 3882,
+        "seq": 9,
+        "type": "result"
+      }
+    }
+  ],
+  "source_sha256": {
+    "game/main.gd": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b",
+    "game/scripts/client/net_client.gd": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5",
+    "game/scripts/server/session_server.gd": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9",
+    "game/scripts/simulation/battle.gd": "a38e552dfb3336ebb190bce6a2ba1a7d3c15f19a74501aac4e9c46d20d456401",
+    "game/scripts/shared/rules.gd": "5d0d27d549d795c26fd55215e65aa758b2e8c70c48116e15bb6d916902b4d938"
+  },
+  "limits": [
+    "Passive network evidence supplements separate real browser input and visual captures; it is not interactive playtesting by this observer.",
+    "No server resets, browser automation inputs, game hooks or live configuration changes were performed.",
+    "No actual human feedback, balance, fun, hardware performance target or public WSS readiness is established.",
+    "Only the original005 room through the fixed cutoff is included; later trials are outside this report.",
+    "No raw join messages, bearer reconnect tokens, browser cookies or console text are stored here."
+  ]
+}

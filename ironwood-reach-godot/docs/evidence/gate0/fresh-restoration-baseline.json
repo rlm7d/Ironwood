@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-10-04T02:19:16.456888+00:00",
+  "status": "fresh_environment_restoration_baseline_passed",
+  "initial_state": {
+    "harness_files_retained": true,
+    "prior_owned_pids_dead": [
+      2764,
+      12848,
+      12849
+    ],
+    "display_lock_or_socket_present": false,
+    "disposable_tmp_fixture_present": false,
+    "default_DISPLAY_set": false,
+    "default_XAUTHORITY_set": false
+  },
+  "executed_commands": [
+    "bash /workspace/ironwood-cloud-harness/tools/install.sh",
+    "python /workspace/ironwood-cloud-harness/tools/start_display.py",
+    "python /workspace/ironwood-cloud-harness/tools/start_probe_services.py --build-id v2"
+  ],
+  "dependencies": {
+    "godot": "4.6.3.stable.official.7d41c59c4",
+    "chromium": "151.0.7922.173",
+    "python_playwright": "1.62.0",
+    "runtime_libraries_loaded": [
+      "libX11.so.6",
+      "libXtst.so.6",
+      "libGL.so.1"
+    ],
+    "xorg_dummy_driver_present": true,
+    "xserver_xorg_core": "2:21.1.16-1.3+deb13u3",
+    "xserver_xorg_video_dummy": "1:0.4.0-1",
+    "ffmpeg": "7:7.1.5-0+deb13u1"
+  },
+  "templates": {
+    "count": 8,
+    "verified_receipt": "/workspace/ironwood-cloud-harness/runtime/web-templates-receipt.json",
+    "network_used": false
+  },
+  "install_validation": {
+    "checked_at": "2026-10-04T02:18:22.142776+00:00",
+    "status": "supplemental_install_validation_passed",
+    "fixture": "/tmp/ironwood-capability-probe",
+    "build_id": "v2",
+    "spin_rate": 2.0,
+    "validation_directory": "/workspace/ironwood-cloud-harness/runtime/install-validation/run-60m8FVTl",
+    "artifacts": {
+      "index.html": {
+        "bytes": 5320,
+        "sha256": "cbd67b377d21a4764b8e9c3ca882004193c52d3b0c463e5d1313b0b5fc3b635b"
+      },
+      "index.js": {
+        "bytes": 315759,
+        "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+      },
+      "index.pck": {
+        "bytes": 15636,
+        "sha256": "a084a2cac8564257686a5c44cf449f4e6dc8ca2a00abbfda32c90eb67e98753d"
+      },
+      "index.wasm": {
+        "bytes": 37700666,
+        "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+      }
+    },
+    "scope": "automated dependency/self-test/export baseline; interactive Gate 0 is separate",
+    "services_or_browsers_restarted": false,
+    "system_configuration_changed": false
+  },
+  "display": {
+    "pid": 1310,
+    "display": ":97",
+    "size": [
+      1364,
+      1024
+    ],
+    "authentication": "MIT-MAGIC-COOKIE-1",
+    "tcp_disabled": true
+  },
+  "services": {
+    "http_pid": 1359,
+    "authority_pid": 1360,
+    "loopback_http": "http://127.0.0.1:9080/probe-v2/index.html",
+    "authority_loopback_port": 8765,
+    "served_index_matches_retained_export": true,
+    "served_wasm_matches_retained_export": true,
+    "wasm_mime": "application/wasm",
+    "authority_tcp_reachable": true
+  },
+  "lifecycle": {
+    "stale_owned_metadata_archived": true,
+    "unknown_processes_stopped": false,
+    "unknown_locks_removed": false,
+    "system_or_security_configuration_changed": false,
+    "retained_played_builds_replaced": false
+  },
+  "fresh_export_note": "The recreated validation PCK hash differs from prior validation. Fresh resource UIDs are a possible explanation; deterministic byte reproduction is not established. The retained played build is served unchanged.",
+  "scope": "Restored dependency/display/service baseline only. Browser, real input, and multiplayer restoration proof is separate."
+}

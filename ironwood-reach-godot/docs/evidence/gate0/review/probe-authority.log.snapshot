@@ -1,0 +1,31 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+Disposable capability authority listening on loopback port 8765; build v1
+PROBE welcome connection=1 role=Builder tick=8512 actions=0 resume_seq=0
+PROBE welcome connection=2 role=General tick=8531 actions=0 resume_seq=0
+PROBE command connection=1 role=Builder tick=8546 seq=1 result=applied actions=1
+PROBE command connection=1 role=Builder tick=8564 seq=2 result=applied actions=2
+PROBE command connection=2 role=General tick=8583 seq=1 result=applied actions=3
+PROBE disconnect connection=3 role= tick=9609 actions=3
+PROBE command connection=1 role=Builder tick=9900 seq=2 result=replayed_applied actions=3
+PROBE disconnect connection=2 role=General tick=9922 actions=3
+PROBE command connection=1 role=Builder tick=9985 seq=3 result=paused actions=3
+PROBE welcome connection=4 role=General tick=10040 actions=3 resume_seq=1
+PROBE command connection=4 role=General tick=10061 seq=1 result=replayed_applied actions=3
+PROBE command connection=4 role=General tick=10085 seq=2 result=applied actions=4
+PROBE command connection=1 role=Builder tick=10106 seq=4 result=applied actions=5
+PROBE disconnect connection=5 role= tick=10532 actions=5
+PROBE disconnect connection=1 role=Builder tick=12021 actions=5
+PROBE disconnect connection=4 role=General tick=12034 actions=5
+PROBE welcome connection=6 role=Builder tick=13773 actions=5 resume_seq=4
+PROBE welcome connection=7 role=General tick=13791 actions=5 resume_seq=2
+PROBE command connection=6 role=Builder tick=13808 seq=5 result=applied actions=6
+PROBE command connection=6 role=Builder tick=13826 seq=6 result=applied actions=7
+PROBE command connection=7 role=General tick=13844 seq=3 result=applied actions=8
+PROBE command connection=6 role=Builder tick=13865 seq=6 result=replayed_applied actions=8
+PROBE disconnect connection=7 role=General tick=17722 actions=8
+PROBE command connection=6 role=Builder tick=17724 seq=7 result=paused actions=8
+PROBE welcome connection=8 role=General tick=17883 actions=8 resume_seq=3
+PROBE command connection=8 role=General tick=17884 seq=3 result=replayed_applied actions=8
+PROBE command connection=8 role=General tick=17886 seq=4 result=applied actions=9
+PROBE command connection=6 role=Builder tick=17889 seq=8 result=applied actions=10

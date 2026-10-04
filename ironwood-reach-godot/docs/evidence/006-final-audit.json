@@ -1,0 +1,372 @@
+{
+  "kind": "independent_frozen_candidate_integrity_and_text_privacy_audit",
+  "build_id": "battlefield-006",
+  "recorded_at_utc": "2026-10-04T04:03:57.459Z",
+  "status": "PASS_WITHIN_RECORDED_SCOPE",
+  "integrity": {
+    "recorded_at_utc": "2026-10-04T03:52:52.098751+00:00",
+    "current_sources_equal_build_manifest": true,
+    "source_file_count": 24,
+    "marker_equals_manifest": true,
+    "manifest_sha256": "def25cd37e25059de71e9266eece74bbf83920e469fe490b82043544dc15171a",
+    "artifacts": [
+      {
+        "name": "index.apple-touch-icon.png",
+        "bytes": 10618,
+        "sha256": "b322e5e84b35a63e4123ff4ec709cace24592b82daab8da0bc88e9ddf2ebb6a1"
+      },
+      {
+        "name": "index.audio.position.worklet.js",
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      {
+        "name": "index.audio.worklet.js",
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      {
+        "name": "index.html",
+        "bytes": 5710,
+        "sha256": "bf538134809dca0685fa138bc2598aa1c4fdbd668250ec2587cb08bdf904b633"
+      },
+      {
+        "name": "index.icon.png",
+        "bytes": 4569,
+        "sha256": "ca763509b89a0494e451611f7a4db0408645127d807048478a97ca68be5bdf96"
+      },
+      {
+        "name": "index.js",
+        "bytes": 315759,
+        "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+      },
+      {
+        "name": "index.pck",
+        "bytes": 99796,
+        "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192"
+      },
+      {
+        "name": "index.png",
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      {
+        "name": "index.wasm",
+        "bytes": 37700666,
+        "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+      }
+    ],
+    "wasm_v1_header": true,
+    "pck_header": true,
+    "Compatibility_and_nonthreaded_settings": true,
+    "reports": [
+      {
+        "path": "docs/evidence/simulation.json",
+        "sha256": "a6b163466fd899b79f3920ffa46e53f99dff11c4fdc0fd1edfdbd2bd3f86b19f",
+        "build_id": "battlefield-006",
+        "checks": 136,
+        "source_hashes_verified": 27,
+        "all24_game_sources_matched": true,
+        "count_type": "assertions",
+        "scope": "Automated deterministic simulation assertions only"
+      },
+      {
+        "path": "docs/evidence/protocol-smoke.json",
+        "sha256": "379e357bb8460c38b99b58f9817a33691cfd4097b9ff8b67eaea91307987d923",
+        "build_id": "battlefield-006",
+        "checks": 9,
+        "source_hashes_verified": 29,
+        "all24_game_sources_matched": true,
+        "count_type": "scenario families",
+        "scope": "automated_protocol_integration"
+      },
+      {
+        "path": "docs/evidence/client-recovery.json",
+        "sha256": "74a86bdfb7ec3aed2bf3fbcfe95fa5441c89ffa27890ad67054faeb95656824d",
+        "build_id": "battlefield-006",
+        "checks": 32,
+        "source_hashes_verified": 29,
+        "all24_game_sources_matched": true,
+        "count_type": "assertions",
+        "scope": "automated_native_production_client_recovery"
+      },
+      {
+        "path": "docs/evidence/client-snapshot.json",
+        "sha256": "494ad1ad02dac66f85454c22db12a0408f63a5542b535ff910536c58c6471cb0",
+        "build_id": "battlefield-006",
+        "checks": 80,
+        "source_hashes_verified": 26,
+        "all24_game_sources_matched": true,
+        "count_type": "assertions",
+        "scope": "automated_production_client_snapshot_boundary"
+      },
+      {
+        "path": "docs/evidence/ability-effects.json",
+        "sha256": "3ccd3055de039b9c3463b732ed42e97ba147ff5b2b2539417e419dcb7da459e7",
+        "build_id": "battlefield-006",
+        "checks": 16,
+        "source_hashes_verified": 27,
+        "all24_game_sources_matched": true,
+        "count_type": "assertions",
+        "scope": "Local headless deterministic production-combat supplement; not browser interaction, multiplayer, human feedback, balance, or performance proof"
+      }
+    ],
+    "qualification": "All five reports correspond to the current24-game-source export. Ability-effects test added later under tests is independently hashed; it does not invalidate earlier protocol/native checks of unchanged game and relevant test/tool inputs. Counts are separate families/assertions and are not a blanket browser approval."
+  },
+  "privacy": {
+    "recorded_at_utc": "2026-10-04T04:03:21.419625+00:00",
+    "scope": [
+      "game source excluding.godot",
+      "docs including decompressed JSONL gzip logs",
+      "tools",
+      "deploy",
+      "tests",
+      "root regular text/config files"
+    ],
+    "text_files_scanned": 238,
+    "binary_media_files_not_content_scanned": 96,
+    "text_inventory_sha256": "a2a512b982d6d3421bfb9f59bb4117609bb84e46599b0abf435150bbb36b4c7f",
+    "statistics": {
+      "json_values": 10052983,
+      "json_documents": 140,
+      "classified_sha256_leaves": 868,
+      "jsonl_records": 38162
+    },
+    "credential_fields_present": {},
+    "harmless_name_reference_counts": {
+      "token_word_occurrences": 91,
+      "profile_or_cookie_word_occurrences": 94
+    },
+    "finding_count": 0,
+    "findings": [],
+    "qualifications": [
+      "Protocol token variables, empty join fields and redaction code are not credential disclosures; profile path references are not profile artifacts.",
+      "Digest leaves under SHA/hash keys are integrity metadata.",
+      "Private.runtime/profiles, engine/cache and unrelated public prototype excluded.",
+      "Binary media content and final ZIP contents are outside this text scan."
+    ]
+  },
+  "official_engine_notices": {
+    "recorded_at_utc": "2026-10-04T03:52:27.729676+00:00",
+    "component": "Godot4.6.3stable Webengine",
+    "pin": "4.6.3.stable.official.7d41c59c4",
+    "purpose": "Official engine license and third-party notices for bundled Web runtime; no project-source license selected",
+    "provenance_sha256": "627aab2fec7ab5e7551a80a61219a815dedbcb169bb138125fd7019b72e295f1",
+    "records": [
+      {
+        "path": "docs/third-party/Godot-LICENSE.txt",
+        "source": "https://raw.githubusercontent.com/godotengine/godot/4.6.3-stable/LICENSE.txt",
+        "bytes": 1149,
+        "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
+        "independently_observed_http_status": 200,
+        "remote_bytes_match_local_notice": true
+      },
+      {
+        "path": "docs/third-party/Godot-COPYRIGHT.txt",
+        "source": "https://raw.githubusercontent.com/godotengine/godot/4.6.3-stable/COPYRIGHT.txt",
+        "bytes": 99790,
+        "sha256": "b3330849267d56ddd3d62a513817506606c2195034411fe05859f0140bff9d8a",
+        "independently_observed_http_status": 200,
+        "remote_bytes_match_local_notice": true
+      },
+      {
+        "path": "docs/third-party/Godot-AUTHORS.md",
+        "source": "https://raw.githubusercontent.com/godotengine/godot/4.6.3-stable/AUTHORS.md",
+        "bytes": 10696,
+        "sha256": "2eb271244aea70a5818c6c004892a74eecc129aed84e97656d5563be3769f560",
+        "independently_observed_http_status": 200,
+        "remote_bytes_match_local_notice": true
+      }
+    ],
+    "exact_tag_url_and_pinned_version_match": true,
+    "scope": "Independent read-only retrieval of official Godot4.6.3stable notice files; verifies provenance and bytes, not a project-source license decision."
+  },
+  "preserved004_failure": {
+    "path": "docs/evidence/archive/battlefield-004/client-snapshot-tooltip-type-failure.json",
+    "sha256": "5a1472e23ce4513a58d829e70d47cb4c1d82a510579f5b662636d5cb5a248263",
+    "build_id": "battlefield-004",
+    "status": "FAIL",
+    "exit_code": 1,
+    "checks": 63,
+    "failed_checks": 22,
+    "passed_checks": 41,
+    "godot_error_lines": 18,
+    "archived004_sources_equal004_manifest": true,
+    "archived004_manifest_hash_matches": true,
+    "historical_failure_preserved": true,
+    "qualification": "004 failed this presentation retest. Current005 reports pass their individual bounded checks; this does not convert004 into a passing trial."
+  },
+  "scope": "Frozen006 game/export, five independently scoped automated reports, frozen actual-input and passive synchronization evidence, final documentation and portable metadata. No new gameplay input or tests were performed.",
+  "media_scope": "Root verified all34 current006 and23 historical-agent005 media copies against portable indexes and viewed key current actual frames. This audit scans metadata/text and verifies frozen input hashes; binary image/video contents were not scanned for secrets.",
+  "limits": [
+    "Private.runtime/profiles, engine/cache and unrelated public prototype are excluded from the text privacy scan.",
+    "No input, service start/stop/reset, source edit or security/network configuration change occurred.",
+    "Assertions, protocol families, native fixtures, passive network comparisons and actual browser play retain separate evidence scopes.",
+    "No human approval, fun/balance, target hardware performance, remote/public HTTPS-WSS compatibility or public deployment claim is established.",
+    "Final ZIP CRC/hash/contents verification belongs to the subsequent packaging step."
+  ],
+  "frozen_input_sha256_inventory": [
+    {
+      "path": "README.md",
+      "bytes": 14111,
+      "sha256": "9dc42c693f7d6522bdaad85b665f3d7f127262a6718962fc0b0b45df60d730d9"
+    },
+    {
+      "path": "builds/battlefield-006/.ironwood-build.json",
+      "bytes": 5299,
+      "sha256": "def25cd37e25059de71e9266eece74bbf83920e469fe490b82043544dc15171a"
+    },
+    {
+      "path": "builds/battlefield-006/build-manifest.json",
+      "bytes": 5299,
+      "sha256": "def25cd37e25059de71e9266eece74bbf83920e469fe490b82043544dc15171a"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "bytes": 10772,
+      "sha256": "85a57fd484255bc5c5bbd13011530f286dea43801b6200b3374b6fd24ba651ef"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "bytes": 7424,
+      "sha256": "db79b812472d6508e1a6ce21c4327774c369c031be9444a83a70ecc95b45fcca"
+    },
+    {
+      "path": "docs/GATE_0.md",
+      "bytes": 2400,
+      "sha256": "c568ea5da83b6171de6500bf4960f7fde8a3cce248ff5875f5bca9db258a6e18"
+    },
+    {
+      "path": "docs/OPEN_ISSUES.md",
+      "bytes": 8597,
+      "sha256": "376f49a176f3bc63c88f9f734943efc8240464c13165b4cd515fb43d6459934c"
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "bytes": 8374,
+      "sha256": "58128e3e78c5ca464bd915ac98a392b353f1bbbd7ba1860dea17934a61e81e34"
+    },
+    {
+      "path": "docs/REQUIREMENTS.md",
+      "bytes": 29173,
+      "sha256": "60fd1bbe47d9649a3f97af7d9223e1eceaa633eb9c21709503d33da102a3f628"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 13453,
+      "sha256": "4b6742dc8c96316ff3468efdac3c453917c9e832f888451c05aa193ad83d1ec0"
+    },
+    {
+      "path": "docs/evidence/005-media-portable-index.json",
+      "bytes": 9820,
+      "sha256": "065007f89cf00d44f4e0741012e30e8a48b69605cb47ec61938b451f6add121d"
+    },
+    {
+      "path": "docs/evidence/006-agent-interactive.json",
+      "bytes": 44989,
+      "sha256": "9054b18668d2026f4ecee23c64560b9fc0c7d5c082de696a59e9ef66c4b24a41"
+    },
+    {
+      "path": "docs/evidence/006-agent-observations-client-1.jsonl.gz",
+      "bytes": 372806,
+      "sha256": "6b0c0e5fe93e0b23ee6091b0eca2d3474f430672850a48a50bc5ad2142bc8760"
+    },
+    {
+      "path": "docs/evidence/006-agent-observations-client-2.jsonl.gz",
+      "bytes": 382302,
+      "sha256": "e5e12baf02b6d66607f0b194b8138f7a815a81e1ca7ecbf3f0c3bc8e575c4c72"
+    },
+    {
+      "path": "docs/evidence/006-agent-x11-events.jsonl",
+      "bytes": 26028,
+      "sha256": "2cf19579eb6f082e094bfadba551a48f709ed58cdc25524485c2a16416565a25"
+    },
+    {
+      "path": "docs/evidence/006-handoff.json",
+      "bytes": 809,
+      "sha256": "b01166f09151d75f7315315c8e4dbfa98945dc1b9413f789ec15093fd9651b8c"
+    },
+    {
+      "path": "docs/evidence/006-media-portable-index.json",
+      "bytes": 13892,
+      "sha256": "d5a5b0602764842fe400996e3b9cd2ad1f667f58893223aca4a5f1b68eac0534"
+    },
+    {
+      "path": "docs/evidence/006-synchronization.json",
+      "bytes": 9054,
+      "sha256": "2b9cdfc4aca3316a789630b60f314d750e78d9de99de44996e7ad566c77e1e00"
+    },
+    {
+      "path": "docs/evidence/ability-effects.json",
+      "bytes": 26393,
+      "sha256": "3ccd3055de039b9c3463b732ed42e97ba147ff5b2b2539417e419dcb7da459e7"
+    },
+    {
+      "path": "docs/evidence/browser-play.json",
+      "bytes": 10271,
+      "sha256": "60db49535b24d9d30f85da6d79b772ddf6a6db232d79d707483119a717928b18"
+    },
+    {
+      "path": "docs/evidence/client-recovery.json",
+      "bytes": 11860,
+      "sha256": "74a86bdfb7ec3aed2bf3fbcfe95fa5441c89ffa27890ad67054faeb95656824d"
+    },
+    {
+      "path": "docs/evidence/client-snapshot.json",
+      "bytes": 29719,
+      "sha256": "494ad1ad02dac66f85454c22db12a0408f63a5542b535ff910536c58c6471cb0"
+    },
+    {
+      "path": "docs/evidence/protocol-smoke.json",
+      "bytes": 6185,
+      "sha256": "379e357bb8460c38b99b58f9817a33691cfd4097b9ff8b67eaea91307987d923"
+    },
+    {
+      "path": "docs/evidence/simulation.json",
+      "bytes": 4712,
+      "sha256": "a6b163466fd899b79f3920ffa46e53f99dff11c4fdc0fd1edfdbd2bd3f86b19f"
+    },
+    {
+      "path": "docs/third-party/provenance.json",
+      "bytes": 1034,
+      "sha256": "627aab2fec7ab5e7551a80a61219a815dedbcb169bb138125fd7019b72e295f1"
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 7259,
+      "sha256": "0703220115e6423bacb70c80574ba6659821b8e7efa9d21178311fffee9a7d1b"
+    }
+  ],
+  "final_frozen_equality_rechecked_at_utc": "2026-10-04T04:03:57.755935+00:00",
+  "current_synchronization": {
+    "separate_authorities": 3,
+    "exact_pairs_by_authority": [
+      1649,
+      1567,
+      1491
+    ],
+    "total_exact_pairs": 4707,
+    "mismatches": 0,
+    "cross_room_pairing": false,
+    "record_path": "docs/evidence/006-synchronization.json"
+  },
+  "portable_media_indexes": [
+    {
+      "path": "docs/evidence/006-media-portable-index.json",
+      "sha256": "d5a5b0602764842fe400996e3b9cd2ad1f667f58893223aca4a5f1b68eac0534",
+      "indexed_files": 34
+    },
+    {
+      "path": "docs/evidence/005-media-portable-index.json",
+      "sha256": "065007f89cf00d44f4e0741012e30e8a48b69605cb47ec61938b451f6add121d",
+      "indexed_files": 23
+    }
+  ],
+  "fresh_handoff_record": {
+    "path": "docs/evidence/006-handoff.json",
+    "authority_pid": 37788,
+    "helper_pid": 38287,
+    "services_preserved_by_auditor": true,
+    "qualification": "Record provenance checked; this auditor did not join or interact with the new handoff room."
+  }
+}

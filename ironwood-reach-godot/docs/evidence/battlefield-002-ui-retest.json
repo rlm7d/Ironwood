@@ -1,0 +1,13 @@
+{
+  "kind": "agent_driven_real_browser_visual_inspection",
+  "build_id": "battlefield-002",
+  "at_utc": "2026-10-04T02:43:35.705073+00:00",
+  "result": "FAIL: HUD panel startup size covered battlefield",
+  "fixed_since_001": [
+    "Natural14px UI usesviewportpixels",
+    "Letterboxremoved; originalfaviconpresent"
+  ],
+  "new_issue": "Wrappedcontrols produced large startup minimumheights; fixed-size panels didnotshrink aftercontainerlayout, causingoverlap.",
+  "artifact": "/workspace/ironwood-cloud-harness/evidence/battlefield-002-hud-retest.png",
+  "next": "Applylayoutheightsettlingfix,re-export002,andactualbrowserretest; no approvalclaimed"
+}

@@ -1,0 +1,40 @@
+{
+  "started_at": "2026-10-04T03:48:11.493916+00:00",
+  "completed_at": "2026-10-04T03:48:11.776082+00:00",
+  "display": ":97",
+  "source": "ffmpeg-x11grab",
+  "kind": "frame",
+  "size": [
+    1364,
+    1024
+  ],
+  "fps": 12,
+  "duration_requested": null,
+  "output": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-exposed-member-march.png",
+  "exit_code": 0,
+  "stderr": "[x11grab @ 0x55cf90f90380] Cannot get the image data event_error: response_type:0 error_code:128 sequence:9 resource_id:23068672 minor_code:4 major_code:130.\n[x11grab @ 0x55cf90f90380] Continuing without shared memory.\n[x11grab @ 0x55cf90f90380] Stream #0: not enough frames to estimate rate; consider increasing probesize\n",
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-hide_banner",
+    "-loglevel",
+    "warning",
+    "-n",
+    "-f",
+    "x11grab",
+    "-draw_mouse",
+    "1",
+    "-framerate",
+    "12",
+    "-video_size",
+    "1364x1024",
+    "-i",
+    ":97.0",
+    "-frames:v",
+    "1",
+    "-update",
+    "1",
+    "/workspace/ironwood-cloud-harness/evidence/battlefield-006-exposed-member-march.png"
+  ],
+  "bytes": 118253
+}

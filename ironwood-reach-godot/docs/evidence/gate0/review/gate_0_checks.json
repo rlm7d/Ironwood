@@ -1,0 +1,113 @@
+{
+  "reviewed_at_utc": "2026-10-04T02:07:15.931428+00:00",
+  "tester": "independent AI evidence reviewer; source inputs were agent-driven XTEST OS events",
+  "scope": "disposable capability fixture only; not intended-game prototype",
+  "gate_0_steps": {
+    "1": "PASS",
+    "2": "PASS",
+    "3": "PASS",
+    "4": "PASS",
+    "5": "PASS",
+    "6": "PASS",
+    "7": "PASS"
+  },
+  "artifact_sha256": {
+    "v1": {
+      "index.pck": "81cd77b46c5c1aa0f505c189266751ba704e61cfcceacb5be5df15f4b609b3cb",
+      "index.wasm": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+    },
+    "v2": {
+      "index.pck": "c20106f0c0128075ddfba3c1d2e02be3b167fe65597f7ef29f53a3f1592552d7",
+      "index.wasm": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+    }
+  },
+  "independent_main_chromium_processes": [
+    {
+      "pid": 8872,
+      "profile": "profile-1"
+    },
+    {
+      "pid": 9027,
+      "profile": "profile-2"
+    }
+  ],
+  "client_browser": "Chrome/151.0.7922.173",
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "renderer": "Compatibility; WebGL2; Mesa llvmpipe CPU renderer",
+  "v1_common_latest_snapshots": {
+    "cutoff_exclusive_utc": "2026-10-04T02:00:00",
+    "common_ticks": 1204,
+    "identical": 1204
+  },
+  "v2_common_latest_snapshots": {
+    "from_inclusive_utc": "2026-10-04T02:00:48",
+    "to_inclusive_utc": "2026-10-04T02:02:30",
+    "common_ticks": 135,
+    "identical": 135
+  },
+  "v1_general_absence": {
+    "snapshot_count": 60,
+    "tick_from": 9924,
+    "tick_to": 10040,
+    "phase": 69.5499999999982,
+    "actions": 3,
+    "x": 0.0,
+    "phase_actions_x_frozen": true
+  },
+  "initial_connections": [
+    1,
+    2
+  ],
+  "general_reconnect": {
+    "old_connection": 2,
+    "new_connection": 4,
+    "restored_sequence": 1,
+    "replay_result": "replayed_applied",
+    "actions_after_replay": 3
+  },
+  "v2_after_artifact_reload": {
+    "connections": [
+      6,
+      7
+    ],
+    "restored_sequences": {
+      "Builder": 4,
+      "General": 2
+    },
+    "actions_before": 5,
+    "actions_after_new_input": 8,
+    "actions_after_retry": 8
+  },
+  "visual_angle_observation": {
+    "v1_right_browser": {
+      "time_from_seconds": 2.5,
+      "time_to_seconds": 3.5,
+      "angle_from": 195.08,
+      "angle_to": 196.14
+    },
+    "v2_right_browser": {
+      "time_from_seconds": 2.5,
+      "time_to_seconds": 3.5,
+      "angle_from": 160.23,
+      "angle_to": 162.29
+    },
+    "interpretation": "recorded label and cube/sphere orientation corroborate deliberate approximate 1-to-2 presentation spin change; not a frame-time/performance benchmark"
+  },
+  "known_warnings": [
+    "favicon.ico HTTP404 in v1",
+    "native audio unavailable; dummy driver fallback",
+    "native VSync unsupported by graphics driver",
+    "FFmpeg shared-memory denied; ordinary X11 capture fallback successful"
+  ],
+  "not_established": [
+    "human feedback",
+    "full-game implementation or approval",
+    "audio output",
+    "public endpoint",
+    "remote device/network interoperability",
+    "game performance",
+    "balance or enjoyment",
+    "Godot editor/project-manager readiness from splash-only screenshot",
+    "runtime restore/startup reliability pending dedicated restart test"
+  ]
+}

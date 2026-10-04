@@ -1,0 +1,7 @@
+game/.godot/
+.runtime/
+builds/
+docs/evidence/*.png
+docs/evidence/*.mp4
+*.log
+__pycache__/

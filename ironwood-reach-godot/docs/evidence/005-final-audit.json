@@ -1,0 +1,201 @@
+{
+  "kind": "independent_integrity_and_text_privacy_audit",
+  "build_id": "battlefield-005",
+  "recorded_at_utc": "2026-10-04T03:38:56.360Z",
+  "status": "PASS_WITHIN_RECORDED_SCOPE",
+  "integrity_scope": "005 source/artifact/report equality was captured before the subsequent006 selection fix. This historical audit does not assert that evolving006 source matches the005 export.",
+  "integrity": {
+    "current_sources_equal_build_manifest": true,
+    "source_file_count": 24,
+    "marker_equals_manifest": true,
+    "manifest_sha256": "4175f07e96e463fdf5ffedc3f8c6ba9e3db5341f9dc1171a575bd20f6132fcb5",
+    "artifacts": [
+      {
+        "name": "index.apple-touch-icon.png",
+        "bytes": 10618,
+        "sha256": "b322e5e84b35a63e4123ff4ec709cace24592b82daab8da0bc88e9ddf2ebb6a1"
+      },
+      {
+        "name": "index.audio.position.worklet.js",
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      {
+        "name": "index.audio.worklet.js",
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      {
+        "name": "index.html",
+        "bytes": 5710,
+        "sha256": "048dea88ce17c2cdd1d968ac61a5cfcbad37219de25591c9f27ee53195b5d6f8"
+      },
+      {
+        "name": "index.icon.png",
+        "bytes": 4569,
+        "sha256": "ca763509b89a0494e451611f7a4db0408645127d807048478a97ca68be5bdf96"
+      },
+      {
+        "name": "index.js",
+        "bytes": 315759,
+        "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+      },
+      {
+        "name": "index.pck",
+        "bytes": 99172,
+        "sha256": "0afe969fa7f00f3f496fa3765d5d6d24e1e0b68d223ebf12a0ab129ef00bae63"
+      },
+      {
+        "name": "index.png",
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      {
+        "name": "index.wasm",
+        "bytes": 37700666,
+        "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+      }
+    ],
+    "wasm_v1_header": true,
+    "pck_header": true,
+    "pck_contains_plaintext_build_id": false,
+    "build_identity_qualification": "Compiled PCK does not expose a plaintext ID. Owned export/source hashes agree; actual005 browser join events corroborate the runtime ID.",
+    "Compatibility_and_nonthreaded_settings": true,
+    "reports": [
+      {
+        "path": "docs/evidence/simulation.json",
+        "sha256": "76fa644782a33727841da5c3ffafc8352686d83e7cfe170408beb171debfe429",
+        "build_id": "battlefield-005",
+        "checks": 136,
+        "source_hashes_verified": 27
+      },
+      {
+        "path": "docs/evidence/protocol-smoke.json",
+        "sha256": "db68a4eedc4c405a3fa228eba50e78ff23de726566eae9e668b367ad02e05cb0",
+        "build_id": "battlefield-005",
+        "checks": 9,
+        "source_hashes_verified": 6
+      },
+      {
+        "path": "docs/evidence/client-recovery.json",
+        "sha256": "9a346c3efea583af42eb27365a84984f8b08bec1381db251098cacd1d874b224",
+        "build_id": "battlefield-005",
+        "checks": 32,
+        "source_hashes_verified": 7
+      },
+      {
+        "path": "docs/evidence/client-snapshot.json",
+        "sha256": "36c8d5ee9525e07273e5e1a112b3a60308bb92a056a57ca4501b2f4430a78c05",
+        "build_id": "battlefield-005",
+        "checks": 63,
+        "source_hashes_verified": 26
+      }
+    ]
+  },
+  "archived004_failure": {
+    "path": "docs/evidence/archive/battlefield-004/client-snapshot-tooltip-type-failure.json",
+    "sha256": "5a1472e23ce4513a58d829e70d47cb4c1d82a510579f5b662636d5cb5a248263",
+    "build_id": "battlefield-004",
+    "status": "FAIL",
+    "exit_code": 1,
+    "checks": 63,
+    "failed_checks": 22,
+    "passed_checks": 41,
+    "godot_error_lines": 18,
+    "archived004_sources_equal004_manifest": true,
+    "archived004_manifest_hash_matches": true,
+    "historical_failure_preserved": true,
+    "qualification": "004 failed this presentation retest. Current005 reports pass their individual bounded checks; this does not convert004 into a passing trial."
+  },
+  "privacy": {
+    "recorded_at_utc": "2026-10-04T03:38:36.906484+00:00",
+    "scope": [
+      "game source excluding.godot",
+      "docs including decompressed JSONL gzip receipts",
+      "tools",
+      "deploy",
+      "tests",
+      "README.md",
+      ".gitignore"
+    ],
+    "text_files_scanned": 156,
+    "binary_media_files_not_content_scanned": 41,
+    "text_inventory_sha256": "76a3fbb2a0a9204d9f532f2f292484e063bac30d265a9a7e1487d80e76c199df",
+    "statistics": {
+      "json_values": 4186746,
+      "json_documents": 71,
+      "classified_sha256_leaves": 467,
+      "jsonl_records": 20028
+    },
+    "credential_fields_present": {},
+    "harmless_name_reference_counts": {
+      "token_word_occurrences": 84,
+      "profile_or_cookie_word_occurrences": 85
+    },
+    "finding_count": 0,
+    "findings": [],
+    "qualifications": [
+      "Protocol token variables, empty join fields and redaction code are not credential disclosures. Browser profile references in tool paths are not browser profile artifacts.",
+      "Digest leaves under hash/SHA keys were classified as integrity metadata.",
+      "Binary media content is outside this text audit; packaging media freeze/inspection is pending.",
+      "Private.runtime, Godot cache/native engine and unrelated public prototype are excluded.",
+      "Source/documentation may advance to006 during this audit; only prior captured005 integrity evidence is qualified as005."
+    ]
+  },
+  "portable_passive_browser_logs": {
+    "redaction_basis": "Observer omits reconnect token fields; any credential field present would be required to be empty or a redaction placeholder. No token values or browser profile files are archived.",
+    "archives": [
+      {
+        "path": "docs/evidence/browser-005-root-client-1.jsonl.gz",
+        "first_at": "2026-10-04T03:23:35.281907+00:00",
+        "last_at": "2026-10-04T03:31:13.688987+00:00",
+        "record_count": 4028,
+        "kinds": {
+          "sandbox": 1,
+          "console": 3,
+          "websocket_open": 2,
+          "websocket_sent": 10,
+          "websocket_received": 4011,
+          "websocket_closed": 1
+        },
+        "uncompressed_bytes": 21067822,
+        "uncompressed_sha256": "38b450ca7e5874311bc2f4324be347102cb6ed02cb2f11779ad36c499e2a58b6",
+        "compressed_bytes": 260653,
+        "compressed_sha256": "b5d585a68f371bfc6c9a24d0597903c1320461717f44fc9aa6240deadc4d5b9d",
+        "credential_fields_present": 0,
+        "nonredacted_credential_values": 0,
+        "scope_start": "2026-10-04T03:23:33+00:00",
+        "scope_end": "2026-10-04T03:31:13.694019+00:00"
+      },
+      {
+        "path": "docs/evidence/browser-005-root-client-2.jsonl.gz",
+        "first_at": "2026-10-04T03:23:37.352907+00:00",
+        "last_at": "2026-10-04T03:31:13.694019+00:00",
+        "record_count": 3369,
+        "kinds": {
+          "sandbox": 1,
+          "console": 6,
+          "websocket_open": 2,
+          "websocket_sent": 11,
+          "websocket_received": 3348,
+          "websocket_closed": 1
+        },
+        "uncompressed_bytes": 19420567,
+        "uncompressed_sha256": "64b2e378b7cb017794a478dbf023707e28901bd29cb3b03efe1deeb48c7f461d",
+        "compressed_bytes": 250221,
+        "compressed_sha256": "eeb67fd824276ab8676dab1bd798d55a31496bc0d3e19d81ffd33d2201d0105d",
+        "credential_fields_present": 0,
+        "nonredacted_credential_values": 0,
+        "scope_start": "2026-10-04T03:23:33+00:00",
+        "scope_end": "2026-10-04T03:31:13.694019+00:00"
+      }
+    ]
+  },
+  "documentation_scope": "README and decision/verification documents were being updated during this audit. Their final consistency, media freeze and packaged ZIP contents require the later final006 packaging check.",
+  "limits": [
+    "Read-only inspection except exclusive creation of this report and requested redacted passive log archives.",
+    "No game input, browser input, tests, service starts/stops, server resets or source changes were performed.",
+    "Source and artifact hashes establish provenance and integrity, not fun, balance, human approval, remote compatibility, performance or public hosting readiness.",
+    "Binary media content and package ZIP inspection are outside this audit."
+  ]
+}

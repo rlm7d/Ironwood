@@ -1,0 +1,149 @@
+{
+  "owner": "ironwood-reach-godot-tools",
+  "build_id": "battlefield-006",
+  "built_at": "2026-10-04T03:40:40.001319+00:00",
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "rendering": "Compatibility",
+  "threads": false,
+  "sources": {
+    "assets/icon.svg": {
+      "bytes": 287,
+      "sha256": "186c191db4d766c62f4ab094ae22aa6fd06783d86c336a6668b6c3ac227c20c4"
+    },
+    "assets/icon.svg.import": {
+      "bytes": 1020,
+      "sha256": "ed7b857289f31b87befd555065fb1a0e828c272358400b2a7e14d1206d496980"
+    },
+    "data/tuning.json": {
+      "bytes": 1789,
+      "sha256": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be"
+    },
+    "export_presets.cfg": {
+      "bytes": 888,
+      "sha256": "30b2b065d031570d39ec973cb4ff77feb5ef90d625fc5fa6d3cb0c393eaf082f"
+    },
+    "main.gd": {
+      "bytes": 321,
+      "sha256": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b"
+    },
+    "main.gd.uid": {
+      "bytes": 20,
+      "sha256": "a15b88733b1d5684212f5e4f0e4d31bc17f361710d0d2f49e858b3a8fdd1135a"
+    },
+    "main.tscn": {
+      "bytes": 156,
+      "sha256": "157538dfd1406a79bf929e8bb6b4a3a0f0f2e3215e4ad0fe56345035ca32f2e6"
+    },
+    "project.godot": {
+      "bytes": 668,
+      "sha256": "b60320022850de488b9e44cb7d27cc5ef150c97f1fa04a0ce108dc6ce78e5a32"
+    },
+    "scripts/client/art.gd": {
+      "bytes": 17522,
+      "sha256": "6a21b421b5605aff289316a8bc1956a65569c444cd640c831ad7e4a2b06bff1c"
+    },
+    "scripts/client/art.gd.uid": {
+      "bytes": 20,
+      "sha256": "a6a942a86e1f8d23f4caedc2ab01b1ee086b54ddbdb54a1640d8ecb6b4c70760"
+    },
+    "scripts/client/battle_hud.gd": {
+      "bytes": 1652,
+      "sha256": "6a3809f24b820a41f469ff1d6984687e81db40d1134ca6d25e68870dd14aa9fb"
+    },
+    "scripts/client/battle_hud.gd.uid": {
+      "bytes": 18,
+      "sha256": "b2763954cdcdc3f397d6ce6f7abb490337144b1d5cdf7039ec0b245036cca6c0"
+    },
+    "scripts/client/battlefield.gd": {
+      "bytes": 33351,
+      "sha256": "53a8f1d40835628ca0c6dd8399d92fe5b908978e9a70163089d4cb351fe5c5a2"
+    },
+    "scripts/client/battlefield.gd.uid": {
+      "bytes": 19,
+      "sha256": "1275d88bd76d612d51957344745895a6e49ae5bca4d9851dd94be35e5855a371"
+    },
+    "scripts/client/minimap.gd": {
+      "bytes": 1462,
+      "sha256": "875606748988242289575c9e2b7d93378f53194082afa4c4574b9a306d045d7d"
+    },
+    "scripts/client/minimap.gd.uid": {
+      "bytes": 19,
+      "sha256": "b508f2a6d210a55fa1d307c4f7417f40a8817ea0eb7f1984db8e4da04a7ea4cc"
+    },
+    "scripts/client/net_client.gd": {
+      "bytes": 7349,
+      "sha256": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5"
+    },
+    "scripts/client/net_client.gd.uid": {
+      "bytes": 20,
+      "sha256": "dcd0021278ce784fdab236b4e9071a8fd41e87a5d3c29a715568ed6719b5dad3"
+    },
+    "scripts/server/session_server.gd": {
+      "bytes": 17722,
+      "sha256": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9"
+    },
+    "scripts/server/session_server.gd.uid": {
+      "bytes": 20,
+      "sha256": "ca7d272dba996611eab2afb0daaa6f9be8e4e03f1b01b9c5b7791dad9c0ba729"
+    },
+    "scripts/shared/rules.gd": {
+      "bytes": 1570,
+      "sha256": "0212ef5fc48c9401990a8a454cd19b04a05ee4a8d6726392f50e9b5d8474c8b1"
+    },
+    "scripts/shared/rules.gd.uid": {
+      "bytes": 20,
+      "sha256": "354f102f504595ae5d5537983a4b2e2186aab2da5f4b44d601fb8567655c0def"
+    },
+    "scripts/simulation/battle.gd": {
+      "bytes": 30766,
+      "sha256": "a38e552dfb3336ebb190bce6a2ba1a7d3c15f19a74501aac4e9c46d20d456401"
+    },
+    "scripts/simulation/battle.gd.uid": {
+      "bytes": 20,
+      "sha256": "30faf45f2223c274fe656a84d723de4b7d1f3eebf371cc4a72cffc0bd1c6bd79"
+    }
+  },
+  "artifacts": {
+    "index.apple-touch-icon.png": {
+      "bytes": 10618,
+      "sha256": "b322e5e84b35a63e4123ff4ec709cace24592b82daab8da0bc88e9ddf2ebb6a1"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 5710,
+      "sha256": "bf538134809dca0685fa138bc2598aa1c4fdbd668250ec2587cb08bdf904b633"
+    },
+    "index.icon.png": {
+      "bytes": 4569,
+      "sha256": "ca763509b89a0494e451611f7a4db0408645127d807048478a97ca68be5bdf96"
+    },
+    "index.js": {
+      "bytes": 315759,
+      "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+    },
+    "index.pck": {
+      "bytes": 99796,
+      "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192"
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.wasm": {
+      "bytes": 37700666,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+    }
+  },
+  "template": {
+    "template": "/workspace/Ironwood/ironwood-reach-godot/.runtime/godot-data/godot/export_templates/4.6.3.stable/web_nothreads_release.zip",
+    "verification": "pinned official archive receipt + template SHA256"
+  },
+  "validation": "Godot import/export and artifact integrity only; interactive play evidence is separate"
+}

@@ -1,0 +1,852 @@
+{
+  "kind": "Actual AI-operated interactive browser play with passive authority observations; not human feedback",
+  "build_id": "battlefield-005",
+  "recorded_at": "2026-10-04T03:39:25.045362+00:00",
+  "time_window": {
+    "start": "2026-10-04T03:30:00Z",
+    "end": "2026-10-04T03:37:00Z"
+  },
+  "environment": {
+    "display": ":97",
+    "screen_pixels": [
+      1364,
+      1024
+    ],
+    "viewport_per_client": [
+      640,
+      820
+    ],
+    "clients": "Two separate headed Chromium browser processes/profiles; sandbox retained",
+    "authority": "Loopback native Godot dedicated authoritative server",
+    "input": "Guarded XTEST mouse, keyboard, drag at actual visible X11 windows",
+    "observation": "Actual live screen inspection plus passive WebSocket event logging; no game hooks, storage manipulation or injected gameplay messages"
+  },
+  "build_manifest": {
+    "path": "builds/battlefield-005/build-manifest.json",
+    "sha256": "4175f07e96e463fdf5ffedc3f8c6ba9e3db5341f9dc1171a575bd20f6132fcb5",
+    "artifacts": {
+      "index.apple-touch-icon.png": {
+        "bytes": 10618,
+        "sha256": "b322e5e84b35a63e4123ff4ec709cace24592b82daab8da0bc88e9ddf2ebb6a1"
+      },
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.html": {
+        "bytes": 5710,
+        "sha256": "048dea88ce17c2cdd1d968ac61a5cfcbad37219de25591c9f27ee53195b5d6f8"
+      },
+      "index.icon.png": {
+        "bytes": 4569,
+        "sha256": "ca763509b89a0494e451611f7a4db0408645127d807048478a97ca68be5bdf96"
+      },
+      "index.js": {
+        "bytes": 315759,
+        "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+      },
+      "index.pck": {
+        "bytes": 99172,
+        "sha256": "0afe969fa7f00f3f496fa3765d5d6d24e1e0b68d223ebf12a0ab129ef00bae63"
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.wasm": {
+        "bytes": 37700666,
+        "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+      }
+    },
+    "source_hashes": {
+      "assets/icon.svg": {
+        "bytes": 287,
+        "sha256": "186c191db4d766c62f4ab094ae22aa6fd06783d86c336a6668b6c3ac227c20c4"
+      },
+      "assets/icon.svg.import": {
+        "bytes": 1020,
+        "sha256": "ed7b857289f31b87befd555065fb1a0e828c272358400b2a7e14d1206d496980"
+      },
+      "data/tuning.json": {
+        "bytes": 1789,
+        "sha256": "4f290c34f7a49161f47700daa7b8be686c8ed876d571b97a57859eaedeb426be"
+      },
+      "export_presets.cfg": {
+        "bytes": 888,
+        "sha256": "30b2b065d031570d39ec973cb4ff77feb5ef90d625fc5fa6d3cb0c393eaf082f"
+      },
+      "main.gd": {
+        "bytes": 321,
+        "sha256": "8f4a8b6ebeb0f3b5eefb5a02419b91d618b19e4d69f71e86ca145b2ea3e6266b"
+      },
+      "main.gd.uid": {
+        "bytes": 20,
+        "sha256": "a15b88733b1d5684212f5e4f0e4d31bc17f361710d0d2f49e858b3a8fdd1135a"
+      },
+      "main.tscn": {
+        "bytes": 156,
+        "sha256": "157538dfd1406a79bf929e8bb6b4a3a0f0f2e3215e4ad0fe56345035ca32f2e6"
+      },
+      "project.godot": {
+        "bytes": 668,
+        "sha256": "b60320022850de488b9e44cb7d27cc5ef150c97f1fa04a0ce108dc6ce78e5a32"
+      },
+      "scripts/client/art.gd": {
+        "bytes": 17522,
+        "sha256": "6a21b421b5605aff289316a8bc1956a65569c444cd640c831ad7e4a2b06bff1c"
+      },
+      "scripts/client/art.gd.uid": {
+        "bytes": 20,
+        "sha256": "a6a942a86e1f8d23f4caedc2ab01b1ee086b54ddbdb54a1640d8ecb6b4c70760"
+      },
+      "scripts/client/battle_hud.gd": {
+        "bytes": 1652,
+        "sha256": "6a3809f24b820a41f469ff1d6984687e81db40d1134ca6d25e68870dd14aa9fb"
+      },
+      "scripts/client/battle_hud.gd.uid": {
+        "bytes": 18,
+        "sha256": "b2763954cdcdc3f397d6ce6f7abb490337144b1d5cdf7039ec0b245036cca6c0"
+      },
+      "scripts/client/battlefield.gd": {
+        "bytes": 32432,
+        "sha256": "b9a2cd064850f97407f99ccb8df94981a6790a6ec768219af9c21469ca3c4ff8"
+      },
+      "scripts/client/battlefield.gd.uid": {
+        "bytes": 19,
+        "sha256": "1275d88bd76d612d51957344745895a6e49ae5bca4d9851dd94be35e5855a371"
+      },
+      "scripts/client/minimap.gd": {
+        "bytes": 1462,
+        "sha256": "875606748988242289575c9e2b7d93378f53194082afa4c4574b9a306d045d7d"
+      },
+      "scripts/client/minimap.gd.uid": {
+        "bytes": 19,
+        "sha256": "b508f2a6d210a55fa1d307c4f7417f40a8817ea0eb7f1984db8e4da04a7ea4cc"
+      },
+      "scripts/client/net_client.gd": {
+        "bytes": 7349,
+        "sha256": "e67c043cdd5da7708a6190932f96fdd89995f424df6bb764ec475f13da13b5c5"
+      },
+      "scripts/client/net_client.gd.uid": {
+        "bytes": 20,
+        "sha256": "dcd0021278ce784fdab236b4e9071a8fd41e87a5d3c29a715568ed6719b5dad3"
+      },
+      "scripts/server/session_server.gd": {
+        "bytes": 17722,
+        "sha256": "43417a8727d834c0b92baa4a5e0c59f3fffb52058d991ec930ff270c8f9a76f9"
+      },
+      "scripts/server/session_server.gd.uid": {
+        "bytes": 20,
+        "sha256": "ca7d272dba996611eab2afb0daaa6f9be8e4e03f1b01b9c5b7791dad9c0ba729"
+      },
+      "scripts/shared/rules.gd": {
+        "bytes": 1570,
+        "sha256": "5d0d27d549d795c26fd55215e65aa758b2e8c70c48116e15bb6d916902b4d938"
+      },
+      "scripts/shared/rules.gd.uid": {
+        "bytes": 20,
+        "sha256": "354f102f504595ae5d5537983a4b2e2186aab2da5f4b44d601fb8567655c0def"
+      },
+      "scripts/simulation/battle.gd": {
+        "bytes": 30766,
+        "sha256": "a38e552dfb3336ebb190bce6a2ba1a7d3c15f19a74501aac4e9c46d20d456401"
+      },
+      "scripts/simulation/battle.gd.uid": {
+        "bytes": 20,
+        "sha256": "30faf45f2223c274fe656a84d723de4b7d1f3eebf371cc4a72cffc0bd1c6bd79"
+      }
+    }
+  },
+  "checks": [
+    {
+      "check": "Mending actual damaged structure and nearby battalion",
+      "result": "observed",
+      "input_at": "2026-10-04T03:34:40.609869+00:00",
+      "before": {
+        "at": "2026-10-04T03:34:39.946735+00:00",
+        "tick": 2259,
+        "building": {
+          "attack_cd": 0,
+          "build_ticks": 0,
+          "hp": 162,
+          "id": "building_001",
+          "kind": "tower",
+          "max_hp": 370,
+          "overcharge_ticks": 0,
+          "progress": 1.0,
+          "radius": 1.4,
+          "ready": true,
+          "shutdown_ticks": 0,
+          "socket": 1,
+          "team": "ally",
+          "total_build_ticks": 140,
+          "x": -10.0,
+          "z": 0.0
+        },
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 148,
+            "x": -13.0,
+            "z": 3.0,
+            "goal": [
+              -13.0,
+              3.0
+            ],
+            "order": "stop",
+            "state": "idle",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          },
+          {
+            "id": "unit_002",
+            "hp": 180,
+            "x": -12.0,
+            "z": -7.0,
+            "goal": [
+              -12.0,
+              -7.0
+            ],
+            "order": "stop",
+            "state": "idle",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          },
+          {
+            "id": "unit_003",
+            "hp": 180,
+            "x": -12.0,
+            "z": -7.0,
+            "goal": [
+              -12.0,
+              -7.0
+            ],
+            "order": "stop",
+            "state": "idle",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          }
+        ]
+      },
+      "after": {
+        "at": "2026-10-04T03:34:41.959268+00:00",
+        "tick": 2299,
+        "building": {
+          "attack_cd": 0,
+          "build_ticks": 0,
+          "hp": 262,
+          "id": "building_001",
+          "kind": "tower",
+          "max_hp": 370,
+          "overcharge_ticks": 0,
+          "progress": 1.0,
+          "radius": 1.4,
+          "ready": true,
+          "shutdown_ticks": 0,
+          "socket": 1,
+          "team": "ally",
+          "total_build_ticks": 140,
+          "x": -10.0,
+          "z": 0.0
+        },
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 180,
+            "x": -14.0,
+            "z": 0.8000001907348633,
+            "goal": [
+              -11.796873092651367,
+              -4.8856048583984375
+            ],
+            "order": "move",
+            "state": "walk",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          },
+          {
+            "id": "unit_002",
+            "hp": 180,
+            "x": -10.051986694335938,
+            "z": -5.130444526672363,
+            "goal": [
+              -9.796873092651367,
+              -4.8856048583984375
+            ],
+            "order": "move",
+            "state": "walk",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          },
+          {
+            "id": "unit_003",
+            "hp": 180,
+            "x": -9.588003158569336,
+            "z": -5.786637306213379,
+            "goal": [
+              -7.796873092651367,
+              -4.8856048583984375
+            ],
+            "order": "move",
+            "state": "walk",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          }
+        ]
+      },
+      "conclusion": "Tower162\u2192262HP; nearby unit001148\u2192180HP; accepted ability and cooldown. A later second Mending healed Tower54\u2192154. Separate General move orders remained authoritative; no Mending retreat behavior is claimed."
+    },
+    {
+      "check": "Multiple battalion arrival separation after actual right-click",
+      "result": "observed",
+      "input_at": "2026-10-04T03:34:40.770695+00:00",
+      "settled": {
+        "at": "2026-10-04T03:34:44.237198+00:00",
+        "tick": 2344,
+        "building": {
+          "attack_cd": 0,
+          "build_ticks": 0,
+          "hp": 262,
+          "id": "building_001",
+          "kind": "tower",
+          "max_hp": 370,
+          "overcharge_ticks": 0,
+          "progress": 1.0,
+          "radius": 1.4,
+          "ready": true,
+          "shutdown_ticks": 0,
+          "socket": 1,
+          "team": "ally",
+          "total_build_ticks": 140,
+          "x": -10.0,
+          "z": 0.0
+        },
+        "units": [
+          {
+            "id": "unit_001",
+            "hp": 180,
+            "x": -11.798795700073242,
+            "z": -4.87722110748291,
+            "goal": [
+              -11.796873092651367,
+              -4.8856048583984375
+            ],
+            "order": "stop",
+            "state": "idle",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          },
+          {
+            "id": "unit_002",
+            "hp": 180,
+            "x": -9.835540771484375,
+            "z": -4.922715663909912,
+            "goal": [
+              -9.796873092651367,
+              -4.8856048583984375
+            ],
+            "order": "stop",
+            "state": "idle",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          },
+          {
+            "id": "unit_003",
+            "hp": 180,
+            "x": -7.846004486083984,
+            "z": -4.910320281982422,
+            "goal": [
+              -7.796873092651367,
+              -4.8856048583984375
+            ],
+            "order": "stop",
+            "state": "idle",
+            "shield_ticks": 0,
+            "march_ticks": 0,
+            "train_ticks": 0,
+            "attack_cd": 0
+          }
+        ]
+      },
+      "conclusion": "Three live battalions reached distinct assigned endpoints nearx-11.8,-9.8,-7.8 z-4.9. Earlier command with still-training unit was correctly rejected; that client selection flaw is preserved below."
+    },
+    {
+      "check": "Tower Overcharge then shutdown",
+      "result": "observed activation/HUD and authority phase durations",
+      "transitions": {
+        "overcharge": [
+          {
+            "first": [
+              "2026-10-04T03:34:55.795514+00:00",
+              2579,
+              120
+            ],
+            "last": [
+              "2026-10-04T03:35:01.976492+00:00",
+              2698,
+              1
+            ],
+            "next_inactive": [
+              "2026-10-04T03:35:01.977154+00:00",
+              2700
+            ]
+          },
+          {
+            "first": [
+              "2026-10-04T03:36:06.273769+00:00",
+              3974,
+              120
+            ],
+            "last": [
+              "2026-10-04T03:36:12.401002+00:00",
+              4093,
+              1
+            ],
+            "next_inactive": [
+              "2026-10-04T03:36:12.530622+00:00",
+              4095
+            ]
+          }
+        ],
+        "shutdown": [
+          {
+            "first": [
+              "2026-10-04T03:35:01.977154+00:00",
+              2700,
+              99
+            ],
+            "last": [
+              "2026-10-04T03:35:06.947595+00:00",
+              2798,
+              1
+            ],
+            "next_inactive": [
+              "2026-10-04T03:35:07.519922+00:00",
+              2802
+            ]
+          },
+          {
+            "first": [
+              "2026-10-04T03:36:12.530622+00:00",
+              4095,
+              99
+            ],
+            "last": [
+              "2026-10-04T03:36:17.307503+00:00",
+              4192,
+              2
+            ],
+            "next_inactive": [
+              "2026-10-04T03:36:17.455833+00:00",
+              4194
+            ]
+          }
+        ]
+      },
+      "conclusion": "Both actual E activations showed Overcharged6s then Shutdown5s on the visible selected-tower HUD and matching120/100 simulation-tick phases. No isolated live damage/attack-rate boost comparison is claimed."
+    },
+    {
+      "check": "Shield wall movement tradeoff",
+      "result": "observed activation and slower actual movement; protection not isolated in this live cycle",
+      "motion": {
+        "shield": {
+          "samples": 29,
+          "median_speed": 1.1999993879203537,
+          "tick_span": [
+            3525,
+            3583
+          ]
+        },
+        "normal": {
+          "samples": 271,
+          "median_speed": 2.999999793316905,
+          "tick_span": [
+            2281,
+            4134
+          ]
+        },
+        "march": {
+          "samples": 1,
+          "median_speed": 5.249996185302734,
+          "tick_span": [
+            4399,
+            4401
+          ]
+        }
+      },
+      "conclusion": "Passive authority samples during actual movement: normal median3.0 worldunits/s, shield median1.2 worldunits/s (29 intervals). Comparison uses only consecutive walking samples with identical goals; Shield ended after8s. No live incoming damage occurred during active shield in this fresh room, so protection remains automated-only evidence."
+    },
+    {
+      "check": "Forced march attack tradeoff",
+      "result": "observed",
+      "march": {
+        "first": [
+          [
+            "2026-10-04T03:36:27.789840+00:00",
+            4398,
+            484,
+            [
+              [
+                "unit_001",
+                160,
+                "attack",
+                18
+              ],
+              [
+                "unit_002",
+                160,
+                "attack",
+                17
+              ]
+            ]
+          ],
+          [
+            "2026-10-04T03:36:27.790511+00:00",
+            4399,
+            484,
+            [
+              [
+                "unit_001",
+                159,
+                "walk",
+                17
+              ],
+              [
+                "unit_002",
+                159,
+                "walk",
+                16
+              ]
+            ]
+          ],
+          [
+            "2026-10-04T03:36:27.791153+00:00",
+            4401,
+            484,
+            [
+              [
+                "unit_001",
+                157,
+                "walk",
+                15
+              ],
+              [
+                "unit_002",
+                157,
+                "walk",
+                14
+              ]
+            ]
+          ]
+        ],
+        "last": [
+          [
+            "2026-10-04T03:36:35.337792+00:00",
+            4552,
+            484,
+            [
+              [
+                "unit_001",
+                6,
+                "idle",
+                0
+              ],
+              [
+                "unit_002",
+                6,
+                "idle",
+                0
+              ]
+            ]
+          ],
+          [
+            "2026-10-04T03:36:35.480129+00:00",
+            4554,
+            484,
+            [
+              [
+                "unit_001",
+                4,
+                "idle",
+                0
+              ],
+              [
+                "unit_002",
+                4,
+                "idle",
+                0
+              ]
+            ]
+          ],
+          [
+            "2026-10-04T03:36:35.617364+00:00",
+            4556,
+            484,
+            [
+              [
+                "unit_001",
+                2,
+                "idle",
+                0
+              ],
+              [
+                "unit_002",
+                2,
+                "idle",
+                0
+              ]
+            ]
+          ]
+        ],
+        "enemy_keep_hp_values": [
+          484
+        ],
+        "states": [
+          "attack",
+          "idle",
+          "walk"
+        ]
+      },
+      "conclusion": "Actual Q activation while two footmen attacked enemykeep halted further damage through active160ticks: enemykeepHP stayed484. Units moved to assigned goals at~5.25 worldunits/s, then idled; attack damage resumed after expiry and produced victory. Initial snapshot preserves previous attack animation/state for the activation boundary; that does not imply a new attack during March."
+    },
+    {
+      "check": "Main-base destruction failure before trial timeout",
+      "result": "observed",
+      "first_final": {
+        "at": "2026-10-04T03:30:47.177936+00:00",
+        "tick": 5817,
+        "status": "defeat",
+        "result": "main_keep_destroyed",
+        "keep_hp": 0
+      },
+      "conclusion": "Both browsers visibly DEFEAT with demolished keep; tick5817<6000 limit."
+    },
+    {
+      "check": "Enemy-main-base destruction victory",
+      "result": "observed",
+      "first_final": {
+        "at": "2026-10-04T03:36:45.820511+00:00",
+        "tick": 4762,
+        "status": "victory",
+        "result": "enemy_keep_destroyed",
+        "enemy_keep_hp": 0,
+        "ally_keep_hp": 1122
+      },
+      "conclusion": "Both visible clients reached VICTORY; tick4762, enemykeep0, alliedkeep1122."
+    }
+  ],
+  "failed_attempts_and_known_issues": [
+    {
+      "at": "2026-10-04T03:30:17",
+      "issue": "Late attempt to Mend/Shield after targets died",
+      "qualification": "Rejected target selection; no healing/protection claimed for this attempt."
+    },
+    {
+      "at": "2026-10-04T03:33:25.795527+00:00",
+      "issue": "Group included trainingunit003",
+      "qualification": "Authority correctly rejected invalid_units. Retried after training and accepted. Client selection flaw confirmed; parent preparing006fix."
+    },
+    {
+      "at": "2026-10-04T03:36:06.259057+00:00",
+      "issue": "March payload contained deadunit003",
+      "qualification": "Authority correctly rejected invalid_units. Later selected surviving2 only and accepted. Parent preparing006clientfilterfix."
+    },
+    {
+      "issue": "Some rapid inputs attempted while prior command pending or UI before join/readiness",
+      "qualification": "Observed/retried after real ack or readiness; captures can show stale notices. Not treated as successful command proof."
+    }
+  ],
+  "owned_trial_reset": {
+    "old_authority_pid": 26176,
+    "old_helper_pid": 26207,
+    "new_authority_pid": 28089,
+    "new_helper_pid": 28103,
+    "profiles": "Prior closed owned profiles archived intact under.runtime/browser-clients/profile-history/profiles-dli07t5x; no token edits/deletions. User-authorized isolated trial only."
+  },
+  "passive_logs": [
+    {
+      "path": "docs/evidence/005-agent-observations-client-1.jsonl.gz",
+      "records": 3397,
+      "sha256": "d6e2bfb4a61194c59dce433872a2b1049ad46c9dd14a3b38227ecccc4edfb614",
+      "scope": "Passive browser transport observations only; welcome/join/token messages omitted."
+    },
+    {
+      "path": "docs/evidence/005-agent-observations-client-2.jsonl.gz",
+      "records": 3411,
+      "sha256": "79c851af442760915e3eb9c0fb8e3deaf0252d40dd3cb0a113aefcd815de4fb1",
+      "scope": "Passive browser transport observations only; welcome/join/token messages omitted."
+    }
+  ],
+  "input_trace": {
+    "path": "docs/evidence/005-agent-x11-events.jsonl",
+    "events": 39,
+    "sha256": "deba8bb2f65dc14178fccfd6685d3b2505dc4ad2d4f94bb8e9114803d1d37703"
+  },
+  "media": [
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-actual-ability-cycle.mp4",
+      "bytes": 1591515,
+      "sha256": "b0dab4a31bf667b69e1c14a178e8a06cebbd2d019db5c92a41bb098977ff84af",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-agent-mended-state.png",
+      "bytes": 108641,
+      "sha256": "c954aa85d618ab32eeecce05f901f0013485f02ff6cfa1ba951a9fdcff6bd31e",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-agent-mending-shield.mp4",
+      "bytes": 600904,
+      "sha256": "ec838b39dcb7c15eddfe7af0eae4465970ebb781d653427dcfba8092b22cc298",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-agent-start.png",
+      "bytes": 121187,
+      "sha256": "1700309baad98daebb5b560ef6eefc452d6d0fbba5a0a6cf6d73cee019ddffe3",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-attack-advance.png",
+      "bytes": 130465,
+      "sha256": "26ddb948d61139596fd3be292b757fe4804e450be83496ca25d70c3045f6d3e2",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-fresh-army-setup.mp4",
+      "bytes": 1299104,
+      "sha256": "bfec8f0baf63d74941f8d1baf7d5d29c24766141fc1462c2ea89d31c62f56118",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-fresh-purchases.png",
+      "bytes": 112796,
+      "sha256": "4f4eaf52e65b9cf95f4d6f632c14b59103aafd88b1fa08d0eb0c4debe0757fc4",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-group-selected.png",
+      "bytes": 119730,
+      "sha256": "a91061b46b934e7fe218c690d717a3b12e56c84af87ec074484476510156024f",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-keep-destroyed.png",
+      "bytes": 107734,
+      "sha256": "8fa73028f601ba904118d082ee244553231bd39f6e618347ed9f4902fcf90d39",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-live-keep-destruction.mp4",
+      "bytes": 696132,
+      "sha256": "3020c3b842386c059206f55b15398bc376888b7d8fd1adf57b681f64d17f9d51",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-ended-attacks-resumed.png",
+      "bytes": 116616,
+      "sha256": "de088307c3356b82d83db1ad8d91cd6b50cada59ad98fdab1cbe8f82f2b93481",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-live-state.png",
+      "bytes": 121575,
+      "sha256": "54dc5c38b4993704b94e4c68a76473f9dedaca0a4f7999eafb4ce6d1fcc72e61",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-no-attacks.png",
+      "bytes": 120628,
+      "sha256": "1597355a911f7734ff8634ade93b3b2fb04fba271525aab647f52791e9f9e006",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-suspends-keep-attacks.mp4",
+      "bytes": 609679,
+      "sha256": "f60247a4cbdf536def2a9cf4ac87a570868569c05863bd550e67bd1204d0dab1",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-tower-effects.png",
+      "bytes": 123559,
+      "sha256": "5344aac81733add20db48e9306617d50d024ac88b661ec5b292297699454e95a",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-march-underway.png",
+      "bytes": 119847,
+      "sha256": "6881ca8ae1d58a783e7da1854f57073efae3bc4a103238202a1bbefbd0c1c30d",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-mending-group-orders.png",
+      "bytes": 119889,
+      "sha256": "227ffb35bd0ad5d2a0930e30c3b6242649a6822a7d5723368bbc1d7ba8d2f98d",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-separated-and-shielded.png",
+      "bytes": 126908,
+      "sha256": "c58de05f64d1ddd908716102bd53767b0e367896912dcb2e08f337f2c1ec8e75",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-separated-group-arrival.mp4",
+      "bytes": 885765,
+      "sha256": "67f86abc0fbcb873614b2c26cc4f9f4e51f710786692452a0bb47e179e2fbda9",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-shield-moving.png",
+      "bytes": 121646,
+      "sha256": "736610da79ba2f93a26b6df8e49723bd437d286cf858a26de21d2698274ee18a",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-shield-on-shutdown-start.png",
+      "bytes": 123129,
+      "sha256": "a4f0093ac8caf3a0b73ea56b79b398d38009a1eae47f1cd8e693275e7ad9ad66",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-shield-slow-march-combat.mp4",
+      "bytes": 1776106,
+      "sha256": "ef38a4f91294b360be43dce13357a160ab61c3d026cbe5b98c5b09156cb24873",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    },
+    {
+      "path": "/workspace/ironwood-cloud-harness/evidence/battlefield-005-trained-army.png",
+      "bytes": 114011,
+      "sha256": "92458dd6ba356eefbb3b99e92cf3419e93875d21485143f8718f641e85b4a742",
+      "scope": "Actual authenticated X11 screen capture. Filename may describe attempted action; success requires qualified checks below."
+    }
+  ],
+  "limits": [
+    "AI interactive play, not actual human design/fun/balance feedback.",
+    "Loopback same cloud machine; public hosting, WAN latency, Internet browser compatibility and production security not established.",
+    "No sustained performance claim: software rendering and concurrent capture in this cloud display.",
+    "Shield damage protection and isolated Overcharge damage/rate boost not demonstrated by these live samples; automated tests are separate.",
+    "005 client training/dead selection flaw intentionally retained in this evidence; later006fix/retest must be separate."
+  ]
+}

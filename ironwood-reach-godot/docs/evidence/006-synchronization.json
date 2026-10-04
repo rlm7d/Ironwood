@@ -1,0 +1,246 @@
+{
+  "kind": "passive_per_authority_browser_snapshot_convergence",
+  "build_id": "battlefield-006",
+  "protocol": 1,
+  "recorded_at_utc": "2026-10-04T03:59:42.911715+00:00",
+  "status": "PASS",
+  "input_source_record": {
+    "path": "docs/evidence/006-agent-interactive.json",
+    "sha256": "9054b18668d2026f4ecee23c64560b9fc0c7d5c082de696a59e9ef66c4b24a41",
+    "frozen_at": "2026-10-04T03:55:31.825680+00:00"
+  },
+  "logs": [
+    {
+      "client": 1,
+      "path": "docs/evidence/006-agent-observations-client-1.jsonl.gz",
+      "compressed_sha256": "6b0c0e5fe93e0b23ee6091b0eca2d3474f430672850a48a50bc5ad2142bc8760",
+      "compressed_bytes": 372806,
+      "uncompressed_sha256": "ef9282de4c3cbbe67f59689cd391f55383b39d8ad0af83fdaa65a9492edfd532",
+      "uncompressed_bytes": 20619430,
+      "record_count": 5491
+    },
+    {
+      "client": 2,
+      "path": "docs/evidence/006-agent-observations-client-2.jsonl.gz",
+      "compressed_sha256": "e5e12baf02b6d66607f0b194b8138f7a815a81e1ca7ecbf3f0c3bc8e575c4c72",
+      "compressed_bytes": 382302,
+      "uncompressed_sha256": "85e4599a4f924ab7e562a508507a941713706c0718a81be614c7917206395e61",
+      "uncompressed_bytes": 21461987,
+      "record_count": 5729
+    }
+  ],
+  "method": "Within each explicitly disjoint authority lifetime window, pair snapshots only by revision in that window. Canonical JSON SHA256 covers every serialized snapshot field, including connection lifecycle, economy, readiness, units, buildings, workers and abilities. Every common revision must have exactly one identical full state in both clients. Revision numbers and REACH-01 are never paired across room resets.",
+  "windows": [
+    {
+      "trial_generation": 1,
+      "owned_authority_pid": 32281,
+      "scope_start_at": "2026-10-04T03:42:47.367575+00:00",
+      "scope_end_at": "2026-10-04T03:46:16.543440+00:00",
+      "client_counts": [
+        {
+          "client": 1,
+          "role": "Builder",
+          "record_count": 2040,
+          "record_kinds": {
+            "websocket_received": 2037,
+            "websocket_sent": 3
+          },
+          "received_types": {
+            "snapshot": 2034,
+            "result": 3
+          },
+          "snapshot_records": 2034,
+          "unique_snapshot_revisions": 1651,
+          "first_snapshot_at": "2026-10-04T03:42:47.478244+00:00",
+          "last_snapshot_at": "2026-10-04T03:46:16.492620+00:00",
+          "first_revision": 1,
+          "last_revision": 3416,
+          "first_tick": 0,
+          "last_tick": 3398,
+          "multiple_full_states_at_one_revision_count": 0
+        },
+        {
+          "client": 2,
+          "role": "General",
+          "record_count": 1999,
+          "record_kinds": {
+            "websocket_received": 1988,
+            "websocket_sent": 11
+          },
+          "received_types": {
+            "snapshot": 1977,
+            "result": 11
+          },
+          "snapshot_records": 1977,
+          "unique_snapshot_revisions": 1649,
+          "first_snapshot_at": "2026-10-04T03:42:47.367575+00:00",
+          "last_snapshot_at": "2026-10-04T03:46:16.543440+00:00",
+          "first_revision": 2,
+          "last_revision": 3416,
+          "first_tick": 0,
+          "last_tick": 3398,
+          "multiple_full_states_at_one_revision_count": 0
+        }
+      ],
+      "common_revisions": 1649,
+      "exact_full_state_matches": 1649,
+      "full_state_mismatches": 0,
+      "mismatch_details": [],
+      "first_common_revision": 2,
+      "last_common_revision": 3416,
+      "first_common_full_state_sha256": [
+        "25408a7b61393184943c97220772531af2f229d8ec2e1793ddc08ea0ec03e5da"
+      ],
+      "last_common_full_state_sha256": [
+        "c01f6f7a915cd4136a14eddf42354dd9285eb5ecc9db9c1fac5006d231481a6e"
+      ]
+    },
+    {
+      "trial_generation": 2,
+      "owned_authority_pid": 34186,
+      "scope_start_at": "2026-10-04T03:47:01.018814+00:00",
+      "scope_end_at": "2026-10-04T03:49:44.787671+00:00",
+      "client_counts": [
+        {
+          "client": 1,
+          "role": "Builder",
+          "record_count": 1591,
+          "record_kinds": {
+            "websocket_received": 1590,
+            "websocket_sent": 1
+          },
+          "received_types": {
+            "snapshot": 1589,
+            "result": 1
+          },
+          "snapshot_records": 1589,
+          "unique_snapshot_revisions": 1569,
+          "first_snapshot_at": "2026-10-04T03:47:01.410268+00:00",
+          "last_snapshot_at": "2026-10-04T03:49:44.724679+00:00",
+          "first_revision": 1,
+          "last_revision": 3246,
+          "first_tick": 0,
+          "last_tick": 3237,
+          "multiple_full_states_at_one_revision_count": 0
+        },
+        {
+          "client": 2,
+          "role": "General",
+          "record_count": 1599,
+          "record_kinds": {
+            "websocket_received": 1593,
+            "websocket_sent": 6
+          },
+          "received_types": {
+            "snapshot": 1587,
+            "result": 6
+          },
+          "snapshot_records": 1587,
+          "unique_snapshot_revisions": 1567,
+          "first_snapshot_at": "2026-10-04T03:47:01.018814+00:00",
+          "last_snapshot_at": "2026-10-04T03:49:44.787671+00:00",
+          "first_revision": 2,
+          "last_revision": 3244,
+          "first_tick": 0,
+          "last_tick": 3235,
+          "multiple_full_states_at_one_revision_count": 0
+        }
+      ],
+      "common_revisions": 1567,
+      "exact_full_state_matches": 1567,
+      "full_state_mismatches": 0,
+      "mismatch_details": [],
+      "first_common_revision": 2,
+      "last_common_revision": 3244,
+      "first_common_full_state_sha256": [
+        "25408a7b61393184943c97220772531af2f229d8ec2e1793ddc08ea0ec03e5da"
+      ],
+      "last_common_full_state_sha256": [
+        "3cd63a9c433bfb5bd7a8df29ef08d62e97bf7c4cf1e317ac7011d306c4b81e04"
+      ]
+    },
+    {
+      "trial_generation": 3,
+      "owned_authority_pid": 35686,
+      "scope_start_at": "2026-10-04T03:50:38.878910+00:00",
+      "scope_end_at": "2026-10-04T03:54:16.339651+00:00",
+      "client_counts": [
+        {
+          "client": 1,
+          "role": "Builder",
+          "record_count": 1851,
+          "record_kinds": {
+            "websocket_received": 1850,
+            "websocket_sent": 1
+          },
+          "received_types": {
+            "snapshot": 1849,
+            "result": 1
+          },
+          "snapshot_records": 1849,
+          "unique_snapshot_revisions": 1491,
+          "first_snapshot_at": "2026-10-04T03:50:39.512593+00:00",
+          "last_snapshot_at": "2026-10-04T03:54:16.213951+00:00",
+          "first_revision": 2,
+          "last_revision": 3083,
+          "first_tick": 0,
+          "last_tick": 3070,
+          "multiple_full_states_at_one_revision_count": 0
+        },
+        {
+          "client": 2,
+          "role": "General",
+          "record_count": 2131,
+          "record_kinds": {
+            "websocket_received": 2123,
+            "websocket_sent": 8
+          },
+          "received_types": {
+            "snapshot": 2115,
+            "result": 8
+          },
+          "snapshot_records": 2115,
+          "unique_snapshot_revisions": 1494,
+          "first_snapshot_at": "2026-10-04T03:50:38.878910+00:00",
+          "last_snapshot_at": "2026-10-04T03:54:16.339651+00:00",
+          "first_revision": 1,
+          "last_revision": 3083,
+          "first_tick": 0,
+          "last_tick": 3070,
+          "multiple_full_states_at_one_revision_count": 0
+        }
+      ],
+      "common_revisions": 1491,
+      "exact_full_state_matches": 1491,
+      "full_state_mismatches": 0,
+      "mismatch_details": [],
+      "first_common_revision": 2,
+      "last_common_revision": 3083,
+      "first_common_full_state_sha256": [
+        "25408a7b61393184943c97220772531af2f229d8ec2e1793ddc08ea0ec03e5da"
+      ],
+      "last_common_full_state_sha256": [
+        "5956f538a1954e3d4c01f4c2a01d77d61d2dcc58d5e913626412e355b34bb10b"
+      ]
+    }
+  ],
+  "totals": {
+    "passive_records": 11220,
+    "assigned_window_records": 11211,
+    "unassigned_outside_window_records": 9,
+    "per_authority_common_revision_pairs": 4707,
+    "exact_full_state_matches": 4707,
+    "full_state_mismatches": 0
+  },
+  "console_error_qualification": {
+    "source_report_error_event_count": 0,
+    "independently_rechecked_console_errors": false,
+    "reason": "Portable observations retain safe WebSocket data and omit arbitrary console strings. The source agent separately records its original console/page/request event count."
+  },
+  "limits": [
+    "This is passive analysis of frozen logs, with no game input, service resets, new tests or source edits.",
+    "Matches establish observed shared authoritative state within each bounded original trial, not uninterrupted connectivity or every possible scenario.",
+    "No RTT, public latency, target hardware performance, balance, fun or human approval claim is made.",
+    "The separate actual-input report and captures establish the interactive actions; snapshot equality does not replace them."
+  ]
+}

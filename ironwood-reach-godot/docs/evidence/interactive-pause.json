@@ -1,0 +1,21 @@
+{
+  "kind": "passive_protocol_observation_during_real_browser_disconnect",
+  "baseline_tick": 749,
+  "checked_at": "2026-10-04T02:48:52.359786+00:00",
+  "all_snapshot_fields_equal": true,
+  "holds": {
+    "Builder": {
+      "cost": 110,
+      "kind": "tower",
+      "socket": 1
+    },
+    "General": {
+      "building": "ally_barracks",
+      "cost": 80,
+      "kind": "footmen"
+    }
+  },
+  "gold": 420,
+  "source": "Actual XTEST General disconnect; passive Builder WebSocket snapshots",
+  "automated_injection": false
+}

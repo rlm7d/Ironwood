@@ -1,0 +1,48 @@
+# REVIEW-ONLY EXAMPLE. Not installed or verified by systemd.
+# Requires an approved dedicated ironwood user/group, matching pre-imported
+# source release, official Godot binary, and the reviewed private paths below.
+# Installing/enabling this unit or creating users is a later approved action.
+
+[Unit]
+Description=Ironwood Reach separate battlefield candidate authority
+After=network.target
+
+[Service]
+Type=simple
+User=ironwood
+Group=ironwood
+WorkingDirectory=/srv/ironwood-reach/current/game
+ExecStart=/opt/godot/4.6.3/Godot_v4.6.3-stable_linux.x86_64 --headless --path /srv/ironwood-reach/current/game -- --server
+
+# Restart loses the room, seats, holds and ledger; require an explicit restart.
+Restart=no
+TimeoutStopSec=15
+KillSignal=SIGTERM
+
+StateDirectory=ironwood-reach
+StateDirectoryMode=0700
+CacheDirectory=ironwood-reach
+CacheDirectoryMode=0700
+Environment=XDG_DATA_HOME=/var/lib/ironwood-reach
+Environment=XDG_CONFIG_HOME=/var/lib/ironwood-reach/config
+Environment=XDG_CACHE_HOME=/var/cache/ironwood-reach
+UMask=0077
+
+# Proposed least privilege; validate against the selected host before use.
+NoNewPrivileges=true
+CapabilityBoundingSet=
+AmbientCapabilities=
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/ironwood-reach /var/cache/ironwood-reach
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,30 @@
+{
+  "reviewed_at_utc": "2026-10-04T02:05:56.551038+00:00",
+  "sources": {
+    "browser-client-1.jsonl": {
+      "bytes": 1376374,
+      "sha256": "9d70c4d0e73be23414db858e0d2d242aed2bec9c419923d698d87e876aa0c1f1",
+      "snapshot": "/workspace/ironwood-cloud-harness/evidence/review/browser-client-1.jsonl.snapshot"
+    },
+    "browser-client-2.jsonl": {
+      "bytes": 1323064,
+      "sha256": "1a0e26d23c6d5e48308e734a1a6e162ce243e13e2421dc91c4d6cf742cccb5d5",
+      "snapshot": "/workspace/ironwood-cloud-harness/evidence/review/browser-client-2.jsonl.snapshot"
+    },
+    "desktop-events.jsonl": {
+      "bytes": 17421,
+      "sha256": "c04b37fa1e436413bea2331c4320d97c37b066046d03eb67284c86a0ce934867",
+      "snapshot": "/workspace/ironwood-cloud-harness/evidence/review/desktop-events.jsonl.snapshot"
+    },
+    "probe-authority.log": {
+      "bytes": 2299,
+      "sha256": "7f0425c4f6834a4fc3d821f5c1296336bab5e4c363de0b8e41add1e37f35c0be",
+      "snapshot": "/workspace/ironwood-cloud-harness/evidence/review/probe-authority.log.snapshot"
+    },
+    "web-server.log": {
+      "bytes": 5657,
+      "sha256": "5dc1a7c3afb2d4a23162d76fc7178a98b0f047fab69b1dbb0b914cfc083e2457",
+      "snapshot": "/workspace/ironwood-cloud-harness/evidence/review/web-server.log.snapshot"
+    }
+  }
+}

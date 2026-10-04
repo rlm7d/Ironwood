@@ -1,0 +1,243 @@
+{
+  "build_id": "battlefield-006",
+  "media": [
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-death-group-recall.mp4",
+      "portable_path": "docs/evidence/battlefield-006-death-group-recall.mp4",
+      "bytes": 2040266,
+      "sha256": "57fe05b88a2ca525772a2cbfd29ee8526b50c29b4032d547fb5beaf202d13b45",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-death-regression-setup.mp4",
+      "portable_path": "docs/evidence/battlefield-006-death-regression-setup.mp4",
+      "bytes": 1332027,
+      "sha256": "226b5d83450e1760cb9aa12db530ec3862d865d11e72a8b6a6af59a2a12b6192",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-exposed-member-march.png",
+      "portable_path": "docs/evidence/battlefield-006-exposed-member-march.png",
+      "bytes": 118253,
+      "sha256": "76f221f226efbba178065677bf9de021d100f664bc365878e49fabb0478dd8fe",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-casualty-paused-spare-alive.png",
+      "portable_path": "docs/evidence/battlefield-006-final-casualty-paused-spare-alive.png",
+      "bytes": 123357,
+      "sha256": "69e865e7a63f28d5769597819bc90bc4c5c59ce5bf09cbb89e5822574359ed84",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-casualty-recall-order.mp4",
+      "portable_path": "docs/evidence/battlefield-006-final-casualty-recall-order.mp4",
+      "bytes": 1132264,
+      "sha256": "65b74c074b4f1c06e73c235f9a17f5c3328d0dc32c011b7e31a0e27c261ed5a8",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-group-recall-one-live.png",
+      "portable_path": "docs/evidence/battlefield-006-final-group-recall-one-live.png",
+      "bytes": 132664,
+      "sha256": "73912b741e478c78fba940c8f0edc4e8a88cdb3114c8263bc93967ef7c002f71",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-saved-group-death.mp4",
+      "portable_path": "docs/evidence/battlefield-006-final-saved-group-death.mp4",
+      "bytes": 1559844,
+      "sha256": "c3422d60da3edc085e8eb7ef4ac52841037eeb4dacb353d20475d031723837a1",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-survivor-order-accepted.png",
+      "portable_path": "docs/evidence/battlefield-006-final-survivor-order-accepted.png",
+      "bytes": 122231,
+      "sha256": "cec7cddd425b2524de27f9bce817e0769cf6ca49c8877c47a04d905e2434149d",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-survivor-recall-proof.mp4",
+      "portable_path": "docs/evidence/battlefield-006-final-survivor-recall-proof.mp4",
+      "bytes": 1218456,
+      "sha256": "c433e68fdc59efdf1f9f75dc46abb0de00e45b47c599e6d9f83568039e46c012",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-final-two-member-group-saved.png",
+      "portable_path": "docs/evidence/battlefield-006-final-two-member-group-saved.png",
+      "bytes": 120106,
+      "sha256": "846d79d99b9d6dc619e9fe05cb86f7021845e606128752271ab50c0deaab701b",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-first-raid-member-death.mp4",
+      "portable_path": "docs/evidence/battlefield-006-first-raid-member-death.mp4",
+      "bytes": 1157988,
+      "sha256": "68a612f42a3db7e565a0843d12cb289137e41a93a1ce40f6dd3024b8542cea64",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-group-casualty-before-recall.png",
+      "portable_path": "docs/evidence/battlefield-006-group-casualty-before-recall.png",
+      "bytes": 112906,
+      "sha256": "06b52911a248a4cfb8ac9cefed77712e3d274b6a78dd85601671c6f74bf003f4",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-group-member-death-and-recall.mp4",
+      "portable_path": "docs/evidence/battlefield-006-group-member-death-and-recall.mp4",
+      "bytes": 1361283,
+      "sha256": "2d770bca13f6d95a86cf3dab7284913a6afb61fea2bd6d5316a5fb4f20728b49",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-holds-pause-rejoin.mp4",
+      "portable_path": "docs/evidence/battlefield-006-holds-pause-rejoin.mp4",
+      "bytes": 1104775,
+      "sha256": "71438622360656d5f233f989f12aea84f713f4063a6c98629ad5bc284866fbeb",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-holds-paused.png",
+      "portable_path": "docs/evidence/battlefield-006-holds-paused.png",
+      "bytes": 126202,
+      "sha256": "dada835426cc8498d12e869a847ec5c67e6eae4d51f46d93fa966b684f8e97a2",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-initial-selections.png",
+      "portable_path": "docs/evidence/battlefield-006-initial-selections.png",
+      "bytes": 108404,
+      "sha256": "e3673403c8a72d0fbdb6f6dc7af567e81abf6f729bb08065f67202fdf1c63bcb",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-isolated-member-at-raid-path.png",
+      "portable_path": "docs/evidence/battlefield-006-isolated-member-at-raid-path.png",
+      "bytes": 118151,
+      "sha256": "36317b8da9233ef7e94a85c15ae2336a1672e3c63cbc77f6c67ccc1729b71d98",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-known-training-click.png",
+      "portable_path": "docs/evidence/battlefield-006-known-training-click.png",
+      "bytes": 121587,
+      "sha256": "2dede6d78f2a11ceb5c620621b596e3126750a2a0d9ba237f90aa7dd01ca8449",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-known-training-drag.png",
+      "portable_path": "docs/evidence/battlefield-006-known-training-drag.png",
+      "bytes": 112292,
+      "sha256": "7c8ecdfc868a527416ac56082927f5cdea31f64cb53d4a102d8f46b2ff5b7447",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-loaded.png",
+      "portable_path": "docs/evidence/battlefield-006-loaded.png",
+      "bytes": 48954,
+      "sha256": "e31b66d15bd58746c21e36771c339f642156c2e1797fd787916262deb7cf3911",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-one-group-member-exposed.png",
+      "portable_path": "docs/evidence/battlefield-006-one-group-member-exposed.png",
+      "bytes": 120949,
+      "sha256": "5ddc85553402fb2e37b97a03355ff6963ff2dddc276079e51603428844f3145c",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-ready-to-join.png",
+      "portable_path": "docs/evidence/battlefield-006-ready-to-join.png",
+      "bytes": 90090,
+      "sha256": "4d54298c58a8667c4f0d691355f3a863a8737e40c4a03f2f17ebed15a6ad53a6",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-recalled-survivors.png",
+      "portable_path": "docs/evidence/battlefield-006-recalled-survivors.png",
+      "bytes": 121775,
+      "sha256": "919747c7c592055963a6fa2a492a4fcf96d179707dc2d654d4c1d037cc9b3fdb",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-rejoined-holds.png",
+      "portable_path": "docs/evidence/battlefield-006-rejoined-holds.png",
+      "bytes": 130754,
+      "sha256": "1679aba6c0b0b81de18caa5fb1b0ef9b5f6b68f353c9d3f9e09cd14afd0a8446",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-saved-group-after-casualty.mp4",
+      "portable_path": "docs/evidence/battlefield-006-saved-group-after-casualty.mp4",
+      "bytes": 1357441,
+      "sha256": "aeabb686b4d8918ea34476544570f58b2a39a6d018b0b1862e62d45ea405edd9",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-saved-group-recalled-one-survivor.png",
+      "portable_path": "docs/evidence/battlefield-006-saved-group-recalled-one-survivor.png",
+      "bytes": 108134,
+      "sha256": "a25b7f6e416767f019e1e529e7090c51b5cfea431907f61e58dd25e3d2875246",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-spare-isolated-in-corner.png",
+      "portable_path": "docs/evidence/battlefield-006-spare-isolated-in-corner.png",
+      "bytes": 118008,
+      "sha256": "b5a0bd1178af1e8404c1c2fbb84271d41996e502808d5e8422bf45f9c983db3f",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-survivor-order-ability-accepted.png",
+      "portable_path": "docs/evidence/battlefield-006-survivor-order-ability-accepted.png",
+      "bytes": 108965,
+      "sha256": "3a8140a494a392b1efa209bd6fd13c53406b23d75ea4cf3f0c68554e8a84270c",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-trained-group-saved.png",
+      "portable_path": "docs/evidence/battlefield-006-trained-group-saved.png",
+      "bytes": 120788,
+      "sha256": "d147e6c9c8149ae26a16947618eba1d7af9a88bf95f625cddfb6cf91e6ed0d81",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-training-click.png",
+      "portable_path": "docs/evidence/battlefield-006-training-click.png",
+      "bytes": 116540,
+      "sha256": "29fc05d2c79766dc01317d4c19d8ec59e8f40bae94e428e25534cb4c9285338b",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-training-drag-filter.png",
+      "portable_path": "docs/evidence/battlefield-006-training-drag-filter.png",
+      "bytes": 118302,
+      "sha256": "cc39ecc1ddea3d9222670c2e1a2810b27a1dec807534156eae23514cc51ec417",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-training-fast-cycle.mp4",
+      "portable_path": "docs/evidence/battlefield-006-training-fast-cycle.mp4",
+      "bytes": 555099,
+      "sha256": "98f04efb15b55d995c8dba44958246826bf351ef2838664892dfa3d6dbc0eefb",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-training-selection-regression.mp4",
+      "portable_path": "docs/evidence/battlefield-006-training-selection-regression.mp4",
+      "bytes": 751359,
+      "sha256": "73c8125c1407382b188b9eae92e0c1fa8ba4d2d2849847bdd03ba7d468151e55",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    },
+    {
+      "source": "/workspace/ironwood-cloud-harness/evidence/battlefield-006-two-ready-members-saved.png",
+      "portable_path": "docs/evidence/battlefield-006-two-ready-members-saved.png",
+      "bytes": 120012,
+      "sha256": "51667fc5cbfe7b3455e305f7dda45a073b073a5e8ef63ab5df8942addde971fa",
+      "qualification": "Actualcapture; attemptfilenamesarequalifiedby006-agent-interactive.json."
+    }
+  ]
+}

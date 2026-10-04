@@ -1,0 +1,13 @@
+{
+  "kind": "actual_os_input_log",
+  "scope_start_utc": "2026-10-04T03:23:33+00:00",
+  "scope_end_utc": "2026-10-04T03:31:13.694019+00:00",
+  "source": "Guarded XTEST on authenticated display97; root early inputs and agent late first-room inputs",
+  "input_events": 44,
+  "bytes": 17064,
+  "sha256": "3181ee131669e213471c24a3dbb1aace36066783fc5d14b93c9af5159cc27e96",
+  "captured_full_source_bytes": 83729,
+  "captured_full_source_sha256": "b8ff76bfa05a6304c3380566b59477d2a1241da347707d739b35a1b9151ca1ec",
+  "no_game_state_injection": true,
+  "frame_and_video_inspection_separate": true
+}

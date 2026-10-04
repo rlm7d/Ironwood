@@ -1,0 +1,8 @@
+/ironwood-cloud-harness/runtime/
+/ironwood-cloud-harness/logs/
+/ironwood-cloud-harness/downloads/
+/ironwood-cloud-harness/builds/
+/ironwood-cloud-harness/evidence/
+/ironwood-cloud-harness/*.zip
+**/__pycache__/
+*.pyc

@@ -1,0 +1,14 @@
+{
+  "verified_at": "2026-10-04T01:59:11.209866+00:00",
+  "removed_only_verified_download": "/workspace/ironwood-cloud-harness/downloads/Godot_v4.6.3-stable_export_templates.tpz",
+  "bytes_removed": 1255918323,
+  "archive_sha512": "da606b61c10157844f8300172df374472665f95015495cb1a7cd132c40ede404faa96cc1016a4b9662db9909ddea69632c4948b2cd11163438dad4808881fb68",
+  "post_cleanup_cache_check": {
+    "status": "verified_cached_templates",
+    "version": "4.6.3",
+    "templates": 8,
+    "receipt": "/workspace/ironwood-cloud-harness/runtime/web-templates-receipt.json",
+    "network_used": false,
+    "official_archive_sha512": "da606b61c10157844f8300172df374472665f95015495cb1a7cd132c40ede404faa96cc1016a4b9662db9909ddea69632c4948b2cd11163438dad4808881fb68"
+  }
+}

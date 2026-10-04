@@ -1,0 +1,17 @@
+{
+  "kind": "Fresh cloud service handoff baseline, separate from archived gameplay proof",
+  "build_id": "battlefield-006",
+  "at_utc": "2026-10-04T04:00:42.484805+00:00",
+  "authority_pid": 37788,
+  "authority_endpoint": "ws://127.0.0.1:8775",
+  "authority_scope": "Fresh in-memory authority started after owned trial cleanup; TCP baseline ready, no gameplay seats claimed by harness.",
+  "http_pid": 8676,
+  "http_entry": "http://127.0.0.1:9088/battlefield-006/index.html",
+  "headed_helper_pid": 38287,
+  "clients": 2,
+  "profiles": "Fresh owned profiles; closed previous profiles archived without credential edits; private runtime excluded from package",
+  "navigation_ready": true,
+  "sandbox_retained": true,
+  "input_after_launch": "None; both clients are ready to Join roles.",
+  "public_url": null
+}

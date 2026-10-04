@@ -1,0 +1,41 @@
+{
+  "version": "4.6.3",
+  "archive_name": "Godot_v4.6.3-stable_export_templates.tpz",
+  "official_archive_sha512": "da606b61c10157844f8300172df374472665f95015495cb1a7cd132c40ede404faa96cc1016a4b9662db9909ddea69632c4948b2cd11163438dad4808881fb68",
+  "official_checksums_url": "https://github.com/godotengine/godot-builds/releases/download/4.6.3-stable/SHA512-SUMS.txt",
+  "verified_at": "2026-10-04T01:58:53.290609+00:00",
+  "templates": {
+    "web_debug.zip": {
+      "bytes": 10194723,
+      "sha256": "b08dda3328a84ccb1b0dcedfcd8c9691a140b7251563cc5e317a5e8adc48cf32"
+    },
+    "web_dlink_debug.zip": {
+      "bytes": 11496268,
+      "sha256": "4534231794c85a9d23c5084d24d9a60c306d05f11498ed6c5d9dd016a5c4b635"
+    },
+    "web_dlink_nothreads_debug.zip": {
+      "bytes": 11421692,
+      "sha256": "bd55432d808eca669a998bd62b11f8545807ac3cf4649406cfa57e4b53229a98"
+    },
+    "web_dlink_nothreads_release.zip": {
+      "bytes": 11191550,
+      "sha256": "62ea2adbb0a3a9a9c2c4acd546027a49e5d7d514770685299b6492940ebdace5"
+    },
+    "web_dlink_release.zip": {
+      "bytes": 11191519,
+      "sha256": "3677ec81913b6634baf0a32d65c8bc459a401c8d0db221c52c8776e35d9f1257"
+    },
+    "web_nothreads_debug.zip": {
+      "bytes": 10120053,
+      "sha256": "4a8a8ef7519637f7898fad25f09d3e466965e99c04e441682e1bc2d97a548922"
+    },
+    "web_nothreads_release.zip": {
+      "bytes": 9574223,
+      "sha256": "1446f79dc12f60ce5d244c39fb6628ec298337ca5c4f91a16491feea72aa1bc9"
+    },
+    "web_release.zip": {
+      "bytes": 9567847,
+      "sha256": "1541239534dea19428f7c65bf94e89b2c95e45bdcde92989fd36f46ba85d3bcd"
+    }
+  }
+}

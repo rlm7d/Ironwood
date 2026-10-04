@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-10-04T02:06:32.326921+00:00",
+  "scope": "passive observations of actual XTEST-driven v2 browsers; supplemental automated evidence parsing",
+  "paused_snapshot_count": 81,
+  "phase_values_while_paused": [
+    365.150000000049
+  ],
+  "actions_values_while_paused": [
+    8
+  ],
+  "paused_ack_observed": true,
+  "general_reconnect_welcome": {
+    "connection_id": 8,
+    "sequence": 3,
+    "type": "welcome"
+  },
+  "acks": {
+    "1": [
+      {
+        "result": "paused",
+        "seq": 7,
+        "type": "result"
+      },
+      {
+        "result": "applied",
+        "seq": 8,
+        "type": "result"
+      }
+    ],
+    "2": [
+      {
+        "result": "replayed_applied",
+        "seq": 3,
+        "type": "result"
+      },
+      {
+        "result": "applied",
+        "seq": 4,
+        "type": "result"
+      }
+    ]
+  },
+  "common_converged_ticks": 80,
+  "first_common_tick": 17889,
+  "matching_snapshots": true,
+  "replay_without_extra_mutation": true,
+  "final_state": {
+    "actions": 10,
+    "connected": {
+      "Builder": true,
+      "General": true
+    },
+    "counts": {
+      "Builder": 6,
+      "General": 4
+    },
+    "paused": false,
+    "phase": 373.300000000051,
+    "selected": false,
+    "sequence": {
+      "Builder": 8,
+      "General": 4
+    },
+    "tick": 18046,
+    "type": "snapshot",
+    "x": 0.0
+  },
+  "recording_note": "browser-v2-reconnect.mp4 covers live disconnect and pause; later reconnect is in XTEST trace, WebSocket observations and browser-v2-reconnected.png.",
+  "checks_all_pass": true
+}

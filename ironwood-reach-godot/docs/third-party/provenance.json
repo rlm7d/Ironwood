@@ -1,0 +1,25 @@
+{
+  "component": "Godot4.6.3stable Webengine",
+  "pin": "4.6.3.stable.official.7d41c59c4",
+  "purpose": "Official engine license and third-party notices for bundled Web runtime; no project-source license selected",
+  "records": [
+    {
+      "path": "docs/third-party/Godot-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/godotengine/godot/4.6.3-stable/LICENSE.txt",
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    {
+      "path": "docs/third-party/Godot-COPYRIGHT.txt",
+      "source": "https://raw.githubusercontent.com/godotengine/godot/4.6.3-stable/COPYRIGHT.txt",
+      "bytes": 99790,
+      "sha256": "b3330849267d56ddd3d62a513817506606c2195034411fe05859f0140bff9d8a"
+    },
+    {
+      "path": "docs/third-party/Godot-AUTHORS.md",
+      "source": "https://raw.githubusercontent.com/godotengine/godot/4.6.3-stable/AUTHORS.md",
+      "bytes": 10696,
+      "sha256": "2eb271244aea70a5818c6c004892a74eecc129aed84e97656d5563be3769f560"
+    }
+  ]
+}

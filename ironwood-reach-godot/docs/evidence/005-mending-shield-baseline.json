@@ -1,0 +1,856 @@
+{
+  "observed_at_utc": "2026-10-04T03:28:27.094213+00:00",
+  "scope": "Passive redacted browser snapshots, supplementary to real XTEST play.",
+  "clients": {
+    "1": {
+      "at": "2026-10-04T03:28:27.069365+00:00",
+      "client": 1,
+      "kind": "websocket_received",
+      "data": {
+        "abilities": {
+          "Builder": [
+            493,
+            0
+          ],
+          "General": [
+            0,
+            0
+          ]
+        },
+        "available_gold": 520,
+        "build_id": "battlefield-005",
+        "buildings": [
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 460,
+            "id": "ally_barracks",
+            "kind": "barracks",
+            "max_hp": 460,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.3,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "ally",
+            "total_build_ticks": 180,
+            "x": -16.0,
+            "z": -7.0
+          },
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 1250,
+            "id": "ally_keep",
+            "kind": "keep",
+            "max_hp": 1250,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.8,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "ally",
+            "total_build_ticks": 0,
+            "x": -19.0,
+            "z": 0.0
+          },
+          {
+            "attack_cd": 6,
+            "build_ticks": 0,
+            "hp": 230,
+            "id": "building_001",
+            "kind": "tower",
+            "max_hp": 370,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 1.4,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": 1,
+            "team": "ally",
+            "total_build_ticks": 140,
+            "x": -10.0,
+            "z": 0.0
+          },
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 1100,
+            "id": "enemy_keep",
+            "kind": "enemy_keep",
+            "max_hp": 1100,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.8,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "enemy",
+            "total_build_ticks": 0,
+            "x": 19.0,
+            "z": 0.0
+          }
+        ],
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000005",
+          "General": "connection-000004"
+        },
+        "deposit": {
+          "remaining": 70,
+          "x": -21.0,
+          "z": 9.0
+        },
+        "elapsed_ticks": 3015,
+        "gathered": 370,
+        "gold": 520,
+        "protocol": 1,
+        "readiness": {
+          "Builder": true,
+          "General": true
+        },
+        "reservations": {},
+        "reserved_gold": 0,
+        "result": "",
+        "revision": 3033,
+        "room": "REACH-01",
+        "seed": 7,
+        "server_build": "battlefield-005",
+        "sockets": [
+          {
+            "id": 0,
+            "territory": 0,
+            "x": -13.0,
+            "z": 7.0
+          },
+          {
+            "id": 1,
+            "territory": 0,
+            "x": -10.0,
+            "z": 0.0
+          },
+          {
+            "id": 2,
+            "territory": 0,
+            "x": -10.0,
+            "z": -10.0
+          },
+          {
+            "id": 3,
+            "territory": 0,
+            "x": -20.0,
+            "z": -12.0
+          },
+          {
+            "id": 4,
+            "territory": 1,
+            "x": 0.0,
+            "z": 10.0
+          },
+          {
+            "id": 5,
+            "territory": 1,
+            "x": 0.0,
+            "z": -10.0
+          },
+          {
+            "id": 6,
+            "territory": 2,
+            "x": 11.0,
+            "z": 10.0
+          },
+          {
+            "id": 7,
+            "territory": 2,
+            "x": 11.0,
+            "z": -10.0
+          }
+        ],
+        "spent": 190,
+        "status": "playing",
+        "territories": [
+          {
+            "id": 0,
+            "name": "Home grove",
+            "remaining": 70,
+            "secured": true,
+            "x": -18.0,
+            "z": 0.0
+          },
+          {
+            "id": 1,
+            "name": "River crossing",
+            "remaining": 600,
+            "secured": false,
+            "x": 0.0,
+            "z": 0.0
+          },
+          {
+            "id": 2,
+            "name": "Eastern ridge",
+            "remaining": 600,
+            "secured": false,
+            "x": 15.0,
+            "z": 0.0
+          }
+        ],
+        "territory_capture": "pending_owner_research",
+        "tick": 3015,
+        "trial_limit_ticks": 6000,
+        "type": "snapshot",
+        "units": [
+          {
+            "attack_cd": 1,
+            "attack_interval": 20,
+            "count": 4,
+            "damage": 22,
+            "goal": [
+              -8.867515563964844,
+              3.7500972747802734
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_001",
+            "kind": "footmen",
+            "march_ticks": 0,
+            "max_hp": 180,
+            "order": "stop",
+            "range": 1.8,
+            "shield_ticks": 0,
+            "speed": 3.0,
+            "state": "dead",
+            "team": "ally",
+            "train_ticks": 0,
+            "x": -8.867515563964844,
+            "z": 3.7500972747802734
+          },
+          {
+            "attack_cd": 12,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_002",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "dead",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -13.273087501525879,
+            "z": 4.6069488525390625
+          },
+          {
+            "attack_cd": 0,
+            "attack_interval": 20,
+            "count": 4,
+            "damage": 22,
+            "goal": [
+              -9.029731750488281,
+              -4.030567169189453
+            ],
+            "hit_ticks": 0,
+            "hp": 180,
+            "id": "unit_003",
+            "kind": "footmen",
+            "march_ticks": 0,
+            "max_hp": 180,
+            "order": "stop",
+            "range": 1.8,
+            "shield_ticks": 0,
+            "speed": 3.0,
+            "state": "idle",
+            "team": "ally",
+            "train_ticks": 0,
+            "x": -9.029731750488281,
+            "z": -4.030567169189453
+          },
+          {
+            "attack_cd": 6,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_004",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "dead",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -7.181005954742432,
+            "z": -1.0261807441711426
+          },
+          {
+            "attack_cd": 16,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_005",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "dead",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -7.181005954742432,
+            "z": -1.0261807441711426
+          },
+          {
+            "attack_cd": 13,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 0,
+            "hp": 103,
+            "id": "unit_006",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "walk",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -8.781232833862305,
+            "z": 3.9354677200317383
+          },
+          {
+            "attack_cd": 1,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 0,
+            "hp": 99,
+            "id": "unit_007",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "walk",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -8.209578514099121,
+            "z": 3.1668667793273926
+          },
+          {
+            "attack_cd": 14,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_008",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "dead",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -7.279615879058838,
+            "z": 4.176042556762695
+          }
+        ],
+        "workers": [
+          {
+            "body_radius": 0.65,
+            "carry": 0,
+            "gather_cd": 40,
+            "id": "worker_001",
+            "state": "to_deposit",
+            "x": -19.794979095458984,
+            "z": 5.987430572509766
+          },
+          {
+            "body_radius": 0.65,
+            "carry": 10,
+            "gather_cd": 40,
+            "id": "worker_002",
+            "state": "to_keep",
+            "x": -20.247928619384766,
+            "z": 7.11983585357666
+          }
+        ]
+      }
+    },
+    "2": {
+      "at": "2026-10-04T03:28:26.237193+00:00",
+      "client": 2,
+      "kind": "websocket_received",
+      "data": {
+        "abilities": {
+          "Builder": [
+            0,
+            0
+          ],
+          "General": [
+            0,
+            0
+          ]
+        },
+        "available_gold": 520,
+        "build_id": "battlefield-005",
+        "buildings": [
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 460,
+            "id": "ally_barracks",
+            "kind": "barracks",
+            "max_hp": 460,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.3,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "ally",
+            "total_build_ticks": 180,
+            "x": -16.0,
+            "z": -7.0
+          },
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 1250,
+            "id": "ally_keep",
+            "kind": "keep",
+            "max_hp": 1250,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.8,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "ally",
+            "total_build_ticks": 0,
+            "x": -19.0,
+            "z": 0.0
+          },
+          {
+            "attack_cd": 19,
+            "build_ticks": 0,
+            "hp": 130,
+            "id": "building_001",
+            "kind": "tower",
+            "max_hp": 370,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 1.4,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": 1,
+            "team": "ally",
+            "total_build_ticks": 140,
+            "x": -10.0,
+            "z": 0.0
+          },
+          {
+            "attack_cd": 0,
+            "build_ticks": 0,
+            "hp": 1100,
+            "id": "enemy_keep",
+            "kind": "enemy_keep",
+            "max_hp": 1100,
+            "overcharge_ticks": 0,
+            "progress": 1.0,
+            "radius": 2.8,
+            "ready": true,
+            "shutdown_ticks": 0,
+            "socket": -1,
+            "team": "enemy",
+            "total_build_ticks": 0,
+            "x": 19.0,
+            "z": 0.0
+          }
+        ],
+        "connected": {
+          "Builder": true,
+          "General": true
+        },
+        "connections": {
+          "Builder": "connection-000005",
+          "General": "connection-000004"
+        },
+        "deposit": {
+          "remaining": 70,
+          "x": -21.0,
+          "z": 9.0
+        },
+        "elapsed_ticks": 3002,
+        "gathered": 370,
+        "gold": 520,
+        "protocol": 1,
+        "readiness": {
+          "Builder": true,
+          "General": true
+        },
+        "reservations": {},
+        "reserved_gold": 0,
+        "result": "",
+        "revision": 3019,
+        "room": "REACH-01",
+        "seed": 7,
+        "server_build": "battlefield-005",
+        "sockets": [
+          {
+            "id": 0,
+            "territory": 0,
+            "x": -13.0,
+            "z": 7.0
+          },
+          {
+            "id": 1,
+            "territory": 0,
+            "x": -10.0,
+            "z": 0.0
+          },
+          {
+            "id": 2,
+            "territory": 0,
+            "x": -10.0,
+            "z": -10.0
+          },
+          {
+            "id": 3,
+            "territory": 0,
+            "x": -20.0,
+            "z": -12.0
+          },
+          {
+            "id": 4,
+            "territory": 1,
+            "x": 0.0,
+            "z": 10.0
+          },
+          {
+            "id": 5,
+            "territory": 1,
+            "x": 0.0,
+            "z": -10.0
+          },
+          {
+            "id": 6,
+            "territory": 2,
+            "x": 11.0,
+            "z": 10.0
+          },
+          {
+            "id": 7,
+            "territory": 2,
+            "x": 11.0,
+            "z": -10.0
+          }
+        ],
+        "spent": 190,
+        "status": "playing",
+        "territories": [
+          {
+            "id": 0,
+            "name": "Home grove",
+            "remaining": 70,
+            "secured": true,
+            "x": -18.0,
+            "z": 0.0
+          },
+          {
+            "id": 1,
+            "name": "River crossing",
+            "remaining": 600,
+            "secured": false,
+            "x": 0.0,
+            "z": 0.0
+          },
+          {
+            "id": 2,
+            "name": "Eastern ridge",
+            "remaining": 600,
+            "secured": false,
+            "x": 15.0,
+            "z": 0.0
+          }
+        ],
+        "territory_capture": "pending_owner_research",
+        "tick": 3002,
+        "trial_limit_ticks": 6000,
+        "type": "snapshot",
+        "units": [
+          {
+            "attack_cd": 5,
+            "attack_interval": 20,
+            "count": 4,
+            "damage": 22,
+            "goal": [
+              -8.867515563964844,
+              3.7500972747802734
+            ],
+            "hit_ticks": 0,
+            "hp": 4,
+            "id": "unit_001",
+            "kind": "footmen",
+            "march_ticks": 0,
+            "max_hp": 180,
+            "order": "stop",
+            "range": 1.8,
+            "shield_ticks": 0,
+            "speed": 3.0,
+            "state": "attack",
+            "team": "ally",
+            "train_ticks": 0,
+            "x": -8.867515563964844,
+            "z": 3.7500972747802734
+          },
+          {
+            "attack_cd": 12,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_002",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "dead",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -13.273087501525879,
+            "z": 4.6069488525390625
+          },
+          {
+            "attack_cd": 0,
+            "attack_interval": 20,
+            "count": 4,
+            "damage": 22,
+            "goal": [
+              -9.029731750488281,
+              -4.030567169189453
+            ],
+            "hit_ticks": 0,
+            "hp": 180,
+            "id": "unit_003",
+            "kind": "footmen",
+            "march_ticks": 0,
+            "max_hp": 180,
+            "order": "stop",
+            "range": 1.8,
+            "shield_ticks": 0,
+            "speed": 3.0,
+            "state": "idle",
+            "team": "ally",
+            "train_ticks": 0,
+            "x": -9.029731750488281,
+            "z": -4.030567169189453
+          },
+          {
+            "attack_cd": 6,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_004",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "dead",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -7.181005954742432,
+            "z": -1.0261807441711426
+          },
+          {
+            "attack_cd": 16,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_005",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "dead",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -7.181005954742432,
+            "z": -1.0261807441711426
+          },
+          {
+            "attack_cd": 4,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 0,
+            "hp": 103,
+            "id": "unit_006",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "attack",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -8.355241775512695,
+            "z": 5.311016082763672
+          },
+          {
+            "attack_cd": 14,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 1,
+            "hp": 99,
+            "id": "unit_007",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "attack",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -7.422135353088379,
+            "z": 4.5596818923950195
+          },
+          {
+            "attack_cd": 14,
+            "attack_interval": 22,
+            "count": 4,
+            "damage": 16,
+            "goal": [
+              -19.0,
+              0.0
+            ],
+            "hit_ticks": 4,
+            "hp": 0,
+            "id": "unit_008",
+            "kind": "raider",
+            "march_ticks": 0,
+            "max_hp": 125,
+            "order": "attack_move",
+            "range": 1.7,
+            "shield_ticks": 0,
+            "speed": 3.2,
+            "state": "dead",
+            "team": "enemy",
+            "train_ticks": 0,
+            "x": -7.279615879058838,
+            "z": 4.176042556762695
+          }
+        ],
+        "workers": [
+          {
+            "body_radius": 0.65,
+            "carry": 0,
+            "gather_cd": 40,
+            "id": "worker_001",
+            "state": "to_deposit",
+            "x": -19.1431827545166,
+            "z": 4.357954978942871
+          },
+          {
+            "body_radius": 0.65,
+            "carry": 10,
+            "gather_cd": 40,
+            "id": "worker_002",
+            "state": "to_keep",
+            "x": -20.899723052978516,
+            "z": 8.749311447143555
+          }
+        ]
+      }
+    }
+  }
+}
