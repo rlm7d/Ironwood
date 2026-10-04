@@ -7,6 +7,22 @@ The current candidate is **battlefield-006**. It remains a partial approval
 prototype: precise territory rules, public candidate hosting and human approval
 are outstanding. Full campaign development remains gated by battlefield approval.
 
+## Play the Windows test
+
+[Download the Windows test package](releases/ironwood-reach-windows-006.zip)
+(46 MB). Extract the whole ZIP, then double-click **Start Ironwood Reach.exe**.
+Choose Builder in one game window and General in the other; press Ready in both.
+Keep the launcher open while playing. Closing it ends the unsaved local battle.
+
+Requires Windows 10/11, 64-bit, and installed Edge or Chrome. The Godot runtime is
+bundled; Godot/Python installation and command-line setup are unnecessary.
+The launcher, HTTP transfers, owned server lifetime and co-op protocol passed
+under Wine. Actual Windows-PC browser gameplay remains untested. This is local
+two-role testing on one computer; public multiplayer hosting remains pending.
+[Verification and build tooling](packaging/windows/README.md).
+
+## Source and evidence
+
 - [Game startup, controls and prerequisites](ironwood-reach-godot/README.md)
 - [Verification results and evidence limits](ironwood-reach-godot/docs/VERIFICATION.md)
 - [Open issues](ironwood-reach-godot/docs/OPEN_ISSUES.md)

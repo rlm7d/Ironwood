@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source_build": "battlefield-006",
+  "scope": "Automated exported-PCK nativeLinux authority/protocol checks, not Windows/browser/human play",
+  "same_pck_as_bundled_web": true,
+  "protocol_families": 9,
+  "stdout_and_engine_log": "Release template suppresses prints; TCP and protocol readiness passed",
+  "failed_attempt": "--main-pack rejected by official release; fixed with adjacent authority.pck",
+  "owned_test_pid_stopped": 52105
+}

@@ -1,0 +1,1 @@
+{"mode":"windows-native-launcher-self-check","build_id":"battlefield-006","checks":13,"failures":0,"passed":true,"scope":"official authority hash, adjacent matching PCK, nine Web hashes, x64 authority PE, real loopback HTTP requests; no Windows gameplay, browser, or authority launch claim"}

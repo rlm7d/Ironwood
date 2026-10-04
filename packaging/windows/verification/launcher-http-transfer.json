@@ -1,0 +1,29 @@
+{
+  "scope": "Actual Windows launcher HTTP under Wine, read by Linux urllib; not browser/WindowsPC gameplay",
+  "checks": [
+    {
+      "file": "index.html",
+      "bytes": 5710,
+      "sha256": "bf538134809dca0685fa138bc2598aa1c4fdbd668250ec2587cb08bdf904b633",
+      "content_type": "text/html",
+      "cache": "no-store, max-age=0",
+      "status": "PASS"
+    },
+    {
+      "file": "index.pck",
+      "bytes": 99796,
+      "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192",
+      "content_type": "application/octet-stream",
+      "cache": "no-store, max-age=0",
+      "status": "PASS"
+    },
+    {
+      "file": "index.wasm",
+      "bytes": 37700666,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6",
+      "content_type": "application/wasm",
+      "cache": "no-store, max-age=0",
+      "status": "PASS"
+    }
+  ]
+}

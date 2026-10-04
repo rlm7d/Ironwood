@@ -1,0 +1,64 @@
+{
+  "scope": "Temporary Wine validation harness, excluded from game download; no system installation or security/network policy changes",
+  "wineVersion": "wine-10.0 (Debian10.0~repack-6)",
+  "officialDebianRelease": "https://deb.debian.org/debian/dists/trixie/InRelease",
+  "releaseSha256": "0584fba32e13e0ab8285fb16c27adea1ec03a73669c18702821094fd6ca86675",
+  "packageIndexUrl": "https://deb.debian.org/debian/dists/trixie/main/binary-amd64/Packages.xz",
+  "packageIndexSha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+  "releaseSignatureExitCode": 0,
+  "validSignatureFingerprints": [
+    "4CB50190207B4758A3F73A796ED0E7B82643E131",
+    "B8E5F13176D2A7A75220028078DBA3BC47EF2265",
+    "41587F7DB8C774BCCF131416762F67A0B2C39DE4"
+  ],
+  "packages": [
+    {
+      "package": "wine64",
+      "version": "10.0~repack-6",
+      "url": "https://deb.debian.org/debian/pool/main/w/wine/wine64_10.0~repack-6_amd64.deb",
+      "size": 272800,
+      "sha256": "4cdf8319d873c13210815c1aac18859a56ea21b0b2d35a3388dab881464ed488",
+      "signedDebianIndexVerified": true
+    },
+    {
+      "package": "libwine",
+      "version": "10.0~repack-6",
+      "url": "https://deb.debian.org/debian/pool/main/w/wine/libwine_10.0~repack-6_amd64.deb",
+      "size": 111365028,
+      "sha256": "702c99d2fbaef2a4966667e0cdabd477ed1754c1b3b5d4476606eaf5fd6e1444",
+      "signedDebianIndexVerified": true
+    },
+    {
+      "package": "libz-mingw-w64",
+      "version": "1.3.1+dfsg-2",
+      "url": "https://deb.debian.org/debian/pool/main/libz/libz-mingw-w64/libz-mingw-w64_1.3.1+dfsg-2_all.deb",
+      "size": 158548,
+      "sha256": "c4e6d6bfabe8b6d12c797736a3d762d83513b49f488d1aaf61d4526387a2dd3e",
+      "signedDebianIndexVerified": true
+    }
+  ],
+  "localRelocationAdjustments": [
+    "Debian extracted wineserver shell wrapper retained as wineserver.debian-wrapper; local wineserver symlink points to verified wineserver64",
+    "Local usr/share/wine/wine/nls relative symlink points to extracted nls for relocatable datadir",
+    "Extracted x86_64 zlib1.dll installed only in private Wine prefix system32; source Windows runtime directory symlink also retained",
+    "701 hash-identical generated prefix Windows DLL copies hardlinked to verified extracted files to reduce temporary disk usage"
+  ],
+  "smokeChecks": [
+    {
+      "command": "Wine cmd /c ver",
+      "exitCode": 0,
+      "observed": "Microsoft Windows 10.0.19043",
+      "meaning": "Windows API emulation reports this version; not an actual Windows OS"
+    },
+    {
+      "command": "Wine official Windows Godot console wrapper --headless --version",
+      "exitCode": 0,
+      "observed": "4.6.3.stable.official.7d41c59c4"
+    }
+  ],
+  "scopeLimits": [
+    "No actual Windows PC execution or performance validation",
+    "Wine emitted a nonfatal Bluetooth driver warning during protocol checks",
+    "Private Wine prefix, Xauthority contents, generated profiles, and temporary packages are excluded from user build"
+  ]
+}

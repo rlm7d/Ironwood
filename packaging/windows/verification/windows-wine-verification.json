@@ -1,0 +1,45 @@
+{
+  "scope": "automated Windows x64 executable under Wine 10 on Linux; not actual Windows PC gameplay or hardware validation",
+  "startedUtc": "2026-10-04T05:16:28.065588+00:00",
+  "command": [
+    "/tmp/ironwood-wine-local/run-wine",
+    "/workspace/artifacts/Ironwood-Reach-Windows-006/data/authority.exe",
+    "--headless",
+    "--",
+    "--server"
+  ],
+  "artifactHashes": {
+    "authorityExe": {
+      "path": "/workspace/artifacts/Ironwood-Reach-Windows-006/data/authority.exe",
+      "bytes": 104659456,
+      "sha256": "91724f15024a3a545e28ccd83134403d31ce2323a38e51c95e4dfa282f732ab6"
+    },
+    "authorityPck": {
+      "path": "/workspace/artifacts/Ironwood-Reach-Windows-006/data/authority.pck",
+      "bytes": 99796,
+      "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192"
+    },
+    "protocolDriver": {
+      "path": "/workspace/Ironwood/ironwood-reach-godot/tests/protocol_smoke.py",
+      "bytes": 15554,
+      "sha256": "4987c6a26cbfeb90ce8077428e6a2ad37c73c99b38dbd9571734b250e0813544"
+    },
+    "localWineWrapper": {
+      "path": "/tmp/ironwood-wine-local/run-wine",
+      "bytes": 670,
+      "sha256": "06bbf17bd8dc1d22d6a64c375579608493174aa0b694d85f6740274f3bbac436"
+    }
+  },
+  "wineVersion": "wine-10.0 (Debian10.0~repack-6)",
+  "interactiveInput": false,
+  "humanFeedback": false,
+  "ownedPid": 53381,
+  "loopbackReadyAfterSeconds": 4.93,
+  "protocolExitCode": 0,
+  "protocolFamilies": 9,
+  "protocolAllPass": true,
+  "status": "PASS",
+  "ownedProcessExitCode": -15,
+  "loopbackPortFreeAfterOwnedProcessStop": true,
+  "totalSeconds": 5.815
+}

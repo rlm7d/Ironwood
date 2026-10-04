@@ -1,0 +1,1 @@
+{"mode":"windows-launcher-owned-authority-test","build_id":"battlefield-006","phase":"finished","checks":5,"failures":0,"passed":true,"authority_pid":256,"authority_port":8775,"http_port":39411,"scope":"launcher-owned Windows authority and HTTP lifetime; no browser or Windows-PC gameplay claim"}

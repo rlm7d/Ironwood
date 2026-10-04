@@ -1,0 +1,18 @@
+{
+  "kind": "Windows local battlefield test package verification",
+  "build_id": "battlefield-006",
+  "launcher_sha256": "b174fd48119b48b96a6ff10371ea9b8504e4bb56b2d9b4600125b1a432135703",
+  "underlying_game_source_and_web_export_changed": false,
+  "windows_api_runtime": "Wine10 on Linux; not a Windows PC",
+  "launcher_self_checks": 13,
+  "launcher_owned_lifecycle_checks": 5,
+  "actual_launcher_owned_windows_authority_protocol_families": 9,
+  "binary_http_transfers_match": true,
+  "unknown_listener_preserved": true,
+  "real_windows_pc_browser_gameplay_verified": false,
+  "existing_game_browser_evidence": "See unchanged battlefield-006 agent interactive evidence in source repository",
+  "human_feedback": false,
+  "target_hardware_performance": false,
+  "territory_and_campaign_status": "Pending original approval gates",
+  "scope": "Automated actual Windows PE launcher and authority execution under Wine, plus unchanged game/browser evidence; no new actual Windows browser/human gameplay claim"
+}

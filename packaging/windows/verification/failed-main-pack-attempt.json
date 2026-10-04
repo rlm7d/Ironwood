@@ -1,0 +1,6 @@
+{
+  "status": "failed_before_room_started",
+  "reason": "Official release template compiled without support for --main-pack path overrides",
+  "port_clients_started": false,
+  "fix": "Adjacent authority.pck, default exported executable basename lookup"
+}

@@ -1,0 +1,171 @@
+{
+  "kind": "Ironwood Reach self-contained Windows local test",
+  "build_id": "battlefield-006",
+  "created_at_utc": "2026-10-04T05:23:57.744572+00:00",
+  "launcher": "Start Ironwood Reach.exe",
+  "requires": "Windows10/11x64 and installed Edge orChrome; noGodot/Pythoninstallation",
+  "authority_version": "4.6.3.stable.official.7d41c59c4",
+  "authoritative_server_port": 8775,
+  "http_port": "OS-assigned ephemeral loopback port",
+  "source_and_web_export": "Unchanged from source-qualified battlefield-006",
+  "verification": {
+    "kind": "Windows local battlefield test package verification",
+    "build_id": "battlefield-006",
+    "launcher_sha256": "b174fd48119b48b96a6ff10371ea9b8504e4bb56b2d9b4600125b1a432135703",
+    "underlying_game_source_and_web_export_changed": false,
+    "windows_api_runtime": "Wine10 on Linux; not a Windows PC",
+    "launcher_self_checks": 13,
+    "launcher_owned_lifecycle_checks": 5,
+    "actual_launcher_owned_windows_authority_protocol_families": 9,
+    "binary_http_transfers_match": true,
+    "unknown_listener_preserved": true,
+    "real_windows_pc_browser_gameplay_verified": false,
+    "existing_game_browser_evidence": "See unchanged battlefield-006 agent interactive evidence in source repository",
+    "human_feedback": false,
+    "target_hardware_performance": false,
+    "territory_and_campaign_status": "Pending original approval gates",
+    "scope": "Automated actual Windows PE launcher and authority execution under Wine, plus unchanged game/browser evidence; no new actual Windows browser/human gameplay claim"
+  },
+  "files": {
+    "Licenses/Godot-AUTHORS.md": {
+      "bytes": 10696,
+      "sha256": "2eb271244aea70a5818c6c004892a74eecc129aed84e97656d5563be3769f560"
+    },
+    "Licenses/Godot-COPYRIGHT.txt": {
+      "bytes": 99790,
+      "sha256": "b3330849267d56ddd3d62a513817506606c2195034411fe05859f0140bff9d8a"
+    },
+    "Licenses/Godot-LICENSE.txt": {
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    "Licenses/Godot-runtime-provenance.json": {
+      "bytes": 1060,
+      "sha256": "0621070122ace5fdd1496276e11ddcc8cd8c86e13087bf892a27b558cbdd4c7d"
+    },
+    "Licenses/MinGW-COPYING.txt": {
+      "bytes": 2326,
+      "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+    },
+    "Licenses/Zig-LICENSE.txt": {
+      "bytes": 1080,
+      "sha256": "5c537d6853e005298a285d508cff9ac7192cea23576c840d485b2b586a7ff177"
+    },
+    "README.txt": {
+      "bytes": 1875,
+      "sha256": "d304b31f20ee0127f074297d7285d187187aeb9c3cf51dbd96b25200f1b687d7"
+    },
+    "Source/README.md": {
+      "bytes": 5826,
+      "sha256": "32e2196e24f55071483943c350a823e8e8584debb457c163c4e7edf8dc2cbff5"
+    },
+    "Source/build-record.json": {
+      "bytes": 3126,
+      "sha256": "2bc712a9b6cc8fdff2932ab202546057dc13769d0a865caf550249c11b9d9336"
+    },
+    "Source/launcher.c": {
+      "bytes": 34748,
+      "sha256": "c1f729e422c770480543662ece165ae99c648f7162eccc4c54301291f8b0a4f3"
+    },
+    "Start Ironwood Reach.exe": {
+      "bytes": 221696,
+      "sha256": "b174fd48119b48b96a6ff10371ea9b8504e4bb56b2d9b4600125b1a432135703"
+    },
+    "Verification/failed-main-pack-attempt.json": {
+      "bytes": 255,
+      "sha256": "7fe0bd0ce45bf33cb4be30e67e97c551ae2b27b76bd8f04df4d8ead0ccd16948"
+    },
+    "Verification/launcher-http-transfer.json": {
+      "bytes": 881,
+      "sha256": "0996300801d00da383fa1191220ca9cc6278b3942ecea27716a05ed4ca5689aa"
+    },
+    "Verification/launcher-live.json": {
+      "bytes": 294,
+      "sha256": "f636a8b2deafee9bbacd4659aeab2412ae5efc6f193a6008b82e266541ca0bb5"
+    },
+    "Verification/launcher-live.json.completed.json": {
+      "bytes": 297,
+      "sha256": "8c4df333c73053811873a2e6929a63c46278d3f3d504cd8f723e91d41c0d7be8"
+    },
+    "Verification/launcher-port-preservation.json": {
+      "bytes": 927,
+      "sha256": "4afa2c095b64df5123d11cd036bbb355909a4a82be382b8c0a26efe36d75acbe"
+    },
+    "Verification/launcher-self-check-13.json": {
+      "bytes": 292,
+      "sha256": "93fceb91cb7c45971ac26a98f2ccac0a44adce10921d2c3214623d95f2e6d1be"
+    },
+    "Verification/linux-release-verification.json": {
+      "bytes": 462,
+      "sha256": "4b9938d48ffc09690ca237db0fe42dac4b44c9ed351c20c12348594111a62a41"
+    },
+    "Verification/protocol-launcher-wine.json": {
+      "bytes": 1259,
+      "sha256": "2de87c9361ac6065c4f971f7654fbfdb79307a79f70e9bd0d1dd03732b183bbe"
+    },
+    "Verification/protocol-linux-pck.json": {
+      "bytes": 1259,
+      "sha256": "c9fa6de2f4a86964288a292d5c0e011b60776cbe0cb4da8da6c84a12673ebfa0"
+    },
+    "Verification/protocol-windows-wine.json": {
+      "bytes": 1259,
+      "sha256": "e21252c5ec2899d60bfd64ad7c7248e9fb61afd5d2dedf2f925d307cebcfac46"
+    },
+    "Verification/summary.json": {
+      "bytes": 1007,
+      "sha256": "43e9d4c555883ed285d5325d98d2094425f384356d92e0aaa3655a966545e635"
+    },
+    "Verification/windows-wine-verification.json": {
+      "bytes": 1596,
+      "sha256": "61901263f78e1ed65262de3d96e9a929011db670b7ccba89fd732fb8f73995c2"
+    },
+    "Verification/wine-runtime-provenance.json": {
+      "bytes": 3000,
+      "sha256": "3828a96fcd2125c0bf722e166b08f009b43fe112b040d442ac259286ac0e4758"
+    },
+    "data/authority.exe": {
+      "bytes": 104659456,
+      "sha256": "91724f15024a3a545e28ccd83134403d31ce2323a38e51c95e4dfa282f732ab6"
+    },
+    "data/authority.pck": {
+      "bytes": 99796,
+      "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192"
+    },
+    "data/web/index.apple-touch-icon.png": {
+      "bytes": 10618,
+      "sha256": "b322e5e84b35a63e4123ff4ec709cace24592b82daab8da0bc88e9ddf2ebb6a1"
+    },
+    "data/web/index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "data/web/index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "data/web/index.html": {
+      "bytes": 5710,
+      "sha256": "bf538134809dca0685fa138bc2598aa1c4fdbd668250ec2587cb08bdf904b633"
+    },
+    "data/web/index.icon.png": {
+      "bytes": 4569,
+      "sha256": "ca763509b89a0494e451611f7a4db0408645127d807048478a97ca68be5bdf96"
+    },
+    "data/web/index.js": {
+      "bytes": 315759,
+      "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+    },
+    "data/web/index.pck": {
+      "bytes": 99796,
+      "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192"
+    },
+    "data/web/index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "data/web/index.wasm": {
+      "bytes": 37700666,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "artifact": "IronwoodReachTest.exe",
+  "compiler": "Zig 0.16.0 from ziglang PyPI wheel installed only under /tmp/ironwood-zig-build",
+  "target": "x86_64-windows-gnu",
+  "command": [
+    "zig",
+    "cc",
+    "-target",
+    "x86_64-windows-gnu",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-Wl,--subsystem,windows",
+    "launcher.c",
+    "-o",
+    "IronwoodReachTest.exe",
+    "-lws2_32",
+    "-lshell32",
+    "-luser32",
+    "-lgdi32",
+    "-lbcrypt",
+    "-ladvapi32",
+    "-lole32",
+    "-liphlpapi"
+  ],
+  "environment": {
+    "ZIG_GLOBAL_CACHE_DIR": "/tmp/ironwood-zig-global-cache",
+    "ZIG_LOCAL_CACHE_DIR": "/tmp/ironwood-zig-local-cache"
+  },
+  "files": {
+    "launcher.c": {
+      "bytes": 34748,
+      "sha256": "c1f729e422c770480543662ece165ae99c648f7162eccc4c54301291f8b0a4f3"
+    },
+    "IronwoodReachTest.exe": {
+      "bytes": 221696,
+      "sha256": "b174fd48119b48b96a6ff10371ea9b8504e4bb56b2d9b4600125b1a432135703"
+    },
+    "README.md": {
+      "bytes": 5826,
+      "sha256": "32e2196e24f55071483943c350a823e8e8584debb457c163c4e7edf8dc2cbff5"
+    },
+    "third-party/Zig-LICENSE.txt": {
+      "bytes": 1080,
+      "sha256": "5c537d6853e005298a285d508cff9ac7192cea23576c840d485b2b586a7ff177"
+    },
+    "third-party/MinGW-w64-COPYING.txt": {
+      "bytes": 2326,
+      "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+    }
+  },
+  "imports": [
+    "WS2_32.dll",
+    "SHELL32.dll",
+    "USER32.dll",
+    "GDI32.dll",
+    "bcrypt.dll",
+    "ADVAPI32.dll",
+    "ole32.dll",
+    "IPHLPAPI.DLL",
+    "api-ms-win-crt-heap-l1-1-0.dll",
+    "api-ms-win-crt-private-l1-1-0.dll",
+    "api-ms-win-crt-runtime-l1-1-0.dll",
+    "api-ms-win-crt-stdio-l1-1-0.dll",
+    "api-ms-win-crt-string-l1-1-0.dll",
+    "KERNEL32.dll",
+    "api-ms-win-crt-environment-l1-1-0.dll",
+    "api-ms-win-crt-math-l1-1-0.dll",
+    "api-ms-win-crt-multibyte-l1-1-0.dll"
+  ],
+  "system_only_dependencies": true,
+  "subsystem": "Windows GUI",
+  "source_game_changed": false,
+  "runtime_verification": {
+    "summary": "verification/summary.json",
+    "platform": "Wine10 compatibility runtime on Linux",
+    "actual_windows_pc_browser_playtesting": false
+  },
+  "review": "Two read-only independent C reviews found no critical issue. The explicit missing-authority error fix was applied; binary HTTP streaming and the live startup/cleanup diagnostic were reviewed.",
+  "authority_expected": {
+    "bytes": 104659456,
+    "sha256": "91724f15024a3a545e28ccd83134403d31ce2323a38e51c95e4dfa282f732ab6",
+    "version": "4.6.3.stable.official.7d41c59c4"
+  },
+  "web_pck_expected": {
+    "bytes": 99796,
+    "sha256": "80edc2292b93f86317a22ac62e941f06c3a32ddd2daea755c939a4bb13059192"
+  },
+  "diagnostics": {
+    "verify": "13 checks: package authority/Web/PCK integrity, actual loopback HTTP including full binary PCK and WASM transfer hashes, HEAD/MIME/length/cache and invalid routes/methods",
+    "verify_live": "Exact normal owned-authority startup plus HTTP, bounded lifetime, owned job cleanup, and port release; no browsers"
+  },
+  "distributed_executable_name": "Start Ironwood Reach.exe"
+}

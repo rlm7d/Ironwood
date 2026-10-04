@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Real Windows launcher under Wine with unrelated Linux-owned loopback sentinel; no browser/WindowsPC gameplay",
+  "expected_rejection_exit_code": 1,
+  "unknown_listener_remained_alive": true,
+  "authority_spawned": false,
+  "failure_report": {
+    "mode": "windows-launcher-owned-authority-test",
+    "build_id": "battlefield-006",
+    "phase": "startup-failed",
+    "checks": 2,
+    "failures": 1,
+    "passed": false,
+    "authority_pid": 0,
+    "authority_port": 8775,
+    "http_port": 0,
+    "scope": "launcher-owned Windows authority and HTTP lifetime; no browser or Windows-PC gameplay claim"
+  },
+  "prior_harness_errors": [
+    "First harness expected startup_failed instead of startup-failed; corrected harness only, unchanged executable",
+    "Immediate repeat could not bind the Linux sentinel while prior connection was in TIME_WAIT; no launcher was started for that attempt"
+  ]
+}
